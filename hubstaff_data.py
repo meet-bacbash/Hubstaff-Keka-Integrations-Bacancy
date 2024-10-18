@@ -39,11 +39,11 @@ def hubstaff_main(q1, logger):
 
     bac_org_id = 422392
 
-    # start_date = f'{todays_date}T00:00:00Z'
-    # end_date = f'{todays_date}T23:59:00Z'
+    start_date = f'{todays_date}T00:00:00Z'
+    end_date = f'{todays_date}T23:59:00Z'
 
-    start_date = '2024-10-17T00:00:00Z'
-    end_date = '2024-10-17T23:59:00Z'
+    # start_date = '2024-10-17T00:00:00Z'
+    # end_date = '2024-10-17T23:59:00Z'
 
     url = f'https://api.hubstaff.com/v2/organizations/{bac_org_id}/activities'
 
