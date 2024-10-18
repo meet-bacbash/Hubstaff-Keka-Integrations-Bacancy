@@ -37,24 +37,24 @@ def get_access_token():
         print(f"Error: {response.status_code}, {response.text}")
 
 
-bac_org_id = 422392
+def token_validator():
 
-url = f'https://api.hubstaff.com/v2/users/me'
+    url = f'https://api.hubstaff.com/v2/users/me'
 
-headers = {
-    'Authorization': f'Bearer {access_token}',
-    'Content-Type': 'application/json'
-}
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json'
+    }
 
-response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers)
 
-if response.status_code == 200:
-    users = response.json()
-    print(users)
-elif response.status_code == 401:
-    get_access_token()
-else:
-    print(f"Error: {response.status_code}, {response.text}")
+    if response.status_code == 200:
+        # users = response.json()
+        print("Token validation Successful")
+    elif response.status_code == 401 and response.json()['error'] == "invalid_token":
+        get_access_token()
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
 
 
-# Error: 401, {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+    # Error: 401, {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}

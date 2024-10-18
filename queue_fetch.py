@@ -1,13 +1,13 @@
 import requests
 
-def keka_main(q1):
+def keka_main(q1, logger):
 
     l1 = []
     url = "https://cin02.a.keka.com/v1/logs"
 
     while not q1.empty():
         l1.append(q1.get())
-    print(l1)
+
     for i in l1:
         val = [{
             "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
@@ -50,5 +50,3 @@ def keka_main(q1):
             i['status_text'] = response.text
             q1.put(i)
             print(f"Error: {response.status_code}, {response.text}")
-
-# keka_main()
