@@ -1,32 +1,47 @@
 import sqlite3
+import pandas as pd
 
-# Step 1: Connect to the SQLite database (creates the DB if it doesn't exist)
 connection = sqlite3.connect('db.sqlite3')
 
-# Step 2: Create a cursor object to execute SQL queries
-cursor = connection.cursor()
+def table_creation():
+    cursor = connection.cursor()
 
-# Step 3: Create a table (if it doesn't exist already)
-cursor.execute('''
-CREATE TABLE IF NOT EXISTS queue_count (
-    id INTEGER PRIMARY KEY,
-    count_value INTEGER
-)
-''')
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS user_details (
+        id INTEGER PRIMARY KEY,
+        count_value INTEGER
+    )
+    ''')
 
-# Step 4: Commit the changes
-connection.commit()
+    # Step 4: Commit the changes
+    connection.commit()
 
-# Step 5: Optionally, insert some data into the table
-# cursor.execute('''
-# INSERT INTO users("name","email","keka_id","hubstaff_id")
-# VALUES ("Sanjay Sheladiya","sanjay.sheladiya@bacancy.com","11010","689824");
-# ''')
+    connection.close()
 
-# Commit after inserting data
-# connection.commit()
+    print("Database created successfully!")
 
-# Step 6: Close the connection
-connection.close()
+def emp_entry():
 
-print("Database created successfully!")
+    df = pd.read_excel("remote_employee_list.xlsx")
+
+    cursor = connection.cursor()
+
+    for index, row in df.iterrows():
+        keka_id = int(row['Emp ID'])
+        emp_name = row['Employee Name'].replace('\n', '')
+        emp_email = row['Email ID ']
+        print("start")
+        print(keka_id)
+        print(emp_email)
+        print(emp_name)
+        print("end")
+
+        cursor.execute('''
+        INSERT INTO users("name","email","keka_id")
+        VALUES (?,?,?);''',(emp_name,emp_email, keka_id))
+
+        connection.commit()
+
+    connection.close()
+    print("Users created successfully!")
+emp_entry()

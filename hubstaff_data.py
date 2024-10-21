@@ -5,6 +5,19 @@ from datetime import datetime, timedelta, date
 from dotenv import load_dotenv
 import dotenv
 
+# dotenv
+dotenv_file = dotenv.find_dotenv()
+load_dotenv()
+
+access_token = os.getenv('access_token')
+bacancy_pat_token = os.getenv('bacancy_pat_token')
+
+todays_date = date.today()
+
+bac_org_id = 422392
+
+connection = sqlite3.connect('db.sqlite3')
+
 def gmt_to_ist(gmt_time_str):
     """
     Function to convert GMT to IST
@@ -26,18 +39,7 @@ def gmt_to_ist(gmt_time_str):
 
 
 def hubstaff_main(q1, logger):
-    # Logging
 
-    # dotenv
-    dotenv_file = dotenv.find_dotenv()
-    load_dotenv()
-
-    access_token = os.getenv('access_token')
-    bacancy_pat_token = os.getenv('bacancy_pat_token')
-
-    todays_date = date.today()
-
-    bac_org_id = 422392
 
     start_date = f'{todays_date}T00:00:00Z'
     end_date = f'{todays_date}T23:59:00Z'
@@ -47,10 +49,9 @@ def hubstaff_main(q1, logger):
 
     url = f'https://api.hubstaff.com/v2/organizations/{bac_org_id}/activities'
 
-    connection = sqlite3.connect('db.sqlite3')
     cursor = connection.cursor()
 
-    query = "SELECT keka_id,hubstaff_id FROM users"
+    query = "SELECT keka_id,hubstaff_id FROM users where status = 1"
     cursor.execute(query)
 
     # Step 4: Fetch the results
@@ -77,45 +78,91 @@ def hubstaff_main(q1, logger):
             users = response.json()
             data = users
 
-            # Extract all 'created_at' values and convert them to IST
-            created_at_times = [gmt_to_ist(activity['created_at']) for activity in data['activities']]
-            started_at_times = [gmt_to_ist(activity['starts_at']) for activity in data['activities']]
+            if data['activities'] != []:
+                created_at_times = [gmt_to_ist(activity['created_at']) for activity in data['activities']]
+                started_at_times = [gmt_to_ist(activity['starts_at']) for activity in data['activities']]
 
-            # Find the first and last created_at times
-            clock_in_time = min(started_at_times)
-            clock_out_time = max(created_at_times)
+                clock_in_time = min(started_at_times)
+                clock_out_time = max(created_at_times)
 
-            query = "SELECT count_value FROM queue_count"
-            cursor.execute(query)
+                query = "SELECT count_value FROM queue_count"
+                cursor.execute(query)
 
-            # Step 4: Fetch the results
-            row = cursor.fetchall()
+                # Step 4: Fetch the results
+                row = cursor.fetchall()
 
-            user_values = {
-                'id': row[0][0],
-                'keka_id': key,
-                'clock_in_time': clock_in_time,
-                'clock_out_time': clock_out_time,
-            }
+                user_values = {
+                    'id': row[0][0],
+                    'keka_id': key,
+                    'clock_in_time': clock_in_time,
+                    'clock_out_time': clock_out_time,
+                }
 
-            query = """
-            UPDATE queue_count
-            SET count_value = count_value + 1
-            WHERE id = 1
-            """
-            cursor.execute(query)
+                query = """
+                UPDATE queue_count
+                SET count_value = count_value + 1
+                WHERE id = 1
+                """
+                cursor.execute(query)
 
-            connection.commit()
+                connection.commit()
 
-            q1.put(user_values)
+                q1.put(user_values)
 
-            # Print the results
-            # print("First date (IST):", first_date)
-            # print("Last date (IST):", last_date)
-            logger.info(f"{response.status_code} : user - {user_values}")
+                logger.info(f"{response.status_code} : user - {user_values}")
+            else:
+                logger.error(f"User activities not found : user - {key}")
 
         else:
             print(f"Error: {response.status_code}, {response.text}")
             logger.error(f"{response.status_code} - {response.text}")
 
     return "Fetching data from hubstaff"
+
+def hubstaff_id_sync():
+    """
+
+    :return:
+    """
+
+    url = f'https://api.hubstaff.com/v2/organizations/{bac_org_id}/members'
+
+    # Headers with the PAT
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json'
+    }
+
+
+    cursor = connection.cursor()
+
+    query = "SELECT id, email FROM users where status = 0"
+    cursor.execute(query)
+
+    row = cursor.fetchall()
+
+    for i in row:
+        params = {
+            "search[email]": i[1]
+        }
+
+        response = requests.get(url, headers=headers, params=params)
+
+        # Check the response
+        if response.status_code == 200:
+            users = response.json()
+            if users['members'] != []:
+                hubstaff_id = users['members'][0]['user_id']
+                print(hubstaff_id)
+                query = ""
+                cursor.execute('''
+                Update users set hubstaff_id = ?, status = 1 where id = ?
+                ''',(hubstaff_id, i[0]))
+
+                connection.commit()
+
+            else:
+                print(f"Hubstaff account not found for {i[1]}")
+        else:
+            print(f"Error: {response.status_code}, {response.text}")
+

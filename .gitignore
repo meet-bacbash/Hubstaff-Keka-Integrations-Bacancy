@@ -2,3 +2,7 @@
 env
 __pycache__
 .idea
+.env
+hubstaff_logs.log
+keka_logs.log
+user_timings_queue

@@ -30,6 +30,7 @@ def setup_logger(name, log_file, level=logging.INFO):
 
 token_validator()
 
+
 q1 = Queue("user_timings_queue", autosave=True)
 
 logger1 = setup_logger('hubstaff_logger', 'hubstaff_logs.log')
