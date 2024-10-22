@@ -1,6 +1,4 @@
 from persistqueue import Queue
-from hubstaff_data import hubstaff_main
-from queue_fetch import keka_main
 import logging
 
 from token_validator import token_validator
@@ -35,8 +33,10 @@ q1 = Queue("user_timings_queue", autosave=True)
 
 logger1 = setup_logger('hubstaff_logger', 'hubstaff_logs.log')
 
+from hubstaff_data import hubstaff_main
 hubstaff_main(q1, logger1)
 
 logger2 = setup_logger('keka_logger', 'keka_logs.log')
 
+from queue_fetch import keka_main
 keka_main(q1, logger2)

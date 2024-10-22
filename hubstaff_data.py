@@ -1,21 +1,14 @@
 import os
 import sqlite3
+
 import requests
 from datetime import datetime, timedelta, date
 from dotenv import load_dotenv
-import dotenv
+from tqdm import tqdm
 
-# dotenv
-dotenv_file = dotenv.find_dotenv()
-load_dotenv()
-
+load_dotenv(override=True)
 access_token = os.getenv('access_token')
-bacancy_pat_token = os.getenv('bacancy_pat_token')
-
-todays_date = date.today()
-
 bac_org_id = 422392
-
 connection = sqlite3.connect('db.sqlite3')
 
 def gmt_to_ist(gmt_time_str):
@@ -40,6 +33,7 @@ def gmt_to_ist(gmt_time_str):
 
 def hubstaff_main(q1, logger):
 
+    todays_date = date.today()
 
     start_date = f'{todays_date}T00:00:00Z'
     end_date = f'{todays_date}T23:59:00Z'
@@ -54,68 +48,69 @@ def hubstaff_main(q1, logger):
     query = "SELECT keka_id,hubstaff_id FROM users where status = 1"
     cursor.execute(query)
 
-    # Step 4: Fetch the results
     rows = cursor.fetchall()
 
-    # Step 5: Process the results
     user_ids = {row[0]: row[1] for row in rows}
 
-    for key,value in user_ids.items():
-        headers = {
-            'Authorization': f'Bearer {access_token}',
-            'Content-Type': 'application/json'
-        }
+    with tqdm(total=len(user_ids), desc="Fetching Data", unit="chunk") as pbar:
+        for key,value in user_ids.items():
+            headers = {
+                'Authorization': f'Bearer {access_token}',
+                'Content-Type': 'application/json'
+            }
 
-        params = {
-            'time_slot[start]': start_date,
-            'time_slot[stop]': end_date,
-            'user_ids': value
-        }
+            params = {
+                'time_slot[start]': start_date,
+                'time_slot[stop]': end_date,
+                'user_ids': value
+            }
 
-        response = requests.get(url, headers=headers, params=params)
+            response = requests.get(url, headers=headers, params=params)
 
-        if response.status_code == 200:
-            users = response.json()
-            data = users
+            if response.status_code == 200:
+                users = response.json()
+                data = users
 
-            if data['activities'] != []:
-                created_at_times = [gmt_to_ist(activity['created_at']) for activity in data['activities']]
-                started_at_times = [gmt_to_ist(activity['starts_at']) for activity in data['activities']]
+                if data['activities'] != []:
+                    created_at_times = [gmt_to_ist(activity['created_at']) for activity in data['activities']]
+                    started_at_times = [gmt_to_ist(activity['starts_at']) for activity in data['activities']]
 
-                clock_in_time = min(started_at_times)
-                clock_out_time = max(created_at_times)
+                    clock_in_time = min(started_at_times)
+                    clock_out_time = max(created_at_times)
 
-                query = "SELECT count_value FROM queue_count"
-                cursor.execute(query)
+                    query = "SELECT count_value FROM queue_count"
+                    cursor.execute(query)
 
-                # Step 4: Fetch the results
-                row = cursor.fetchall()
+                    # Step 4: Fetch the results
+                    row = cursor.fetchall()
 
-                user_values = {
-                    'id': row[0][0],
-                    'keka_id': key,
-                    'clock_in_time': clock_in_time,
-                    'clock_out_time': clock_out_time,
-                }
+                    user_values = {
+                        'id': row[0][0],
+                        'keka_id': key,
+                        'clock_in_time': clock_in_time,
+                        'clock_out_time': clock_out_time,
+                    }
 
-                query = """
-                UPDATE queue_count
-                SET count_value = count_value + 1
-                WHERE id = 1
-                """
-                cursor.execute(query)
+                    query = """
+                    UPDATE queue_count
+                    SET count_value = count_value + 1
+                    WHERE id = 1
+                    """
+                    cursor.execute(query)
 
-                connection.commit()
+                    connection.commit()
 
-                q1.put(user_values)
+                    q1.put(user_values)
 
-                logger.info(f"{response.status_code} : user - {user_values}")
+                    logger.info(f"{response.status_code} : user - {user_values}")
+                else:
+                    logger.error(f"User activities not found : user - {key}")
+
             else:
-                logger.error(f"User activities not found : user - {key}")
+                print(f"Error: {response.status_code}, {response.text}")
+                logger.error(f"{response.status_code} - {response.text}")
 
-        else:
-            print(f"Error: {response.status_code}, {response.text}")
-            logger.error(f"{response.status_code} - {response.text}")
+            pbar.update(1)
 
     return "Fetching data from hubstaff"
 
