@@ -34,12 +34,13 @@ def gmt_to_ist(gmt_time_str):
 def hubstaff_main(q1, logger):
 
     todays_date = date.today()
+    yesterdays_date = todays_date - timedelta(days=1)
 
-    start_date = f'{todays_date}T00:00:00Z'
-    end_date = f'{todays_date}T23:59:00Z'
+    start_date = f'{yesterdays_date}T00:00:00Z'
+    end_date = f'{yesterdays_date}T23:59:00Z'
 
-    # start_date = '2024-10-17T00:00:00Z'
-    # end_date = '2024-10-17T23:59:00Z'
+    # start_date = '2024-10-21T00:00:00Z'
+    # end_date = '2024-10-21T23:59:00Z'
 
     url = f'https://api.hubstaff.com/v2/organizations/{bac_org_id}/activities'
 
