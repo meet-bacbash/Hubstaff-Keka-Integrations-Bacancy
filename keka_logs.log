@@ -134,3 +134,1754 @@
             }
         ]
         
+2024-10-22 09:20:23,288 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37976",
+                "Timestamp": "2024-10-21T09:00:41",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37976",
+                "Timestamp": "2024-10-21T18:29:02",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:23,512 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37498",
+                "Timestamp": "2024-10-21T11:28:21",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37498",
+                "Timestamp": "2024-10-21T20:29:49",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:23,703 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38090",
+                "Timestamp": "2024-10-21T09:47:35",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38090",
+                "Timestamp": "2024-10-21T19:10:12",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:23,916 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37500",
+                "Timestamp": "2024-10-21T11:29:37",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37500",
+                "Timestamp": "2024-10-21T20:54:49",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:24,153 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37906",
+                "Timestamp": "2024-10-21T09:30:20",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37906",
+                "Timestamp": "2024-10-21T18:37:49",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:24,376 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37316",
+                "Timestamp": "2024-10-21T11:13:31",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37316",
+                "Timestamp": "2024-10-21T19:30:55",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:24,656 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37842",
+                "Timestamp": "2024-10-21T07:18:06",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37842",
+                "Timestamp": "2024-10-21T16:50:06",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:24,865 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38414",
+                "Timestamp": "2024-10-21T07:59:49",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38414",
+                "Timestamp": "2024-10-21T17:01:47",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:25,072 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37663",
+                "Timestamp": "2024-10-21T18:20:25",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37663",
+                "Timestamp": "2024-10-22T03:33:46",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:25,295 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37377",
+                "Timestamp": "2024-10-21T10:35:59",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37377",
+                "Timestamp": "2024-10-21T21:20:36",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:25,955 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37349",
+                "Timestamp": "2024-10-21T12:12:46",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37349",
+                "Timestamp": "2024-10-21T19:27:24",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:26,175 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23128",
+                "Timestamp": "2024-10-21T10:02:32",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23128",
+                "Timestamp": "2024-10-21T19:42:47",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:26,375 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37504",
+                "Timestamp": "2024-10-21T09:30:52",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37504",
+                "Timestamp": "2024-10-21T18:13:52",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:26,575 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38021",
+                "Timestamp": "2024-10-21T10:09:37",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38021",
+                "Timestamp": "2024-10-21T19:27:21",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:26,780 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37385",
+                "Timestamp": "2024-10-21T08:51:27",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37385",
+                "Timestamp": "2024-10-21T18:07:44",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:26,991 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37814",
+                "Timestamp": "2024-10-21T11:41:59",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37814",
+                "Timestamp": "2024-10-21T17:59:00",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:27,258 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37246",
+                "Timestamp": "2024-10-21T10:52:27",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37246",
+                "Timestamp": "2024-10-21T21:47:53",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:27,464 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38131",
+                "Timestamp": "2024-10-21T10:36:26",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38131",
+                "Timestamp": "2024-10-21T19:53:39",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:27,659 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37428",
+                "Timestamp": "2024-10-21T14:15:49",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37428",
+                "Timestamp": "2024-10-21T18:51:45",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:27,856 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37630",
+                "Timestamp": "2024-10-21T09:21:00",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37630",
+                "Timestamp": "2024-10-21T18:53:43",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:28,044 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37384",
+                "Timestamp": "2024-10-21T12:02:12",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37384",
+                "Timestamp": "2024-10-21T20:50:42",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:28,252 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37458",
+                "Timestamp": "2024-10-21T11:04:36",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37458",
+                "Timestamp": "2024-10-21T19:56:51",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:28,435 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37578",
+                "Timestamp": "2024-10-21T10:38:56",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37578",
+                "Timestamp": "2024-10-21T20:24:48",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:28,641 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38082",
+                "Timestamp": "2024-10-21T09:07:16",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38082",
+                "Timestamp": "2024-10-21T14:37:08",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:28,826 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23148",
+                "Timestamp": "2024-10-21T08:58:38",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23148",
+                "Timestamp": "2024-10-21T19:34:56",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:29,025 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37201",
+                "Timestamp": "2024-10-21T09:54:34",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37201",
+                "Timestamp": "2024-10-21T21:35:34",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:29,244 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38395",
+                "Timestamp": "2024-10-21T10:50:08",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38395",
+                "Timestamp": "2024-10-21T22:40:15",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:29,442 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38476",
+                "Timestamp": "2024-10-21T13:04:47",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38476",
+                "Timestamp": "2024-10-22T00:24:35",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:29,645 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38524",
+                "Timestamp": "2024-10-21T09:51:25",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38524",
+                "Timestamp": "2024-10-21T18:39:09",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:29,854 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37727",
+                "Timestamp": "2024-10-21T14:04:31",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37727",
+                "Timestamp": "2024-10-21T14:29:40",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:30,056 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38049",
+                "Timestamp": "2024-10-21T09:48:07",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38049",
+                "Timestamp": "2024-10-21T19:02:15",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:30,268 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38339",
+                "Timestamp": "2024-10-21T09:14:16",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38339",
+                "Timestamp": "2024-10-22T09:14:20",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:30,573 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37902",
+                "Timestamp": "2024-10-21T10:11:00",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37902",
+                "Timestamp": "2024-10-21T19:44:48",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:30,774 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38428",
+                "Timestamp": "2024-10-21T09:45:58",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38428",
+                "Timestamp": "2024-10-21T19:47:33",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:31,003 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37912",
+                "Timestamp": "2024-10-21T11:22:31",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37912",
+                "Timestamp": "2024-10-21T21:02:11",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:31,233 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37699",
+                "Timestamp": "2024-10-21T10:29:04",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37699",
+                "Timestamp": "2024-10-21T19:38:12",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:31,442 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38574",
+                "Timestamp": "2024-10-21T07:25:28",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38574",
+                "Timestamp": "2024-10-21T16:37:06",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:31,674 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38491",
+                "Timestamp": "2024-10-21T10:39:30",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38491",
+                "Timestamp": "2024-10-21T21:35:43",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:31,909 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37769",
+                "Timestamp": "2024-10-21T13:30:38",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37769",
+                "Timestamp": "2024-10-21T17:37:10",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:32,109 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23161",
+                "Timestamp": "2024-10-21T10:50:09",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23161",
+                "Timestamp": "2024-10-21T19:49:57",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:32,333 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37855",
+                "Timestamp": "2024-10-21T10:00:05",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37855",
+                "Timestamp": "2024-10-21T19:32:10",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:32,581 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37499",
+                "Timestamp": "2024-10-21T11:19:50",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37499",
+                "Timestamp": "2024-10-21T20:25:42",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:32,812 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37680",
+                "Timestamp": "2024-10-21T10:48:32",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37680",
+                "Timestamp": "2024-10-21T20:49:08",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:33,000 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37359",
+                "Timestamp": "2024-10-21T09:26:27",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37359",
+                "Timestamp": "2024-10-21T19:55:34",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:33,201 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23152",
+                "Timestamp": "2024-10-21T10:45:46",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23152",
+                "Timestamp": "2024-10-21T20:40:19",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:33,416 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38033",
+                "Timestamp": "2024-10-21T09:05:34",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38033",
+                "Timestamp": "2024-10-21T18:58:25",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:33,637 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37724",
+                "Timestamp": "2024-10-21T10:09:27",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37724",
+                "Timestamp": "2024-10-21T20:21:41",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:33,962 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38461",
+                "Timestamp": "2024-10-21T10:51:41",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38461",
+                "Timestamp": "2024-10-21T21:28:11",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:34,277 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37740",
+                "Timestamp": "2024-10-21T10:24:29",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37740",
+                "Timestamp": "2024-10-21T19:26:46",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:35,145 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37812",
+                "Timestamp": "2024-10-21T10:22:41",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37812",
+                "Timestamp": "2024-10-21T19:21:46",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:35,384 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "27174",
+                "Timestamp": "2024-10-21T10:21:05",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "27174",
+                "Timestamp": "2024-10-21T21:20:17",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:35,641 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23142",
+                "Timestamp": "2024-10-21T08:57:23",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23142",
+                "Timestamp": "2024-10-21T13:41:15",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:35,859 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37883",
+                "Timestamp": "2024-10-21T12:07:51",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37883",
+                "Timestamp": "2024-10-21T22:31:15",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:36,644 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37619",
+                "Timestamp": "2024-10-21T12:36:05",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37619",
+                "Timestamp": "2024-10-21T23:57:12",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:39,063 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37836",
+                "Timestamp": "2024-10-21T11:20:13",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37836",
+                "Timestamp": "2024-10-21T19:34:53",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:39,293 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38506",
+                "Timestamp": "2024-10-21T09:43:11",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38506",
+                "Timestamp": "2024-10-21T18:54:11",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:39,487 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38160",
+                "Timestamp": "2024-10-21T08:10:17",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38160",
+                "Timestamp": "2024-10-21T19:25:56",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:39,732 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23124",
+                "Timestamp": "2024-10-21T10:26:10",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "23124",
+                "Timestamp": "2024-10-21T19:43:17",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:39,935 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37875",
+                "Timestamp": "2024-10-21T09:07:24",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37875",
+                "Timestamp": "2024-10-21T18:35:09",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:40,123 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37878",
+                "Timestamp": "2024-10-21T09:45:52",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37878",
+                "Timestamp": "2024-10-21T18:57:52",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:40,333 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37896",
+                "Timestamp": "2024-10-21T10:53:35",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37896",
+                "Timestamp": "2024-10-21T23:52:45",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:40,540 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38235",
+                "Timestamp": "2024-10-21T07:37:54",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38235",
+                "Timestamp": "2024-10-21T19:17:59",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:40,740 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37721",
+                "Timestamp": "2024-10-21T10:58:37",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37721",
+                "Timestamp": "2024-10-21T21:09:55",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:41,013 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37887",
+                "Timestamp": "2024-10-21T10:04:34",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37887",
+                "Timestamp": "2024-10-21T21:45:24",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:41,223 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37922",
+                "Timestamp": "2024-10-21T09:53:37",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37922",
+                "Timestamp": "2024-10-21T19:53:10",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:41,418 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37924",
+                "Timestamp": "2024-10-21T08:50:36",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37924",
+                "Timestamp": "2024-10-21T19:46:14",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:41,649 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38216",
+                "Timestamp": "2024-10-21T18:29:50",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38216",
+                "Timestamp": "2024-10-22T03:44:24",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:41,847 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37531",
+                "Timestamp": "2024-10-21T10:23:51",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37531",
+                "Timestamp": "2024-10-21T19:49:25",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:42,083 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38061",
+                "Timestamp": "2024-10-21T13:01:52",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38061",
+                "Timestamp": "2024-10-21T22:17:36",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:42,301 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38236",
+                "Timestamp": "2024-10-21T10:27:35",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38236",
+                "Timestamp": "2024-10-21T19:49:34",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:42,474 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38421",
+                "Timestamp": "2024-10-21T09:28:20",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38421",
+                "Timestamp": "2024-10-21T18:17:11",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:42,766 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37931",
+                "Timestamp": "2024-10-21T09:43:05",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37931",
+                "Timestamp": "2024-10-21T19:15:52",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:42,958 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38430",
+                "Timestamp": "2024-10-21T10:52:36",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38430",
+                "Timestamp": "2024-10-21T20:17:10",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:43,163 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "11010",
+                "Timestamp": "2024-10-21T08:30:08",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "11010",
+                "Timestamp": "2024-10-21T17:57:33",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:43,404 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38023",
+                "Timestamp": "2024-10-21T09:43:57",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38023",
+                "Timestamp": "2024-10-21T17:49:03",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:43,622 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38323",
+                "Timestamp": "2024-10-21T11:41:20",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38323",
+                "Timestamp": "2024-10-21T20:52:54",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:43,826 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37985",
+                "Timestamp": "2024-10-21T10:58:57",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37985",
+                "Timestamp": "2024-10-21T20:01:11",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:44,039 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37660",
+                "Timestamp": "2024-10-21T11:06:20",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37660",
+                "Timestamp": "2024-10-21T20:24:54",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:44,273 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38342",
+                "Timestamp": "2024-10-21T09:35:11",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38342",
+                "Timestamp": "2024-10-21T19:30:49",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:44,487 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37975",
+                "Timestamp": "2024-10-21T09:30:00",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37975",
+                "Timestamp": "2024-10-21T20:56:43",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:44,709 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37253",
+                "Timestamp": "2024-10-21T09:30:59",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37253",
+                "Timestamp": "2024-10-21T18:47:25",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:44,880 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "14056",
+                "Timestamp": "2024-10-21T10:36:03",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "14056",
+                "Timestamp": "2024-10-21T23:29:46",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:45,076 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37867",
+                "Timestamp": "2024-10-21T07:27:11",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37867",
+                "Timestamp": "2024-10-21T17:13:43",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:45,277 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37397",
+                "Timestamp": "2024-10-21T10:41:39",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37397",
+                "Timestamp": "2024-10-21T22:14:18",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:45,466 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37614",
+                "Timestamp": "2024-10-21T12:59:59",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37614",
+                "Timestamp": "2024-10-21T13:00:22",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:45,687 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37327",
+                "Timestamp": "2024-10-21T08:27:46",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37327",
+                "Timestamp": "2024-10-21T16:45:01",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:45,895 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37256",
+                "Timestamp": "2024-10-21T12:26:46",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37256",
+                "Timestamp": "2024-10-21T18:55:08",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:46,088 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38509",
+                "Timestamp": "2024-10-21T07:20:50",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38509",
+                "Timestamp": "2024-10-22T08:38:41",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:46,316 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "14061",
+                "Timestamp": "2024-10-21T07:30:22",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "14061",
+                "Timestamp": "2024-10-21T17:29:10",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:46,528 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37993",
+                "Timestamp": "2024-10-21T09:34:00",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37993",
+                "Timestamp": "2024-10-21T18:50:12",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:46,743 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38113",
+                "Timestamp": "2024-10-21T09:49:36",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38113",
+                "Timestamp": "2024-10-21T21:09:54",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:46,952 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38420",
+                "Timestamp": "2024-10-21T10:15:56",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38420",
+                "Timestamp": "2024-10-21T19:37:36",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:47,168 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38209",
+                "Timestamp": "2024-10-21T10:56:46",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38209",
+                "Timestamp": "2024-10-21T19:54:46",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:47,399 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38234",
+                "Timestamp": "2024-10-21T10:54:20",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38234",
+                "Timestamp": "2024-10-21T19:31:58",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:47,598 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38285",
+                "Timestamp": "2024-10-21T09:51:38",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38285",
+                "Timestamp": "2024-10-21T17:52:24",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:47,835 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38362",
+                "Timestamp": "2024-10-21T10:07:09",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38362",
+                "Timestamp": "2024-10-21T18:47:28",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:48,048 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38431",
+                "Timestamp": "2024-10-21T10:18:29",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38431",
+                "Timestamp": "2024-10-21T19:50:18",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:48,265 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38565",
+                "Timestamp": "2024-10-21T10:30:00",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38565",
+                "Timestamp": "2024-10-21T21:01:43",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:48,460 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38597",
+                "Timestamp": "2024-10-21T20:00:33",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38597",
+                "Timestamp": "2024-10-21T20:00:37",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:48,674 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38639",
+                "Timestamp": "2024-10-21T06:51:56",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38639",
+                "Timestamp": "2024-10-21T15:05:34",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:48,976 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38687",
+                "Timestamp": "2024-10-21T11:50:22",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38687",
+                "Timestamp": "2024-10-21T20:13:19",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:49,258 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38763",
+                "Timestamp": "2024-10-21T12:21:49",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "38763",
+                "Timestamp": "2024-10-21T12:22:07",
+                "Status": 1
+            }
+        ]
+        
+2024-10-22 09:20:49,478 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+        [
+            
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37443",
+                "Timestamp": "2024-10-21T11:43:56",
+                "Status": 0
+            }, 
+            {
+                "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                "EmployeeAttendanceNumber": "37443",
+                "Timestamp": "2024-10-21T19:34:45",
+                "Status": 1
+            }
+        ]
+        
