@@ -174,5 +174,3 @@ def hubstaff_id_sync():
                 print(f"{i[1]}")
         else:
             print(f"Error: {response.status_code}, {response.text}")
-
-hubstaff_id_sync()
