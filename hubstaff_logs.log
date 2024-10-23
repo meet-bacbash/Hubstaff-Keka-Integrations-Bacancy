@@ -119,5 +119,951 @@
 2024-10-22 09:20:20,110 : INFO : 200 : user - {'id': 109, 'keka_id': '38687', 'clock_in_time': '2024-10-21T11:50:22', 'clock_out_time': '2024-10-21T20:13:19'}
 2024-10-22 09:20:20,816 : ERROR : User activities not found : user - 38689
 2024-10-22 09:20:21,553 : ERROR : User activities not found : user - 38764
-2024-10-22 09:20:22,262 : INFO : 200 : user - {'id': 110, 'keka_id': '38763', 'clock_in_time': '2024-10-21T12:21:49', 'clock_out_time': '2024-10-21T12:22:07'}
-2024-10-22 09:20:23,020 : INFO : 200 : user - {'id': 111, 'keka_id': '37443', 'clock_in_time': '2024-10-21T11:43:56', 'clock_out_time': '2024-10-21T19:34:45'}
+2024-10-22 13:56:50,858 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:56:51,589 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:56:52,299 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:56:53,037 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:56:53,758 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:56:54,486 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:57:27,483 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:57:28,181 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:57:28,908 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:57:29,609 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:57:30,377 : ERROR : 401 - {"error":"invalid_token","error_description":"The access token provided is expired, revoked, malformed or invalid for other reasons."}
+2024-10-22 13:57:54,189 : INFO : 200 : user - {'id': 112, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T13:14:13'}
+2024-10-22 13:57:54,902 : INFO : 200 : user - {'id': 113, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T13:55:02'}
+2024-10-22 13:58:05,341 : INFO : 200 : user - {'id': 114, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T13:14:13'}
+2024-10-22 13:58:06,050 : INFO : 200 : user - {'id': 115, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T13:55:02'}
+2024-10-22 13:58:06,744 : ERROR : User activities not found : user - 38090
+2024-10-22 13:58:07,478 : INFO : 200 : user - {'id': 116, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T13:52:00'}
+2024-10-22 13:58:08,224 : INFO : 200 : user - {'id': 117, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T13:53:57'}
+2024-10-22 13:58:08,943 : INFO : 200 : user - {'id': 118, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T13:29:23'}
+2024-10-22 13:58:09,719 : INFO : 200 : user - {'id': 119, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T13:31:42'}
+2024-10-22 13:58:10,443 : INFO : 200 : user - {'id': 120, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T13:58:02'}
+2024-10-22 13:58:11,150 : ERROR : User activities not found : user - 37663
+2024-10-22 13:58:11,900 : INFO : 200 : user - {'id': 121, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T13:56:01'}
+2024-10-22 13:58:12,665 : ERROR : User activities not found : user - 37349
+2024-10-22 13:58:13,393 : INFO : 200 : user - {'id': 122, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T13:50:50'}
+2024-10-22 13:58:14,165 : INFO : 200 : user - {'id': 123, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T13:55:37'}
+2024-10-22 13:58:14,877 : INFO : 200 : user - {'id': 124, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T13:56:02'}
+2024-10-22 13:58:15,253 : INFO : 200 : user - {'id': 125, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T13:57:58'}
+2024-10-22 13:58:16,005 : INFO : 200 : user - {'id': 126, 'keka_id': '37814', 'clock_in_time': '2024-10-22T11:01:46', 'clock_out_time': '2024-10-22T13:54:06'}
+2024-10-22 13:58:16,716 : INFO : 200 : user - {'id': 127, 'keka_id': '37246', 'clock_in_time': '2024-10-22T11:19:45', 'clock_out_time': '2024-10-22T13:53:03'}
+2024-10-22 13:58:17,037 : INFO : 200 : user - {'id': 128, 'keka_id': '38131', 'clock_in_time': '2024-10-22T10:16:07', 'clock_out_time': '2024-10-22T13:49:31'}
+2024-10-22 13:58:17,400 : INFO : 200 : user - {'id': 129, 'keka_id': '37428', 'clock_in_time': '2024-10-22T08:04:38', 'clock_out_time': '2024-10-22T13:52:38'}
+2024-10-22 13:58:18,141 : INFO : 200 : user - {'id': 130, 'keka_id': '37630', 'clock_in_time': '2024-10-22T09:05:11', 'clock_out_time': '2024-10-22T13:20:07'}
+2024-10-22 13:58:18,475 : INFO : 200 : user - {'id': 131, 'keka_id': '37384', 'clock_in_time': '2024-10-22T10:21:36', 'clock_out_time': '2024-10-22T13:27:16'}
+2024-10-22 13:58:19,228 : INFO : 200 : user - {'id': 132, 'keka_id': '37458', 'clock_in_time': '2024-10-22T10:47:07', 'clock_out_time': '2024-10-22T12:48:03'}
+2024-10-22 13:58:20,002 : INFO : 200 : user - {'id': 133, 'keka_id': '37578', 'clock_in_time': '2024-10-22T09:06:34', 'clock_out_time': '2024-10-22T13:48:56'}
+2024-10-22 13:58:20,692 : ERROR : User activities not found : user - 38082
+2024-10-22 13:58:21,022 : INFO : 200 : user - {'id': 134, 'keka_id': '23148', 'clock_in_time': '2024-10-22T09:04:46', 'clock_out_time': '2024-10-22T13:55:25'}
+2024-10-22 13:58:21,761 : INFO : 200 : user - {'id': 135, 'keka_id': '37201', 'clock_in_time': '2024-10-22T08:50:05', 'clock_out_time': '2024-10-22T13:41:07'}
+2024-10-22 13:58:22,484 : INFO : 200 : user - {'id': 136, 'keka_id': '38395', 'clock_in_time': '2024-10-22T10:02:48', 'clock_out_time': '2024-10-22T13:21:18'}
+2024-10-22 13:58:23,197 : INFO : 200 : user - {'id': 137, 'keka_id': '38476', 'clock_in_time': '2024-10-22T10:50:07', 'clock_out_time': '2024-10-22T13:47:08'}
+2024-10-22 13:58:23,657 : INFO : 200 : user - {'id': 138, 'keka_id': '38524', 'clock_in_time': '2024-10-22T10:08:12', 'clock_out_time': '2024-10-22T13:52:01'}
+2024-10-22 13:58:24,413 : ERROR : User activities not found : user - 37382
+2024-10-22 13:58:25,116 : ERROR : User activities not found : user - 37884
+2024-10-22 13:58:25,862 : ERROR : User activities not found : user - 37727
+2024-10-22 13:58:26,568 : INFO : 200 : user - {'id': 139, 'keka_id': '38049', 'clock_in_time': '2024-10-22T10:32:10', 'clock_out_time': '2024-10-22T13:54:08'}
+2024-10-22 13:58:27,290 : INFO : 200 : user - {'id': 140, 'keka_id': '38339', 'clock_in_time': '2024-10-22T09:14:43', 'clock_out_time': '2024-10-22T13:36:05'}
+2024-10-22 13:58:28,024 : INFO : 200 : user - {'id': 141, 'keka_id': '37902', 'clock_in_time': '2024-10-22T10:20:21', 'clock_out_time': '2024-10-22T13:51:16'}
+2024-10-22 13:58:28,740 : INFO : 200 : user - {'id': 142, 'keka_id': '38428', 'clock_in_time': '2024-10-22T09:41:59', 'clock_out_time': '2024-10-22T13:53:39'}
+2024-10-22 13:58:29,074 : INFO : 200 : user - {'id': 143, 'keka_id': '37912', 'clock_in_time': '2024-10-22T11:42:04', 'clock_out_time': '2024-10-22T13:48:09'}
+2024-10-22 13:58:29,785 : INFO : 200 : user - {'id': 144, 'keka_id': '37699', 'clock_in_time': '2024-10-22T10:11:03', 'clock_out_time': '2024-10-22T13:52:58'}
+2024-10-22 13:58:30,517 : INFO : 200 : user - {'id': 145, 'keka_id': '38574', 'clock_in_time': '2024-10-22T07:25:49', 'clock_out_time': '2024-10-22T13:27:05'}
+2024-10-22 13:58:30,849 : INFO : 200 : user - {'id': 146, 'keka_id': '38491', 'clock_in_time': '2024-10-22T10:41:52', 'clock_out_time': '2024-10-22T13:50:41'}
+2024-10-22 13:58:31,595 : INFO : 200 : user - {'id': 147, 'keka_id': '37769', 'clock_in_time': '2024-10-22T07:32:03', 'clock_out_time': '2024-10-22T13:39:48'}
+2024-10-22 13:58:32,300 : INFO : 200 : user - {'id': 148, 'keka_id': '23161', 'clock_in_time': '2024-10-22T10:39:08', 'clock_out_time': '2024-10-22T13:25:36'}
+2024-10-22 13:58:33,054 : INFO : 200 : user - {'id': 149, 'keka_id': '37855', 'clock_in_time': '2024-10-22T09:45:32', 'clock_out_time': '2024-10-22T13:57:37'}
+2024-10-22 13:58:33,796 : INFO : 200 : user - {'id': 150, 'keka_id': '37499', 'clock_in_time': '2024-10-22T10:12:09', 'clock_out_time': '2024-10-22T13:30:28'}
+2024-10-22 13:58:34,544 : INFO : 200 : user - {'id': 151, 'keka_id': '37680', 'clock_in_time': '2024-10-22T09:52:57', 'clock_out_time': '2024-10-22T12:43:07'}
+2024-10-22 13:58:35,262 : INFO : 200 : user - {'id': 152, 'keka_id': '37359', 'clock_in_time': '2024-10-22T08:53:36', 'clock_out_time': '2024-10-22T13:44:41'}
+2024-10-22 13:58:35,997 : INFO : 200 : user - {'id': 153, 'keka_id': '23152', 'clock_in_time': '2024-10-22T08:59:48', 'clock_out_time': '2024-10-22T13:54:49'}
+2024-10-22 13:58:36,691 : ERROR : User activities not found : user - 38033
+2024-10-22 13:58:37,405 : ERROR : User activities not found : user - 37849
+2024-10-22 13:58:38,118 : INFO : 200 : user - {'id': 154, 'keka_id': '37724', 'clock_in_time': '2024-10-22T10:08:47', 'clock_out_time': '2024-10-22T13:48:01'}
+2024-10-22 13:58:38,835 : INFO : 200 : user - {'id': 155, 'keka_id': '38461', 'clock_in_time': '2024-10-22T11:03:19', 'clock_out_time': '2024-10-22T13:54:47'}
+2024-10-22 13:58:39,545 : INFO : 200 : user - {'id': 156, 'keka_id': '37740', 'clock_in_time': '2024-10-22T09:45:15', 'clock_out_time': '2024-10-22T13:50:08'}
+2024-10-22 13:58:40,291 : INFO : 200 : user - {'id': 157, 'keka_id': '37812', 'clock_in_time': '2024-10-22T10:02:22', 'clock_out_time': '2024-10-22T13:50:26'}
+2024-10-22 13:58:40,666 : INFO : 200 : user - {'id': 158, 'keka_id': '23131', 'clock_in_time': '2024-10-22T10:39:58', 'clock_out_time': '2024-10-22T13:56:24'}
+2024-10-22 13:58:41,391 : INFO : 200 : user - {'id': 159, 'keka_id': '27174', 'clock_in_time': '2024-10-22T10:15:12', 'clock_out_time': '2024-10-22T13:53:52'}
+2024-10-22 13:58:42,098 : ERROR : User activities not found : user - 23142
+2024-10-22 13:58:42,841 : ERROR : User activities not found : user - 37988
+2024-10-22 13:58:43,173 : INFO : 200 : user - {'id': 160, 'keka_id': '37883', 'clock_in_time': '2024-10-22T10:51:30', 'clock_out_time': '2024-10-22T13:49:59'}
+2024-10-22 13:58:43,994 : INFO : 200 : user - {'id': 161, 'keka_id': '37619', 'clock_in_time': '2024-10-22T09:25:29', 'clock_out_time': '2024-10-22T13:38:31'}
+2024-10-22 13:58:44,766 : INFO : 200 : user - {'id': 162, 'keka_id': '37836', 'clock_in_time': '2024-10-22T09:29:12', 'clock_out_time': '2024-10-22T13:39:20'}
+2024-10-22 13:58:45,525 : ERROR : User activities not found : user - 38506
+2024-10-22 13:58:46,252 : INFO : 200 : user - {'id': 163, 'keka_id': '38160', 'clock_in_time': '2024-10-22T08:53:03', 'clock_out_time': '2024-10-22T13:31:21'}
+2024-10-22 13:58:47,021 : ERROR : User activities not found : user - 38526
+2024-10-22 13:58:47,758 : INFO : 200 : user - {'id': 164, 'keka_id': '23124', 'clock_in_time': '2024-10-22T10:35:51', 'clock_out_time': '2024-10-22T13:54:31'}
+2024-10-22 13:58:48,478 : INFO : 200 : user - {'id': 165, 'keka_id': '37875', 'clock_in_time': '2024-10-22T09:42:21', 'clock_out_time': '2024-10-22T13:43:29'}
+2024-10-22 13:58:49,187 : INFO : 200 : user - {'id': 166, 'keka_id': '37878', 'clock_in_time': '2024-10-22T09:49:19', 'clock_out_time': '2024-10-22T13:42:56'}
+2024-10-22 13:58:49,509 : INFO : 200 : user - {'id': 167, 'keka_id': '37896', 'clock_in_time': '2024-10-22T09:30:18', 'clock_out_time': '2024-10-22T13:12:29'}
+2024-10-22 13:58:50,228 : INFO : 200 : user - {'id': 168, 'keka_id': '38235', 'clock_in_time': '2024-10-22T07:30:53', 'clock_out_time': '2024-10-22T13:40:34'}
+2024-10-22 13:58:51,024 : INFO : 200 : user - {'id': 169, 'keka_id': '37721', 'clock_in_time': '2024-10-22T10:32:30', 'clock_out_time': '2024-10-22T13:57:36'}
+2024-10-22 13:58:51,760 : INFO : 200 : user - {'id': 170, 'keka_id': '37887', 'clock_in_time': '2024-10-22T08:45:26', 'clock_out_time': '2024-10-22T13:33:23'}
+2024-10-22 13:58:52,472 : INFO : 200 : user - {'id': 171, 'keka_id': '37922', 'clock_in_time': '2024-10-22T10:07:20', 'clock_out_time': '2024-10-22T13:54:53'}
+2024-10-22 13:58:52,801 : INFO : 200 : user - {'id': 172, 'keka_id': '37924', 'clock_in_time': '2024-10-22T08:48:37', 'clock_out_time': '2024-10-22T13:54:44'}
+2024-10-22 13:58:53,147 : ERROR : User activities not found : user - 38216
+2024-10-22 13:58:53,479 : INFO : 200 : user - {'id': 173, 'keka_id': '37531', 'clock_in_time': '2024-10-22T09:12:46', 'clock_out_time': '2024-10-22T13:27:17'}
+2024-10-22 13:58:54,175 : ERROR : User activities not found : user - 38061
+2024-10-22 13:58:54,876 : INFO : 200 : user - {'id': 174, 'keka_id': '38236', 'clock_in_time': '2024-10-22T10:39:17', 'clock_out_time': '2024-10-22T13:58:14'}
+2024-10-22 13:58:55,571 : ERROR : User activities not found : user - 37545
+2024-10-22 13:58:56,291 : INFO : 200 : user - {'id': 175, 'keka_id': '38421', 'clock_in_time': '2024-10-22T09:33:04', 'clock_out_time': '2024-10-22T13:50:56'}
+2024-10-22 13:58:56,997 : ERROR : User activities not found : user - 37931
+2024-10-22 13:58:57,327 : INFO : 200 : user - {'id': 176, 'keka_id': '38430', 'clock_in_time': '2024-10-22T10:38:47', 'clock_out_time': '2024-10-22T13:53:26'}
+2024-10-22 13:58:58,049 : INFO : 200 : user - {'id': 177, 'keka_id': '11010', 'clock_in_time': '2024-10-22T08:32:55', 'clock_out_time': '2024-10-22T13:52:26'}
+2024-10-22 13:58:58,354 : INFO : 200 : user - {'id': 178, 'keka_id': '38023', 'clock_in_time': '2024-10-22T09:09:09', 'clock_out_time': '2024-10-22T10:53:29'}
+2024-10-22 13:58:59,055 : INFO : 200 : user - {'id': 179, 'keka_id': '38323', 'clock_in_time': '2024-10-22T11:57:38', 'clock_out_time': '2024-10-22T12:51:41'}
+2024-10-22 13:58:59,839 : INFO : 200 : user - {'id': 180, 'keka_id': '37985', 'clock_in_time': '2024-10-22T10:39:09', 'clock_out_time': '2024-10-22T13:50:02'}
+2024-10-22 13:59:00,532 : ERROR : User activities not found : user - 38042
+2024-10-22 13:59:00,846 : INFO : 200 : user - {'id': 181, 'keka_id': '37660', 'clock_in_time': '2024-10-22T11:02:46', 'clock_out_time': '2024-10-22T13:51:00'}
+2024-10-22 13:59:01,563 : INFO : 200 : user - {'id': 182, 'keka_id': '38342', 'clock_in_time': '2024-10-22T11:20:33', 'clock_out_time': '2024-10-22T13:56:03'}
+2024-10-22 13:59:01,909 : INFO : 200 : user - {'id': 183, 'keka_id': '37975', 'clock_in_time': '2024-10-22T09:14:34', 'clock_out_time': '2024-10-22T13:45:50'}
+2024-10-22 13:59:02,633 : INFO : 200 : user - {'id': 184, 'keka_id': '37253', 'clock_in_time': '2024-10-22T09:01:33', 'clock_out_time': '2024-10-22T13:35:52'}
+2024-10-22 13:59:03,350 : INFO : 200 : user - {'id': 185, 'keka_id': '14056', 'clock_in_time': '2024-10-22T10:23:00', 'clock_out_time': '2024-10-22T12:35:44'}
+2024-10-22 13:59:04,106 : INFO : 200 : user - {'id': 186, 'keka_id': '37867', 'clock_in_time': '2024-10-22T07:24:20', 'clock_out_time': '2024-10-22T13:54:55'}
+2024-10-22 13:59:04,865 : INFO : 200 : user - {'id': 187, 'keka_id': '37397', 'clock_in_time': '2024-10-22T12:00:45', 'clock_out_time': '2024-10-22T13:50:31'}
+2024-10-22 13:59:05,650 : INFO : 200 : user - {'id': 188, 'keka_id': '37614', 'clock_in_time': '2024-10-22T09:52:36', 'clock_out_time': '2024-10-22T13:31:19'}
+2024-10-22 13:59:06,381 : INFO : 200 : user - {'id': 189, 'keka_id': '37327', 'clock_in_time': '2024-10-22T08:30:54', 'clock_out_time': '2024-10-22T13:50:49'}
+2024-10-22 13:59:06,774 : INFO : 200 : user - {'id': 190, 'keka_id': '37256', 'clock_in_time': '2024-10-22T10:19:31', 'clock_out_time': '2024-10-22T13:51:09'}
+2024-10-22 13:59:07,505 : INFO : 200 : user - {'id': 191, 'keka_id': '38509', 'clock_in_time': '2024-10-22T07:19:47', 'clock_out_time': '2024-10-22T11:54:21'}
+2024-10-22 13:59:08,236 : INFO : 200 : user - {'id': 192, 'keka_id': '14061', 'clock_in_time': '2024-10-22T07:34:48', 'clock_out_time': '2024-10-22T13:58:43'}
+2024-10-22 13:59:08,937 : INFO : 200 : user - {'id': 193, 'keka_id': '37993', 'clock_in_time': '2024-10-22T09:14:53', 'clock_out_time': '2024-10-22T13:50:49'}
+2024-10-22 13:59:09,264 : INFO : 200 : user - {'id': 194, 'keka_id': '38113', 'clock_in_time': '2024-10-22T09:56:09', 'clock_out_time': '2024-10-22T13:23:33'}
+2024-10-22 13:59:09,964 : INFO : 200 : user - {'id': 195, 'keka_id': '38420', 'clock_in_time': '2024-10-22T10:05:56', 'clock_out_time': '2024-10-22T13:53:01'}
+2024-10-22 13:59:10,681 : INFO : 200 : user - {'id': 196, 'keka_id': '38209', 'clock_in_time': '2024-10-22T10:28:32', 'clock_out_time': '2024-10-22T13:48:44'}
+2024-10-22 13:59:11,080 : INFO : 200 : user - {'id': 197, 'keka_id': '38234', 'clock_in_time': '2024-10-22T10:56:32', 'clock_out_time': '2024-10-22T13:22:42'}
+2024-10-22 13:59:11,769 : ERROR : User activities not found : user - 38264
+2024-10-22 13:59:12,502 : INFO : 200 : user - {'id': 198, 'keka_id': '38285', 'clock_in_time': '2024-10-22T07:01:11', 'clock_out_time': '2024-10-22T13:49:42'}
+2024-10-22 13:59:13,213 : INFO : 200 : user - {'id': 199, 'keka_id': '38362', 'clock_in_time': '2024-10-22T10:26:48', 'clock_out_time': '2024-10-22T13:55:56'}
+2024-10-22 13:59:14,022 : INFO : 200 : user - {'id': 200, 'keka_id': '38431', 'clock_in_time': '2024-10-22T10:30:14', 'clock_out_time': '2024-10-22T13:44:36'}
+2024-10-22 13:59:14,726 : ERROR : User activities not found : user - 38565
+2024-10-22 13:59:15,414 : ERROR : User activities not found : user - 38597
+2024-10-22 13:59:16,146 : INFO : 200 : user - {'id': 201, 'keka_id': '38639', 'clock_in_time': '2024-10-22T06:56:28', 'clock_out_time': '2024-10-22T13:57:20'}
+2024-10-22 13:59:16,459 : INFO : 200 : user - {'id': 202, 'keka_id': '38687', 'clock_in_time': '2024-10-22T11:45:27', 'clock_out_time': '2024-10-22T13:54:37'}
+2024-10-22 13:59:17,212 : ERROR : User activities not found : user - 38689
+2024-10-22 13:59:17,884 : ERROR : User activities not found : user - 38764
+2024-10-22 13:59:18,195 : ERROR : User activities not found : user - 38763
+2024-10-22 13:59:18,976 : INFO : 200 : user - {'id': 203, 'keka_id': '37443', 'clock_in_time': '2024-10-22T09:00:27', 'clock_out_time': '2024-10-22T13:46:22'}
+2024-10-22 13:59:19,689 : INFO : 200 : user - {'id': 204, 'keka_id': '38479', 'clock_in_time': '2024-10-22T12:15:30', 'clock_out_time': '2024-10-22T13:13:05'}
+2024-10-22 14:12:05,141 : INFO : 200 : user - {'id': 205, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T14:00:15'}
+2024-10-22 14:12:05,867 : INFO : 200 : user - {'id': 206, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T14:05:03'}
+2024-10-22 14:12:06,554 : ERROR : User activities not found : user - 38090
+2024-10-22 14:12:07,345 : INFO : 200 : user - {'id': 207, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T14:04:32'}
+2024-10-22 14:12:08,080 : INFO : 200 : user - {'id': 208, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T13:53:57'}
+2024-10-22 14:12:08,804 : INFO : 200 : user - {'id': 209, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T13:29:23'}
+2024-10-22 14:12:09,633 : INFO : 200 : user - {'id': 210, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T13:31:42'}
+2024-10-22 14:12:10,367 : INFO : 200 : user - {'id': 211, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T14:05:07'}
+2024-10-22 14:12:11,129 : ERROR : User activities not found : user - 37663
+2024-10-22 14:12:11,855 : INFO : 200 : user - {'id': 212, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T14:10:34'}
+2024-10-22 14:12:12,162 : ERROR : User activities not found : user - 37349
+2024-10-22 14:12:12,860 : INFO : 200 : user - {'id': 213, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T14:11:38'}
+2024-10-22 14:12:13,582 : INFO : 200 : user - {'id': 214, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T14:09:39'}
+2024-10-22 14:12:14,334 : INFO : 200 : user - {'id': 215, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T14:06:02'}
+2024-10-22 14:12:15,045 : INFO : 200 : user - {'id': 216, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T14:07:48'}
+2024-10-22 14:12:15,379 : INFO : 200 : user - {'id': 217, 'keka_id': '37814', 'clock_in_time': '2024-10-22T11:01:46', 'clock_out_time': '2024-10-22T14:09:02'}
+2024-10-22 14:12:16,088 : INFO : 200 : user - {'id': 218, 'keka_id': '37246', 'clock_in_time': '2024-10-22T11:19:45', 'clock_out_time': '2024-10-22T14:00:32'}
+2024-10-22 14:12:16,837 : INFO : 200 : user - {'id': 219, 'keka_id': '38131', 'clock_in_time': '2024-10-22T10:16:07', 'clock_out_time': '2024-10-22T14:09:34'}
+2024-10-22 14:12:17,566 : INFO : 200 : user - {'id': 220, 'keka_id': '37428', 'clock_in_time': '2024-10-22T08:04:38', 'clock_out_time': '2024-10-22T14:02:38'}
+2024-10-22 14:12:18,348 : INFO : 200 : user - {'id': 221, 'keka_id': '37630', 'clock_in_time': '2024-10-22T09:05:11', 'clock_out_time': '2024-10-22T14:08:23'}
+2024-10-22 14:12:19,076 : INFO : 200 : user - {'id': 222, 'keka_id': '37384', 'clock_in_time': '2024-10-22T10:21:36', 'clock_out_time': '2024-10-22T13:27:16'}
+2024-10-22 14:12:20,003 : INFO : 200 : user - {'id': 223, 'keka_id': '37458', 'clock_in_time': '2024-10-22T10:47:07', 'clock_out_time': '2024-10-22T12:48:03'}
+2024-10-22 14:12:20,716 : INFO : 200 : user - {'id': 224, 'keka_id': '37578', 'clock_in_time': '2024-10-22T09:06:34', 'clock_out_time': '2024-10-22T14:05:33'}
+2024-10-22 14:12:21,407 : ERROR : User activities not found : user - 38082
+2024-10-22 14:12:22,123 : INFO : 200 : user - {'id': 225, 'keka_id': '23148', 'clock_in_time': '2024-10-22T09:04:46', 'clock_out_time': '2024-10-22T14:05:26'}
+2024-10-22 14:12:22,889 : INFO : 200 : user - {'id': 226, 'keka_id': '37201', 'clock_in_time': '2024-10-22T08:50:05', 'clock_out_time': '2024-10-22T13:41:07'}
+2024-10-22 14:12:23,604 : INFO : 200 : user - {'id': 227, 'keka_id': '38395', 'clock_in_time': '2024-10-22T10:02:48', 'clock_out_time': '2024-10-22T13:21:18'}
+2024-10-22 14:12:24,311 : INFO : 200 : user - {'id': 228, 'keka_id': '38476', 'clock_in_time': '2024-10-22T10:50:07', 'clock_out_time': '2024-10-22T13:47:08'}
+2024-10-22 14:12:24,630 : INFO : 200 : user - {'id': 229, 'keka_id': '38524', 'clock_in_time': '2024-10-22T10:08:12', 'clock_out_time': '2024-10-22T14:12:01'}
+2024-10-22 14:12:25,335 : ERROR : User activities not found : user - 37382
+2024-10-22 14:12:25,641 : ERROR : User activities not found : user - 37884
+2024-10-22 14:12:26,342 : ERROR : User activities not found : user - 37727
+2024-10-22 14:12:27,087 : INFO : 200 : user - {'id': 230, 'keka_id': '38049', 'clock_in_time': '2024-10-22T10:32:10', 'clock_out_time': '2024-10-22T14:04:07'}
+2024-10-22 14:12:27,809 : INFO : 200 : user - {'id': 231, 'keka_id': '38339', 'clock_in_time': '2024-10-22T09:14:43', 'clock_out_time': '2024-10-22T14:06:27'}
+2024-10-22 14:12:28,532 : INFO : 200 : user - {'id': 232, 'keka_id': '37902', 'clock_in_time': '2024-10-22T10:20:21', 'clock_out_time': '2024-10-22T14:07:38'}
+2024-10-22 14:12:29,255 : INFO : 200 : user - {'id': 233, 'keka_id': '38428', 'clock_in_time': '2024-10-22T09:41:59', 'clock_out_time': '2024-10-22T14:07:45'}
+2024-10-22 14:12:30,018 : INFO : 200 : user - {'id': 234, 'keka_id': '37912', 'clock_in_time': '2024-10-22T11:42:04', 'clock_out_time': '2024-10-22T13:48:09'}
+2024-10-22 14:12:30,743 : INFO : 200 : user - {'id': 235, 'keka_id': '37699', 'clock_in_time': '2024-10-22T10:11:03', 'clock_out_time': '2024-10-22T14:02:30'}
+2024-10-22 14:12:31,517 : INFO : 200 : user - {'id': 236, 'keka_id': '38574', 'clock_in_time': '2024-10-22T07:25:49', 'clock_out_time': '2024-10-22T13:27:05'}
+2024-10-22 14:12:32,245 : INFO : 200 : user - {'id': 237, 'keka_id': '38491', 'clock_in_time': '2024-10-22T10:41:52', 'clock_out_time': '2024-10-22T14:00:25'}
+2024-10-22 14:12:33,057 : INFO : 200 : user - {'id': 238, 'keka_id': '37769', 'clock_in_time': '2024-10-22T07:32:03', 'clock_out_time': '2024-10-22T13:39:48'}
+2024-10-22 14:12:33,396 : INFO : 200 : user - {'id': 239, 'keka_id': '23161', 'clock_in_time': '2024-10-22T10:39:08', 'clock_out_time': '2024-10-22T14:04:49'}
+2024-10-22 14:12:33,789 : INFO : 200 : user - {'id': 240, 'keka_id': '37855', 'clock_in_time': '2024-10-22T09:45:32', 'clock_out_time': '2024-10-22T13:57:37'}
+2024-10-22 14:12:34,492 : INFO : 200 : user - {'id': 241, 'keka_id': '37499', 'clock_in_time': '2024-10-22T10:12:09', 'clock_out_time': '2024-10-22T13:30:28'}
+2024-10-22 14:12:34,827 : INFO : 200 : user - {'id': 242, 'keka_id': '37680', 'clock_in_time': '2024-10-22T09:52:57', 'clock_out_time': '2024-10-22T12:43:07'}
+2024-10-22 14:12:35,556 : INFO : 200 : user - {'id': 243, 'keka_id': '37359', 'clock_in_time': '2024-10-22T08:53:36', 'clock_out_time': '2024-10-22T13:44:41'}
+2024-10-22 14:12:35,887 : INFO : 200 : user - {'id': 244, 'keka_id': '23152', 'clock_in_time': '2024-10-22T08:59:48', 'clock_out_time': '2024-10-22T14:02:02'}
+2024-10-22 14:12:36,581 : ERROR : User activities not found : user - 38033
+2024-10-22 14:12:37,275 : ERROR : User activities not found : user - 37849
+2024-10-22 14:12:37,986 : INFO : 200 : user - {'id': 245, 'keka_id': '37724', 'clock_in_time': '2024-10-22T10:08:47', 'clock_out_time': '2024-10-22T14:00:45'}
+2024-10-22 14:12:38,704 : INFO : 200 : user - {'id': 246, 'keka_id': '38461', 'clock_in_time': '2024-10-22T11:03:19', 'clock_out_time': '2024-10-22T14:10:55'}
+2024-10-22 14:12:39,046 : INFO : 200 : user - {'id': 247, 'keka_id': '37740', 'clock_in_time': '2024-10-22T09:45:15', 'clock_out_time': '2024-10-22T14:10:07'}
+2024-10-22 14:12:39,750 : INFO : 200 : user - {'id': 248, 'keka_id': '37812', 'clock_in_time': '2024-10-22T10:02:22', 'clock_out_time': '2024-10-22T14:10:26'}
+2024-10-22 14:12:40,448 : INFO : 200 : user - {'id': 249, 'keka_id': '23131', 'clock_in_time': '2024-10-22T10:39:58', 'clock_out_time': '2024-10-22T14:06:01'}
+2024-10-22 14:12:41,152 : INFO : 200 : user - {'id': 250, 'keka_id': '27174', 'clock_in_time': '2024-10-22T10:15:12', 'clock_out_time': '2024-10-22T13:53:52'}
+2024-10-22 14:12:41,863 : ERROR : User activities not found : user - 23142
+2024-10-22 14:12:42,545 : ERROR : User activities not found : user - 37988
+2024-10-22 14:12:43,319 : INFO : 200 : user - {'id': 251, 'keka_id': '37883', 'clock_in_time': '2024-10-22T10:51:30', 'clock_out_time': '2024-10-22T14:06:50'}
+2024-10-22 14:12:44,028 : INFO : 200 : user - {'id': 252, 'keka_id': '37619', 'clock_in_time': '2024-10-22T09:25:29', 'clock_out_time': '2024-10-22T13:38:31'}
+2024-10-22 14:12:44,786 : INFO : 200 : user - {'id': 253, 'keka_id': '37836', 'clock_in_time': '2024-10-22T09:29:12', 'clock_out_time': '2024-10-22T13:39:20'}
+2024-10-22 14:12:45,484 : ERROR : User activities not found : user - 38506
+2024-10-22 14:12:46,206 : INFO : 200 : user - {'id': 254, 'keka_id': '38160', 'clock_in_time': '2024-10-22T08:53:03', 'clock_out_time': '2024-10-22T13:31:21'}
+2024-10-22 14:12:46,520 : ERROR : User activities not found : user - 38526
+2024-10-22 14:12:47,237 : INFO : 200 : user - {'id': 255, 'keka_id': '23124', 'clock_in_time': '2024-10-22T10:35:51', 'clock_out_time': '2024-10-22T14:05:12'}
+2024-10-22 14:12:48,015 : INFO : 200 : user - {'id': 256, 'keka_id': '37875', 'clock_in_time': '2024-10-22T09:42:21', 'clock_out_time': '2024-10-22T14:03:56'}
+2024-10-22 14:12:48,729 : INFO : 200 : user - {'id': 257, 'keka_id': '37878', 'clock_in_time': '2024-10-22T09:49:19', 'clock_out_time': '2024-10-22T13:42:56'}
+2024-10-22 14:12:49,474 : INFO : 200 : user - {'id': 258, 'keka_id': '37896', 'clock_in_time': '2024-10-22T09:30:18', 'clock_out_time': '2024-10-22T13:12:29'}
+2024-10-22 14:12:49,817 : INFO : 200 : user - {'id': 259, 'keka_id': '38235', 'clock_in_time': '2024-10-22T07:30:53', 'clock_out_time': '2024-10-22T13:40:34'}
+2024-10-22 14:12:50,524 : INFO : 200 : user - {'id': 260, 'keka_id': '37721', 'clock_in_time': '2024-10-22T10:32:30', 'clock_out_time': '2024-10-22T14:07:37'}
+2024-10-22 14:12:51,250 : INFO : 200 : user - {'id': 261, 'keka_id': '37887', 'clock_in_time': '2024-10-22T08:45:26', 'clock_out_time': '2024-10-22T14:07:06'}
+2024-10-22 14:12:51,977 : INFO : 200 : user - {'id': 262, 'keka_id': '37922', 'clock_in_time': '2024-10-22T10:07:20', 'clock_out_time': '2024-10-22T14:04:48'}
+2024-10-22 14:12:52,774 : INFO : 200 : user - {'id': 263, 'keka_id': '37924', 'clock_in_time': '2024-10-22T08:48:37', 'clock_out_time': '2024-10-22T14:04:43'}
+2024-10-22 14:12:53,521 : ERROR : User activities not found : user - 38216
+2024-10-22 14:12:54,244 : INFO : 200 : user - {'id': 264, 'keka_id': '37531', 'clock_in_time': '2024-10-22T09:12:46', 'clock_out_time': '2024-10-22T13:27:17'}
+2024-10-22 14:12:54,940 : ERROR : User activities not found : user - 38061
+2024-10-22 14:12:55,660 : INFO : 200 : user - {'id': 265, 'keka_id': '38236', 'clock_in_time': '2024-10-22T10:39:17', 'clock_out_time': '2024-10-22T14:08:29'}
+2024-10-22 14:12:56,366 : ERROR : User activities not found : user - 37545
+2024-10-22 14:12:56,699 : INFO : 200 : user - {'id': 266, 'keka_id': '38421', 'clock_in_time': '2024-10-22T09:33:04', 'clock_out_time': '2024-10-22T14:07:32'}
+2024-10-22 14:12:57,410 : ERROR : User activities not found : user - 37931
+2024-10-22 14:12:58,170 : INFO : 200 : user - {'id': 267, 'keka_id': '38430', 'clock_in_time': '2024-10-22T10:38:47', 'clock_out_time': '2024-10-22T14:11:00'}
+2024-10-22 14:12:58,892 : INFO : 200 : user - {'id': 268, 'keka_id': '11010', 'clock_in_time': '2024-10-22T08:32:55', 'clock_out_time': '2024-10-22T14:12:27'}
+2024-10-22 14:12:59,251 : INFO : 200 : user - {'id': 269, 'keka_id': '38023', 'clock_in_time': '2024-10-22T09:09:09', 'clock_out_time': '2024-10-22T10:53:29'}
+2024-10-22 14:12:59,563 : INFO : 200 : user - {'id': 270, 'keka_id': '38323', 'clock_in_time': '2024-10-22T11:57:38', 'clock_out_time': '2024-10-22T12:51:41'}
+2024-10-22 14:13:00,293 : INFO : 200 : user - {'id': 271, 'keka_id': '37985', 'clock_in_time': '2024-10-22T10:39:09', 'clock_out_time': '2024-10-22T14:10:03'}
+2024-10-22 14:13:01,002 : ERROR : User activities not found : user - 38042
+2024-10-22 14:13:01,722 : INFO : 200 : user - {'id': 272, 'keka_id': '37660', 'clock_in_time': '2024-10-22T11:02:46', 'clock_out_time': '2024-10-22T14:10:35'}
+2024-10-22 14:13:02,513 : INFO : 200 : user - {'id': 273, 'keka_id': '38342', 'clock_in_time': '2024-10-22T11:20:33', 'clock_out_time': '2024-10-22T14:04:21'}
+2024-10-22 14:13:02,848 : INFO : 200 : user - {'id': 274, 'keka_id': '37975', 'clock_in_time': '2024-10-22T09:14:34', 'clock_out_time': '2024-10-22T13:45:50'}
+2024-10-22 14:13:03,655 : INFO : 200 : user - {'id': 275, 'keka_id': '37253', 'clock_in_time': '2024-10-22T09:01:33', 'clock_out_time': '2024-10-22T14:05:41'}
+2024-10-22 14:13:04,383 : INFO : 200 : user - {'id': 276, 'keka_id': '14056', 'clock_in_time': '2024-10-22T10:23:00', 'clock_out_time': '2024-10-22T12:35:44'}
+2024-10-22 14:13:05,128 : INFO : 200 : user - {'id': 277, 'keka_id': '37867', 'clock_in_time': '2024-10-22T07:24:20', 'clock_out_time': '2024-10-22T14:11:59'}
+2024-10-22 14:13:05,832 : INFO : 200 : user - {'id': 278, 'keka_id': '37397', 'clock_in_time': '2024-10-22T12:00:45', 'clock_out_time': '2024-10-22T14:11:38'}
+2024-10-22 14:13:06,620 : INFO : 200 : user - {'id': 279, 'keka_id': '37614', 'clock_in_time': '2024-10-22T09:52:36', 'clock_out_time': '2024-10-22T14:11:29'}
+2024-10-22 14:13:07,353 : INFO : 200 : user - {'id': 280, 'keka_id': '37327', 'clock_in_time': '2024-10-22T08:30:54', 'clock_out_time': '2024-10-22T14:11:07'}
+2024-10-22 14:13:08,065 : INFO : 200 : user - {'id': 281, 'keka_id': '37256', 'clock_in_time': '2024-10-22T10:19:31', 'clock_out_time': '2024-10-22T14:11:08'}
+2024-10-22 14:13:08,767 : INFO : 200 : user - {'id': 282, 'keka_id': '38509', 'clock_in_time': '2024-10-22T07:19:47', 'clock_out_time': '2024-10-22T11:54:21'}
+2024-10-22 14:13:09,556 : INFO : 200 : user - {'id': 283, 'keka_id': '14061', 'clock_in_time': '2024-10-22T07:34:48', 'clock_out_time': '2024-10-22T14:08:38'}
+2024-10-22 14:13:10,304 : INFO : 200 : user - {'id': 284, 'keka_id': '37993', 'clock_in_time': '2024-10-22T09:14:53', 'clock_out_time': '2024-10-22T14:04:36'}
+2024-10-22 14:13:11,062 : INFO : 200 : user - {'id': 285, 'keka_id': '38113', 'clock_in_time': '2024-10-22T09:56:09', 'clock_out_time': '2024-10-22T14:08:43'}
+2024-10-22 14:13:11,802 : INFO : 200 : user - {'id': 286, 'keka_id': '38420', 'clock_in_time': '2024-10-22T10:05:56', 'clock_out_time': '2024-10-22T14:03:04'}
+2024-10-22 14:13:12,193 : INFO : 200 : user - {'id': 287, 'keka_id': '38209', 'clock_in_time': '2024-10-22T10:28:32', 'clock_out_time': '2024-10-22T14:08:58'}
+2024-10-22 14:13:12,980 : INFO : 200 : user - {'id': 288, 'keka_id': '38234', 'clock_in_time': '2024-10-22T10:56:32', 'clock_out_time': '2024-10-22T13:22:42'}
+2024-10-22 14:13:13,680 : ERROR : User activities not found : user - 38264
+2024-10-22 14:13:14,031 : INFO : 200 : user - {'id': 289, 'keka_id': '38285', 'clock_in_time': '2024-10-22T07:01:11', 'clock_out_time': '2024-10-22T14:01:17'}
+2024-10-22 14:13:14,749 : INFO : 200 : user - {'id': 290, 'keka_id': '38362', 'clock_in_time': '2024-10-22T10:26:48', 'clock_out_time': '2024-10-22T14:04:27'}
+2024-10-22 14:13:15,503 : INFO : 200 : user - {'id': 291, 'keka_id': '38431', 'clock_in_time': '2024-10-22T10:30:14', 'clock_out_time': '2024-10-22T14:06:41'}
+2024-10-22 14:13:16,227 : ERROR : User activities not found : user - 38565
+2024-10-22 14:13:16,956 : ERROR : User activities not found : user - 38597
+2024-10-22 14:13:17,746 : INFO : 200 : user - {'id': 292, 'keka_id': '38639', 'clock_in_time': '2024-10-22T06:56:28', 'clock_out_time': '2024-10-22T14:07:19'}
+2024-10-22 14:13:18,461 : INFO : 200 : user - {'id': 293, 'keka_id': '38687', 'clock_in_time': '2024-10-22T11:45:27', 'clock_out_time': '2024-10-22T14:04:35'}
+2024-10-22 14:13:19,251 : ERROR : User activities not found : user - 38689
+2024-10-22 14:13:19,573 : ERROR : User activities not found : user - 38764
+2024-10-22 14:13:19,921 : ERROR : User activities not found : user - 38763
+2024-10-22 14:13:20,671 : INFO : 200 : user - {'id': 294, 'keka_id': '37443', 'clock_in_time': '2024-10-22T09:00:27', 'clock_out_time': '2024-10-22T13:46:22'}
+2024-10-22 14:13:21,414 : INFO : 200 : user - {'id': 295, 'keka_id': '38479', 'clock_in_time': '2024-10-22T12:15:30', 'clock_out_time': '2024-10-22T14:00:06'}
+2024-10-22 14:15:43,225 : INFO : 200 : user - {'id': 296, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T14:00:15'}
+2024-10-22 14:15:43,930 : INFO : 200 : user - {'id': 297, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T14:15:02'}
+2024-10-22 14:15:44,627 : ERROR : User activities not found : user - 38090
+2024-10-22 14:15:45,345 : INFO : 200 : user - {'id': 298, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T14:04:32'}
+2024-10-22 14:15:46,086 : INFO : 200 : user - {'id': 299, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T14:15:18'}
+2024-10-22 14:15:46,821 : INFO : 200 : user - {'id': 300, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T13:29:23'}
+2024-10-22 14:15:47,561 : INFO : 200 : user - {'id': 301, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T13:31:42'}
+2024-10-22 14:15:48,364 : INFO : 200 : user - {'id': 302, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T14:05:07'}
+2024-10-22 14:15:49,060 : ERROR : User activities not found : user - 37663
+2024-10-22 14:15:49,782 : INFO : 200 : user - {'id': 303, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T14:10:34'}
+2024-10-22 14:15:50,489 : ERROR : User activities not found : user - 37349
+2024-10-22 14:15:51,206 : INFO : 200 : user - {'id': 304, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T14:11:38'}
+2024-10-22 14:15:51,926 : INFO : 200 : user - {'id': 305, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T14:09:39'}
+2024-10-22 14:15:52,250 : INFO : 200 : user - {'id': 306, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T14:06:02'}
+2024-10-22 14:15:52,964 : INFO : 200 : user - {'id': 307, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T14:07:48'}
+2024-10-22 14:15:53,286 : INFO : 200 : user - {'id': 308, 'keka_id': '37814', 'clock_in_time': '2024-10-22T11:01:46', 'clock_out_time': '2024-10-22T14:14:02'}
+2024-10-22 14:15:54,099 : INFO : 200 : user - {'id': 309, 'keka_id': '37246', 'clock_in_time': '2024-10-22T11:19:45', 'clock_out_time': '2024-10-22T14:00:32'}
+2024-10-22 14:15:54,829 : INFO : 200 : user - {'id': 310, 'keka_id': '38131', 'clock_in_time': '2024-10-22T10:16:07', 'clock_out_time': '2024-10-22T14:09:34'}
+2024-10-22 14:15:55,558 : INFO : 200 : user - {'id': 311, 'keka_id': '37428', 'clock_in_time': '2024-10-22T08:04:38', 'clock_out_time': '2024-10-22T14:12:39'}
+2024-10-22 14:15:56,293 : INFO : 200 : user - {'id': 312, 'keka_id': '37630', 'clock_in_time': '2024-10-22T09:05:11', 'clock_out_time': '2024-10-22T14:08:23'}
+2024-10-22 14:15:57,049 : INFO : 200 : user - {'id': 313, 'keka_id': '37384', 'clock_in_time': '2024-10-22T10:21:36', 'clock_out_time': '2024-10-22T13:27:16'}
+2024-10-22 14:15:57,830 : INFO : 200 : user - {'id': 314, 'keka_id': '37458', 'clock_in_time': '2024-10-22T10:47:07', 'clock_out_time': '2024-10-22T12:48:03'}
+2024-10-22 14:15:58,564 : INFO : 200 : user - {'id': 315, 'keka_id': '37578', 'clock_in_time': '2024-10-22T09:06:34', 'clock_out_time': '2024-10-22T14:05:33'}
+2024-10-22 14:15:59,278 : ERROR : User activities not found : user - 38082
+2024-10-22 14:15:59,626 : INFO : 200 : user - {'id': 316, 'keka_id': '23148', 'clock_in_time': '2024-10-22T09:04:46', 'clock_out_time': '2024-10-22T14:15:25'}
+2024-10-22 14:16:00,359 : INFO : 200 : user - {'id': 317, 'keka_id': '37201', 'clock_in_time': '2024-10-22T08:50:05', 'clock_out_time': '2024-10-22T13:41:07'}
+2024-10-22 14:16:01,145 : INFO : 200 : user - {'id': 318, 'keka_id': '38395', 'clock_in_time': '2024-10-22T10:02:48', 'clock_out_time': '2024-10-22T13:21:18'}
+2024-10-22 14:16:01,852 : INFO : 200 : user - {'id': 319, 'keka_id': '38476', 'clock_in_time': '2024-10-22T10:50:07', 'clock_out_time': '2024-10-22T13:47:08'}
+2024-10-22 14:16:02,671 : INFO : 200 : user - {'id': 320, 'keka_id': '38524', 'clock_in_time': '2024-10-22T10:08:12', 'clock_out_time': '2024-10-22T14:12:01'}
+2024-10-22 14:16:03,434 : ERROR : User activities not found : user - 37382
+2024-10-22 14:16:04,126 : ERROR : User activities not found : user - 37884
+2024-10-22 14:16:04,433 : ERROR : User activities not found : user - 37727
+2024-10-22 14:16:05,151 : INFO : 200 : user - {'id': 321, 'keka_id': '38049', 'clock_in_time': '2024-10-22T10:32:10', 'clock_out_time': '2024-10-22T14:04:07'}
+2024-10-22 14:16:05,925 : INFO : 200 : user - {'id': 322, 'keka_id': '38339', 'clock_in_time': '2024-10-22T09:14:43', 'clock_out_time': '2024-10-22T14:06:27'}
+2024-10-22 14:16:06,259 : INFO : 200 : user - {'id': 323, 'keka_id': '37902', 'clock_in_time': '2024-10-22T10:20:21', 'clock_out_time': '2024-10-22T14:07:38'}
+2024-10-22 14:16:06,641 : INFO : 200 : user - {'id': 324, 'keka_id': '38428', 'clock_in_time': '2024-10-22T09:41:59', 'clock_out_time': '2024-10-22T14:07:45'}
+2024-10-22 14:16:07,350 : INFO : 200 : user - {'id': 325, 'keka_id': '37912', 'clock_in_time': '2024-10-22T11:42:04', 'clock_out_time': '2024-10-22T13:48:09'}
+2024-10-22 14:16:08,103 : INFO : 200 : user - {'id': 326, 'keka_id': '37699', 'clock_in_time': '2024-10-22T10:11:03', 'clock_out_time': '2024-10-22T14:13:31'}
+2024-10-22 14:16:08,827 : INFO : 200 : user - {'id': 327, 'keka_id': '38574', 'clock_in_time': '2024-10-22T07:25:49', 'clock_out_time': '2024-10-22T13:27:05'}
+2024-10-22 14:16:09,551 : INFO : 200 : user - {'id': 328, 'keka_id': '38491', 'clock_in_time': '2024-10-22T10:41:52', 'clock_out_time': '2024-10-22T14:12:46'}
+2024-10-22 14:16:10,334 : INFO : 200 : user - {'id': 329, 'keka_id': '37769', 'clock_in_time': '2024-10-22T07:32:03', 'clock_out_time': '2024-10-22T13:39:48'}
+2024-10-22 14:16:11,067 : INFO : 200 : user - {'id': 330, 'keka_id': '23161', 'clock_in_time': '2024-10-22T10:39:08', 'clock_out_time': '2024-10-22T14:14:49'}
+2024-10-22 14:16:11,389 : INFO : 200 : user - {'id': 331, 'keka_id': '37855', 'clock_in_time': '2024-10-22T09:45:32', 'clock_out_time': '2024-10-22T13:57:37'}
+2024-10-22 14:16:12,106 : INFO : 200 : user - {'id': 332, 'keka_id': '37499', 'clock_in_time': '2024-10-22T10:12:09', 'clock_out_time': '2024-10-22T13:30:28'}
+2024-10-22 14:16:12,813 : INFO : 200 : user - {'id': 333, 'keka_id': '37680', 'clock_in_time': '2024-10-22T09:52:57', 'clock_out_time': '2024-10-22T12:43:07'}
+2024-10-22 14:16:13,522 : INFO : 200 : user - {'id': 334, 'keka_id': '37359', 'clock_in_time': '2024-10-22T08:53:36', 'clock_out_time': '2024-10-22T13:44:41'}
+2024-10-22 14:16:13,869 : INFO : 200 : user - {'id': 335, 'keka_id': '23152', 'clock_in_time': '2024-10-22T08:59:48', 'clock_out_time': '2024-10-22T14:02:02'}
+2024-10-22 14:16:14,567 : ERROR : User activities not found : user - 38033
+2024-10-22 14:16:15,270 : ERROR : User activities not found : user - 37849
+2024-10-22 14:16:15,595 : INFO : 200 : user - {'id': 336, 'keka_id': '37724', 'clock_in_time': '2024-10-22T10:08:47', 'clock_out_time': '2024-10-22T14:00:45'}
+2024-10-22 14:16:16,309 : INFO : 200 : user - {'id': 337, 'keka_id': '38461', 'clock_in_time': '2024-10-22T11:03:19', 'clock_out_time': '2024-10-22T14:12:40'}
+2024-10-22 14:16:17,039 : INFO : 200 : user - {'id': 338, 'keka_id': '37740', 'clock_in_time': '2024-10-22T09:45:15', 'clock_out_time': '2024-10-22T14:10:07'}
+2024-10-22 14:16:17,828 : INFO : 200 : user - {'id': 339, 'keka_id': '37812', 'clock_in_time': '2024-10-22T10:02:22', 'clock_out_time': '2024-10-22T14:10:26'}
+2024-10-22 14:16:18,559 : INFO : 200 : user - {'id': 340, 'keka_id': '23131', 'clock_in_time': '2024-10-22T10:39:58', 'clock_out_time': '2024-10-22T14:16:02'}
+2024-10-22 14:16:19,274 : INFO : 200 : user - {'id': 341, 'keka_id': '27174', 'clock_in_time': '2024-10-22T10:15:12', 'clock_out_time': '2024-10-22T13:53:52'}
+2024-10-22 14:16:19,574 : ERROR : User activities not found : user - 23142
+2024-10-22 14:16:20,282 : ERROR : User activities not found : user - 37988
+2024-10-22 14:16:20,622 : INFO : 200 : user - {'id': 342, 'keka_id': '37883', 'clock_in_time': '2024-10-22T10:51:30', 'clock_out_time': '2024-10-22T14:06:50'}
+2024-10-22 14:16:21,454 : INFO : 200 : user - {'id': 343, 'keka_id': '37619', 'clock_in_time': '2024-10-22T09:25:29', 'clock_out_time': '2024-10-22T13:38:31'}
+2024-10-22 14:16:22,235 : INFO : 200 : user - {'id': 344, 'keka_id': '37836', 'clock_in_time': '2024-10-22T09:29:12', 'clock_out_time': '2024-10-22T13:39:20'}
+2024-10-22 14:16:22,927 : ERROR : User activities not found : user - 38506
+2024-10-22 14:16:23,648 : INFO : 200 : user - {'id': 345, 'keka_id': '38160', 'clock_in_time': '2024-10-22T08:53:03', 'clock_out_time': '2024-10-22T13:31:21'}
+2024-10-22 14:16:24,349 : ERROR : User activities not found : user - 38526
+2024-10-22 14:16:25,048 : INFO : 200 : user - {'id': 346, 'keka_id': '23124', 'clock_in_time': '2024-10-22T10:35:51', 'clock_out_time': '2024-10-22T14:14:31'}
+2024-10-22 14:16:25,783 : INFO : 200 : user - {'id': 347, 'keka_id': '37875', 'clock_in_time': '2024-10-22T09:42:21', 'clock_out_time': '2024-10-22T14:13:26'}
+2024-10-22 14:16:26,190 : INFO : 200 : user - {'id': 348, 'keka_id': '37878', 'clock_in_time': '2024-10-22T09:49:19', 'clock_out_time': '2024-10-22T13:42:56'}
+2024-10-22 14:16:26,921 : INFO : 200 : user - {'id': 349, 'keka_id': '37896', 'clock_in_time': '2024-10-22T09:30:18', 'clock_out_time': '2024-10-22T13:12:29'}
+2024-10-22 14:16:27,645 : INFO : 200 : user - {'id': 350, 'keka_id': '38235', 'clock_in_time': '2024-10-22T07:30:53', 'clock_out_time': '2024-10-22T13:40:34'}
+2024-10-22 14:16:27,973 : INFO : 200 : user - {'id': 351, 'keka_id': '37721', 'clock_in_time': '2024-10-22T10:32:30', 'clock_out_time': '2024-10-22T14:07:37'}
+2024-10-22 14:16:28,302 : INFO : 200 : user - {'id': 352, 'keka_id': '37887', 'clock_in_time': '2024-10-22T08:45:26', 'clock_out_time': '2024-10-22T14:07:06'}
+2024-10-22 14:16:29,030 : INFO : 200 : user - {'id': 353, 'keka_id': '37922', 'clock_in_time': '2024-10-22T10:07:20', 'clock_out_time': '2024-10-22T14:04:48'}
+2024-10-22 14:16:29,742 : INFO : 200 : user - {'id': 354, 'keka_id': '37924', 'clock_in_time': '2024-10-22T08:48:37', 'clock_out_time': '2024-10-22T14:14:44'}
+2024-10-22 14:16:30,432 : ERROR : User activities not found : user - 38216
+2024-10-22 14:16:30,835 : INFO : 200 : user - {'id': 355, 'keka_id': '37531', 'clock_in_time': '2024-10-22T09:12:46', 'clock_out_time': '2024-10-22T13:27:17'}
+2024-10-22 14:16:31,531 : ERROR : User activities not found : user - 38061
+2024-10-22 14:16:32,241 : INFO : 200 : user - {'id': 356, 'keka_id': '38236', 'clock_in_time': '2024-10-22T10:39:17', 'clock_out_time': '2024-10-22T14:08:29'}
+2024-10-22 14:16:32,544 : ERROR : User activities not found : user - 37545
+2024-10-22 14:16:33,253 : INFO : 200 : user - {'id': 357, 'keka_id': '38421', 'clock_in_time': '2024-10-22T09:33:04', 'clock_out_time': '2024-10-22T14:07:32'}
+2024-10-22 14:16:33,622 : ERROR : User activities not found : user - 37931
+2024-10-22 14:16:33,947 : INFO : 200 : user - {'id': 358, 'keka_id': '38430', 'clock_in_time': '2024-10-22T10:38:47', 'clock_out_time': '2024-10-22T14:11:00'}
+2024-10-22 14:16:34,657 : INFO : 200 : user - {'id': 359, 'keka_id': '11010', 'clock_in_time': '2024-10-22T08:32:55', 'clock_out_time': '2024-10-22T14:12:27'}
+2024-10-22 14:16:35,372 : INFO : 200 : user - {'id': 360, 'keka_id': '38023', 'clock_in_time': '2024-10-22T09:09:09', 'clock_out_time': '2024-10-22T10:53:29'}
+2024-10-22 14:16:36,082 : INFO : 200 : user - {'id': 361, 'keka_id': '38323', 'clock_in_time': '2024-10-22T11:57:38', 'clock_out_time': '2024-10-22T12:51:41'}
+2024-10-22 14:16:36,810 : INFO : 200 : user - {'id': 362, 'keka_id': '37985', 'clock_in_time': '2024-10-22T10:39:09', 'clock_out_time': '2024-10-22T14:10:03'}
+2024-10-22 14:16:37,501 : ERROR : User activities not found : user - 38042
+2024-10-22 14:16:38,202 : INFO : 200 : user - {'id': 363, 'keka_id': '37660', 'clock_in_time': '2024-10-22T11:02:46', 'clock_out_time': '2024-10-22T14:10:35'}
+2024-10-22 14:16:38,920 : INFO : 200 : user - {'id': 364, 'keka_id': '38342', 'clock_in_time': '2024-10-22T11:20:33', 'clock_out_time': '2024-10-22T14:14:02'}
+2024-10-22 14:16:39,630 : INFO : 200 : user - {'id': 365, 'keka_id': '37975', 'clock_in_time': '2024-10-22T09:14:34', 'clock_out_time': '2024-10-22T13:45:50'}
+2024-10-22 14:16:40,358 : INFO : 200 : user - {'id': 366, 'keka_id': '37253', 'clock_in_time': '2024-10-22T09:01:33', 'clock_out_time': '2024-10-22T14:15:31'}
+2024-10-22 14:16:41,145 : INFO : 200 : user - {'id': 367, 'keka_id': '14056', 'clock_in_time': '2024-10-22T10:23:00', 'clock_out_time': '2024-10-22T14:15:03'}
+2024-10-22 14:16:41,896 : INFO : 200 : user - {'id': 368, 'keka_id': '37867', 'clock_in_time': '2024-10-22T07:24:20', 'clock_out_time': '2024-10-22T14:11:59'}
+2024-10-22 14:16:42,627 : INFO : 200 : user - {'id': 369, 'keka_id': '37397', 'clock_in_time': '2024-10-22T12:00:45', 'clock_out_time': '2024-10-22T14:11:38'}
+2024-10-22 14:16:43,336 : INFO : 200 : user - {'id': 370, 'keka_id': '37614', 'clock_in_time': '2024-10-22T09:52:36', 'clock_out_time': '2024-10-22T14:11:29'}
+2024-10-22 14:16:44,054 : INFO : 200 : user - {'id': 371, 'keka_id': '37327', 'clock_in_time': '2024-10-22T08:30:54', 'clock_out_time': '2024-10-22T14:11:07'}
+2024-10-22 14:16:44,775 : INFO : 200 : user - {'id': 372, 'keka_id': '37256', 'clock_in_time': '2024-10-22T10:19:31', 'clock_out_time': '2024-10-22T14:11:08'}
+2024-10-22 14:16:45,558 : INFO : 200 : user - {'id': 373, 'keka_id': '38509', 'clock_in_time': '2024-10-22T07:19:47', 'clock_out_time': '2024-10-22T11:54:21'}
+2024-10-22 14:16:46,284 : INFO : 200 : user - {'id': 374, 'keka_id': '14061', 'clock_in_time': '2024-10-22T07:34:48', 'clock_out_time': '2024-10-22T14:08:38'}
+2024-10-22 14:16:47,005 : INFO : 200 : user - {'id': 375, 'keka_id': '37993', 'clock_in_time': '2024-10-22T09:14:53', 'clock_out_time': '2024-10-22T14:04:36'}
+2024-10-22 14:16:47,711 : INFO : 200 : user - {'id': 376, 'keka_id': '38113', 'clock_in_time': '2024-10-22T09:56:09', 'clock_out_time': '2024-10-22T14:08:43'}
+2024-10-22 14:16:48,459 : INFO : 200 : user - {'id': 377, 'keka_id': '38420', 'clock_in_time': '2024-10-22T10:05:56', 'clock_out_time': '2024-10-22T14:13:12'}
+2024-10-22 14:16:48,795 : INFO : 200 : user - {'id': 378, 'keka_id': '38209', 'clock_in_time': '2024-10-22T10:28:32', 'clock_out_time': '2024-10-22T14:08:58'}
+2024-10-22 14:16:49,515 : INFO : 200 : user - {'id': 379, 'keka_id': '38234', 'clock_in_time': '2024-10-22T10:56:32', 'clock_out_time': '2024-10-22T13:22:42'}
+2024-10-22 14:16:50,225 : ERROR : User activities not found : user - 38264
+2024-10-22 14:16:50,572 : INFO : 200 : user - {'id': 380, 'keka_id': '38285', 'clock_in_time': '2024-10-22T07:01:11', 'clock_out_time': '2024-10-22T14:14:16'}
+2024-10-22 14:16:50,904 : INFO : 200 : user - {'id': 381, 'keka_id': '38362', 'clock_in_time': '2024-10-22T10:26:48', 'clock_out_time': '2024-10-22T14:14:35'}
+2024-10-22 14:16:51,609 : INFO : 200 : user - {'id': 382, 'keka_id': '38431', 'clock_in_time': '2024-10-22T10:30:14', 'clock_out_time': '2024-10-22T14:06:41'}
+2024-10-22 14:16:51,912 : ERROR : User activities not found : user - 38565
+2024-10-22 14:16:52,218 : ERROR : User activities not found : user - 38597
+2024-10-22 14:16:53,027 : INFO : 200 : user - {'id': 383, 'keka_id': '38639', 'clock_in_time': '2024-10-22T06:56:28', 'clock_out_time': '2024-10-22T14:07:19'}
+2024-10-22 14:16:53,356 : INFO : 200 : user - {'id': 384, 'keka_id': '38687', 'clock_in_time': '2024-10-22T11:45:27', 'clock_out_time': '2024-10-22T14:14:19'}
+2024-10-22 14:16:54,057 : ERROR : User activities not found : user - 38689
+2024-10-22 14:16:54,750 : ERROR : User activities not found : user - 38764
+2024-10-22 14:16:55,455 : ERROR : User activities not found : user - 38763
+2024-10-22 14:16:56,180 : INFO : 200 : user - {'id': 385, 'keka_id': '37443', 'clock_in_time': '2024-10-22T09:00:27', 'clock_out_time': '2024-10-22T14:15:36'}
+2024-10-22 14:16:56,501 : INFO : 200 : user - {'id': 386, 'keka_id': '38479', 'clock_in_time': '2024-10-22T12:15:30', 'clock_out_time': '2024-10-22T14:00:06'}
+2024-10-22 14:18:33,427 : INFO : 200 : user - {'id': 387, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T14:00:15'}
+2024-10-22 14:18:34,202 : INFO : 200 : user - {'id': 388, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T14:15:02'}
+2024-10-22 14:18:34,892 : ERROR : User activities not found : user - 38090
+2024-10-22 14:18:35,683 : INFO : 200 : user - {'id': 389, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T14:04:32'}
+2024-10-22 14:18:36,462 : INFO : 200 : user - {'id': 390, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T14:15:18'}
+2024-10-22 14:18:37,295 : INFO : 200 : user - {'id': 391, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T13:29:23'}
+2024-10-22 14:18:38,039 : INFO : 200 : user - {'id': 392, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T13:31:42'}
+2024-10-22 14:18:38,791 : INFO : 200 : user - {'id': 393, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T14:05:07'}
+2024-10-22 14:18:39,507 : ERROR : User activities not found : user - 37663
+2024-10-22 14:18:40,275 : INFO : 200 : user - {'id': 394, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T14:10:34'}
+2024-10-22 14:18:41,267 : ERROR : User activities not found : user - 37349
+2024-10-22 14:18:41,995 : INFO : 200 : user - {'id': 395, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T14:11:38'}
+2024-10-22 14:18:42,787 : INFO : 200 : user - {'id': 396, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T14:09:39'}
+2024-10-22 14:18:43,521 : INFO : 200 : user - {'id': 397, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T14:16:01'}
+2024-10-22 14:18:44,229 : INFO : 200 : user - {'id': 398, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T14:17:49'}
+2024-10-22 14:18:45,017 : INFO : 200 : user - {'id': 399, 'keka_id': '37814', 'clock_in_time': '2024-10-22T11:01:46', 'clock_out_time': '2024-10-22T14:14:02'}
+2024-10-22 14:18:45,723 : INFO : 200 : user - {'id': 400, 'keka_id': '37246', 'clock_in_time': '2024-10-22T11:19:45', 'clock_out_time': '2024-10-22T14:00:32'}
+2024-10-22 14:18:46,527 : INFO : 200 : user - {'id': 401, 'keka_id': '38131', 'clock_in_time': '2024-10-22T10:16:07', 'clock_out_time': '2024-10-22T14:09:34'}
+2024-10-22 14:18:47,267 : INFO : 200 : user - {'id': 402, 'keka_id': '37428', 'clock_in_time': '2024-10-22T08:04:38', 'clock_out_time': '2024-10-22T14:12:39'}
+2024-10-22 14:18:48,068 : INFO : 200 : user - {'id': 403, 'keka_id': '37630', 'clock_in_time': '2024-10-22T09:05:11', 'clock_out_time': '2024-10-22T14:18:20'}
+2024-10-22 14:18:48,774 : INFO : 200 : user - {'id': 404, 'keka_id': '37384', 'clock_in_time': '2024-10-22T10:21:36', 'clock_out_time': '2024-10-22T13:27:16'}
+2024-10-22 14:18:49,521 : INFO : 200 : user - {'id': 405, 'keka_id': '37458', 'clock_in_time': '2024-10-22T10:47:07', 'clock_out_time': '2024-10-22T12:48:03'}
+2024-10-22 14:18:50,256 : INFO : 200 : user - {'id': 406, 'keka_id': '37578', 'clock_in_time': '2024-10-22T09:06:34', 'clock_out_time': '2024-10-22T14:05:33'}
+2024-10-22 14:18:50,973 : ERROR : User activities not found : user - 38082
+2024-10-22 14:18:51,692 : INFO : 200 : user - {'id': 407, 'keka_id': '23148', 'clock_in_time': '2024-10-22T09:04:46', 'clock_out_time': '2024-10-22T14:15:25'}
+2024-10-22 14:18:52,112 : INFO : 200 : user - {'id': 408, 'keka_id': '37201', 'clock_in_time': '2024-10-22T08:50:05', 'clock_out_time': '2024-10-22T13:41:07'}
+2024-10-22 14:18:52,868 : INFO : 200 : user - {'id': 409, 'keka_id': '38395', 'clock_in_time': '2024-10-22T10:02:48', 'clock_out_time': '2024-10-22T13:21:18'}
+2024-10-22 14:18:53,573 : INFO : 200 : user - {'id': 410, 'keka_id': '38476', 'clock_in_time': '2024-10-22T10:50:07', 'clock_out_time': '2024-10-22T13:47:08'}
+2024-10-22 14:18:54,326 : INFO : 200 : user - {'id': 411, 'keka_id': '38524', 'clock_in_time': '2024-10-22T10:08:12', 'clock_out_time': '2024-10-22T14:12:01'}
+2024-10-22 14:18:55,070 : ERROR : User activities not found : user - 37382
+2024-10-22 14:18:55,751 : ERROR : User activities not found : user - 37884
+2024-10-22 14:18:56,455 : ERROR : User activities not found : user - 37727
+2024-10-22 14:18:56,828 : INFO : 200 : user - {'id': 412, 'keka_id': '38049', 'clock_in_time': '2024-10-22T10:32:10', 'clock_out_time': '2024-10-22T14:04:07'}
+2024-10-22 14:18:57,170 : INFO : 200 : user - {'id': 413, 'keka_id': '38339', 'clock_in_time': '2024-10-22T09:14:43', 'clock_out_time': '2024-10-22T14:16:28'}
+2024-10-22 14:18:57,498 : INFO : 200 : user - {'id': 414, 'keka_id': '37902', 'clock_in_time': '2024-10-22T10:20:21', 'clock_out_time': '2024-10-22T14:07:38'}
+2024-10-22 14:18:58,197 : INFO : 200 : user - {'id': 415, 'keka_id': '38428', 'clock_in_time': '2024-10-22T09:41:59', 'clock_out_time': '2024-10-22T14:07:45'}
+2024-10-22 14:18:58,558 : INFO : 200 : user - {'id': 416, 'keka_id': '37912', 'clock_in_time': '2024-10-22T11:42:04', 'clock_out_time': '2024-10-22T13:48:09'}
+2024-10-22 14:18:59,301 : INFO : 200 : user - {'id': 417, 'keka_id': '37699', 'clock_in_time': '2024-10-22T10:11:03', 'clock_out_time': '2024-10-22T14:13:31'}
+2024-10-22 14:19:00,021 : INFO : 200 : user - {'id': 418, 'keka_id': '38574', 'clock_in_time': '2024-10-22T07:25:49', 'clock_out_time': '2024-10-22T14:17:14'}
+2024-10-22 14:19:00,801 : INFO : 200 : user - {'id': 419, 'keka_id': '38491', 'clock_in_time': '2024-10-22T10:41:52', 'clock_out_time': '2024-10-22T14:12:46'}
+2024-10-22 14:19:01,126 : INFO : 200 : user - {'id': 420, 'keka_id': '37769', 'clock_in_time': '2024-10-22T07:32:03', 'clock_out_time': '2024-10-22T13:39:48'}
+2024-10-22 14:19:01,838 : INFO : 200 : user - {'id': 421, 'keka_id': '23161', 'clock_in_time': '2024-10-22T10:39:08', 'clock_out_time': '2024-10-22T14:14:49'}
+2024-10-22 14:19:02,567 : INFO : 200 : user - {'id': 422, 'keka_id': '37855', 'clock_in_time': '2024-10-22T09:45:32', 'clock_out_time': '2024-10-22T13:57:37'}
+2024-10-22 14:19:03,304 : INFO : 200 : user - {'id': 423, 'keka_id': '37499', 'clock_in_time': '2024-10-22T10:12:09', 'clock_out_time': '2024-10-22T13:30:28'}
+2024-10-22 14:19:04,129 : INFO : 200 : user - {'id': 424, 'keka_id': '37680', 'clock_in_time': '2024-10-22T09:52:57', 'clock_out_time': '2024-10-22T12:43:07'}
+2024-10-22 14:19:04,843 : INFO : 200 : user - {'id': 425, 'keka_id': '37359', 'clock_in_time': '2024-10-22T08:53:36', 'clock_out_time': '2024-10-22T13:44:41'}
+2024-10-22 14:19:05,561 : INFO : 200 : user - {'id': 426, 'keka_id': '23152', 'clock_in_time': '2024-10-22T08:59:48', 'clock_out_time': '2024-10-22T14:02:02'}
+2024-10-22 14:19:06,246 : ERROR : User activities not found : user - 38033
+2024-10-22 14:19:06,930 : ERROR : User activities not found : user - 37849
+2024-10-22 14:19:07,268 : INFO : 200 : user - {'id': 427, 'keka_id': '37724', 'clock_in_time': '2024-10-22T10:08:47', 'clock_out_time': '2024-10-22T14:00:45'}
+2024-10-22 14:19:08,097 : INFO : 200 : user - {'id': 428, 'keka_id': '38461', 'clock_in_time': '2024-10-22T11:03:19', 'clock_out_time': '2024-10-22T14:12:40'}
+2024-10-22 14:19:08,837 : INFO : 200 : user - {'id': 429, 'keka_id': '37740', 'clock_in_time': '2024-10-22T09:45:15', 'clock_out_time': '2024-10-22T14:10:07'}
+2024-10-22 14:19:09,554 : INFO : 200 : user - {'id': 430, 'keka_id': '37812', 'clock_in_time': '2024-10-22T10:02:22', 'clock_out_time': '2024-10-22T14:10:26'}
+2024-10-22 14:19:10,399 : INFO : 200 : user - {'id': 431, 'keka_id': '23131', 'clock_in_time': '2024-10-22T10:39:58', 'clock_out_time': '2024-10-22T14:16:02'}
+2024-10-22 14:19:11,097 : INFO : 200 : user - {'id': 432, 'keka_id': '27174', 'clock_in_time': '2024-10-22T10:15:12', 'clock_out_time': '2024-10-22T13:53:52'}
+2024-10-22 14:19:11,791 : ERROR : User activities not found : user - 23142
+2024-10-22 14:19:12,529 : ERROR : User activities not found : user - 37988
+2024-10-22 14:19:13,252 : INFO : 200 : user - {'id': 433, 'keka_id': '37883', 'clock_in_time': '2024-10-22T10:51:30', 'clock_out_time': '2024-10-22T14:06:50'}
+2024-10-22 14:19:14,052 : INFO : 200 : user - {'id': 434, 'keka_id': '37619', 'clock_in_time': '2024-10-22T09:25:29', 'clock_out_time': '2024-10-22T13:38:31'}
+2024-10-22 14:19:14,787 : INFO : 200 : user - {'id': 435, 'keka_id': '37836', 'clock_in_time': '2024-10-22T09:29:12', 'clock_out_time': '2024-10-22T13:39:20'}
+2024-10-22 14:19:15,502 : ERROR : User activities not found : user - 38506
+2024-10-22 14:19:16,216 : INFO : 200 : user - {'id': 436, 'keka_id': '38160', 'clock_in_time': '2024-10-22T08:53:03', 'clock_out_time': '2024-10-22T13:31:21'}
+2024-10-22 14:19:16,607 : ERROR : User activities not found : user - 38526
+2024-10-22 14:19:17,339 : INFO : 200 : user - {'id': 437, 'keka_id': '23124', 'clock_in_time': '2024-10-22T10:35:51', 'clock_out_time': '2024-10-22T14:14:31'}
+2024-10-22 14:19:17,658 : INFO : 200 : user - {'id': 438, 'keka_id': '37875', 'clock_in_time': '2024-10-22T09:42:21', 'clock_out_time': '2024-10-22T14:13:26'}
+2024-10-22 14:19:18,385 : INFO : 200 : user - {'id': 439, 'keka_id': '37878', 'clock_in_time': '2024-10-22T09:49:19', 'clock_out_time': '2024-10-22T14:16:45'}
+2024-10-22 14:19:19,204 : INFO : 200 : user - {'id': 440, 'keka_id': '37896', 'clock_in_time': '2024-10-22T09:30:18', 'clock_out_time': '2024-10-22T13:12:29'}
+2024-10-22 14:19:19,958 : INFO : 200 : user - {'id': 441, 'keka_id': '38235', 'clock_in_time': '2024-10-22T07:30:53', 'clock_out_time': '2024-10-22T13:40:34'}
+2024-10-22 14:19:20,766 : INFO : 200 : user - {'id': 442, 'keka_id': '37721', 'clock_in_time': '2024-10-22T10:32:30', 'clock_out_time': '2024-10-22T14:17:36'}
+2024-10-22 14:19:21,564 : INFO : 200 : user - {'id': 443, 'keka_id': '37887', 'clock_in_time': '2024-10-22T08:45:26', 'clock_out_time': '2024-10-22T14:16:58'}
+2024-10-22 14:19:22,301 : INFO : 200 : user - {'id': 444, 'keka_id': '37922', 'clock_in_time': '2024-10-22T10:07:20', 'clock_out_time': '2024-10-22T14:04:48'}
+2024-10-22 14:19:23,028 : INFO : 200 : user - {'id': 445, 'keka_id': '37924', 'clock_in_time': '2024-10-22T08:48:37', 'clock_out_time': '2024-10-22T14:14:44'}
+2024-10-22 14:19:23,795 : ERROR : User activities not found : user - 38216
+2024-10-22 14:19:24,123 : INFO : 200 : user - {'id': 446, 'keka_id': '37531', 'clock_in_time': '2024-10-22T09:12:46', 'clock_out_time': '2024-10-22T13:27:17'}
+2024-10-22 14:19:24,925 : ERROR : User activities not found : user - 38061
+2024-10-22 14:19:25,652 : INFO : 200 : user - {'id': 447, 'keka_id': '38236', 'clock_in_time': '2024-10-22T10:39:17', 'clock_out_time': '2024-10-22T14:08:29'}
+2024-10-22 14:19:26,380 : ERROR : User activities not found : user - 37545
+2024-10-22 14:19:26,727 : INFO : 200 : user - {'id': 448, 'keka_id': '38421', 'clock_in_time': '2024-10-22T09:33:04', 'clock_out_time': '2024-10-22T14:17:51'}
+2024-10-22 14:19:27,452 : ERROR : User activities not found : user - 37931
+2024-10-22 14:19:27,860 : INFO : 200 : user - {'id': 449, 'keka_id': '38430', 'clock_in_time': '2024-10-22T10:38:47', 'clock_out_time': '2024-10-22T14:11:00'}
+2024-10-22 14:19:28,614 : INFO : 200 : user - {'id': 450, 'keka_id': '11010', 'clock_in_time': '2024-10-22T08:32:55', 'clock_out_time': '2024-10-22T14:12:27'}
+2024-10-22 14:19:29,319 : INFO : 200 : user - {'id': 451, 'keka_id': '38023', 'clock_in_time': '2024-10-22T09:09:09', 'clock_out_time': '2024-10-22T10:53:29'}
+2024-10-22 14:19:30,026 : INFO : 200 : user - {'id': 452, 'keka_id': '38323', 'clock_in_time': '2024-10-22T11:57:38', 'clock_out_time': '2024-10-22T12:51:41'}
+2024-10-22 14:19:30,734 : INFO : 200 : user - {'id': 453, 'keka_id': '37985', 'clock_in_time': '2024-10-22T10:39:09', 'clock_out_time': '2024-10-22T14:10:03'}
+2024-10-22 14:19:31,414 : ERROR : User activities not found : user - 38042
+2024-10-22 14:19:32,145 : INFO : 200 : user - {'id': 454, 'keka_id': '37660', 'clock_in_time': '2024-10-22T11:02:46', 'clock_out_time': '2024-10-22T14:10:35'}
+2024-10-22 14:19:32,938 : INFO : 200 : user - {'id': 455, 'keka_id': '38342', 'clock_in_time': '2024-10-22T11:20:33', 'clock_out_time': '2024-10-22T14:14:02'}
+2024-10-22 14:19:33,278 : INFO : 200 : user - {'id': 456, 'keka_id': '37975', 'clock_in_time': '2024-10-22T09:14:34', 'clock_out_time': '2024-10-22T13:45:50'}
+2024-10-22 14:19:34,011 : INFO : 200 : user - {'id': 457, 'keka_id': '37253', 'clock_in_time': '2024-10-22T09:01:33', 'clock_out_time': '2024-10-22T14:15:31'}
+2024-10-22 14:19:34,773 : INFO : 200 : user - {'id': 458, 'keka_id': '14056', 'clock_in_time': '2024-10-22T10:23:00', 'clock_out_time': '2024-10-22T14:15:03'}
+2024-10-22 14:19:35,520 : INFO : 200 : user - {'id': 459, 'keka_id': '37867', 'clock_in_time': '2024-10-22T07:24:20', 'clock_out_time': '2024-10-22T14:11:59'}
+2024-10-22 14:19:36,240 : INFO : 200 : user - {'id': 460, 'keka_id': '37397', 'clock_in_time': '2024-10-22T12:00:45', 'clock_out_time': '2024-10-22T14:11:38'}
+2024-10-22 14:19:36,956 : INFO : 200 : user - {'id': 461, 'keka_id': '37614', 'clock_in_time': '2024-10-22T09:52:36', 'clock_out_time': '2024-10-22T14:11:29'}
+2024-10-22 14:19:37,728 : INFO : 200 : user - {'id': 462, 'keka_id': '37327', 'clock_in_time': '2024-10-22T08:30:54', 'clock_out_time': '2024-10-22T14:11:07'}
+2024-10-22 14:19:38,457 : INFO : 200 : user - {'id': 463, 'keka_id': '37256', 'clock_in_time': '2024-10-22T10:19:31', 'clock_out_time': '2024-10-22T14:11:08'}
+2024-10-22 14:19:39,243 : INFO : 200 : user - {'id': 464, 'keka_id': '38509', 'clock_in_time': '2024-10-22T07:19:47', 'clock_out_time': '2024-10-22T11:54:21'}
+2024-10-22 14:19:39,971 : INFO : 200 : user - {'id': 465, 'keka_id': '14061', 'clock_in_time': '2024-10-22T07:34:48', 'clock_out_time': '2024-10-22T14:18:38'}
+2024-10-22 14:19:40,305 : INFO : 200 : user - {'id': 466, 'keka_id': '37993', 'clock_in_time': '2024-10-22T09:14:53', 'clock_out_time': '2024-10-22T14:04:36'}
+2024-10-22 14:19:41,064 : INFO : 200 : user - {'id': 467, 'keka_id': '38113', 'clock_in_time': '2024-10-22T09:56:09', 'clock_out_time': '2024-10-22T14:18:43'}
+2024-10-22 14:19:41,780 : INFO : 200 : user - {'id': 468, 'keka_id': '38420', 'clock_in_time': '2024-10-22T10:05:56', 'clock_out_time': '2024-10-22T14:13:12'}
+2024-10-22 14:19:42,489 : INFO : 200 : user - {'id': 469, 'keka_id': '38209', 'clock_in_time': '2024-10-22T10:28:32', 'clock_out_time': '2024-10-22T14:08:58'}
+2024-10-22 14:19:43,226 : INFO : 200 : user - {'id': 470, 'keka_id': '38234', 'clock_in_time': '2024-10-22T10:56:32', 'clock_out_time': '2024-10-22T13:22:42'}
+2024-10-22 14:19:44,046 : ERROR : User activities not found : user - 38264
+2024-10-22 14:19:44,815 : INFO : 200 : user - {'id': 471, 'keka_id': '38285', 'clock_in_time': '2024-10-22T07:01:11', 'clock_out_time': '2024-10-22T14:14:16'}
+2024-10-22 14:19:45,540 : INFO : 200 : user - {'id': 472, 'keka_id': '38362', 'clock_in_time': '2024-10-22T10:26:48', 'clock_out_time': '2024-10-22T14:14:35'}
+2024-10-22 14:19:46,261 : INFO : 200 : user - {'id': 473, 'keka_id': '38431', 'clock_in_time': '2024-10-22T10:30:14', 'clock_out_time': '2024-10-22T14:17:02'}
+2024-10-22 14:19:46,607 : ERROR : User activities not found : user - 38565
+2024-10-22 14:19:46,910 : ERROR : User activities not found : user - 38597
+2024-10-22 14:19:47,643 : INFO : 200 : user - {'id': 474, 'keka_id': '38639', 'clock_in_time': '2024-10-22T06:56:28', 'clock_out_time': '2024-10-22T14:17:40'}
+2024-10-22 14:19:47,988 : INFO : 200 : user - {'id': 475, 'keka_id': '38687', 'clock_in_time': '2024-10-22T11:45:27', 'clock_out_time': '2024-10-22T14:14:19'}
+2024-10-22 14:19:48,695 : ERROR : User activities not found : user - 38689
+2024-10-22 14:19:49,400 : ERROR : User activities not found : user - 38764
+2024-10-22 14:19:50,096 : ERROR : User activities not found : user - 38763
+2024-10-22 14:19:50,833 : INFO : 200 : user - {'id': 476, 'keka_id': '37443', 'clock_in_time': '2024-10-22T09:00:27', 'clock_out_time': '2024-10-22T14:15:36'}
+2024-10-22 14:19:51,188 : INFO : 200 : user - {'id': 477, 'keka_id': '38479', 'clock_in_time': '2024-10-22T12:15:30', 'clock_out_time': '2024-10-22T14:17:47'}
+2024-10-22 14:20:27,549 : INFO : 200 : user - {'id': 478, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T14:00:15'}
+2024-10-22 14:20:28,279 : INFO : 200 : user - {'id': 479, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T14:15:02'}
+2024-10-22 14:20:28,994 : ERROR : User activities not found : user - 38090
+2024-10-22 14:20:29,728 : INFO : 200 : user - {'id': 480, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T14:04:32'}
+2024-10-22 14:20:30,445 : INFO : 200 : user - {'id': 481, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T14:15:18'}
+2024-10-22 14:20:31,165 : INFO : 200 : user - {'id': 482, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T13:29:23'}
+2024-10-22 14:20:31,949 : INFO : 200 : user - {'id': 483, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T13:31:42'}
+2024-10-22 14:20:32,666 : INFO : 200 : user - {'id': 484, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T14:05:07'}
+2024-10-22 14:20:33,352 : ERROR : User activities not found : user - 37663
+2024-10-22 14:20:34,066 : INFO : 200 : user - {'id': 485, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T14:10:34'}
+2024-10-22 14:20:34,789 : ERROR : User activities not found : user - 37349
+2024-10-22 14:20:35,512 : INFO : 200 : user - {'id': 486, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T14:11:38'}
+2024-10-22 14:20:36,244 : INFO : 200 : user - {'id': 487, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T14:09:39'}
+2024-10-22 14:20:36,996 : INFO : 200 : user - {'id': 488, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T14:16:01'}
+2024-10-22 14:20:37,723 : INFO : 200 : user - {'id': 489, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T14:17:49'}
+2024-10-22 14:20:38,035 : INFO : 200 : user - {'id': 490, 'keka_id': '37814', 'clock_in_time': '2024-10-22T11:01:46', 'clock_out_time': '2024-10-22T14:14:02'}
+2024-10-22 14:20:38,766 : INFO : 200 : user - {'id': 491, 'keka_id': '37246', 'clock_in_time': '2024-10-22T11:19:45', 'clock_out_time': '2024-10-22T14:00:32'}
+2024-10-22 14:20:39,475 : INFO : 200 : user - {'id': 492, 'keka_id': '38131', 'clock_in_time': '2024-10-22T10:16:07', 'clock_out_time': '2024-10-22T14:19:33'}
+2024-10-22 14:20:40,199 : INFO : 200 : user - {'id': 493, 'keka_id': '37428', 'clock_in_time': '2024-10-22T08:04:38', 'clock_out_time': '2024-10-22T14:12:39'}
+2024-10-22 14:20:40,958 : INFO : 200 : user - {'id': 494, 'keka_id': '37630', 'clock_in_time': '2024-10-22T09:05:11', 'clock_out_time': '2024-10-22T14:18:20'}
+2024-10-22 14:20:41,667 : INFO : 200 : user - {'id': 495, 'keka_id': '37384', 'clock_in_time': '2024-10-22T10:21:36', 'clock_out_time': '2024-10-22T14:20:17'}
+2024-10-22 14:20:42,409 : INFO : 200 : user - {'id': 496, 'keka_id': '37458', 'clock_in_time': '2024-10-22T10:47:07', 'clock_out_time': '2024-10-22T12:48:03'}
+2024-10-22 14:20:43,140 : INFO : 200 : user - {'id': 497, 'keka_id': '37578', 'clock_in_time': '2024-10-22T09:06:34', 'clock_out_time': '2024-10-22T14:18:56'}
+2024-10-22 14:20:43,820 : ERROR : User activities not found : user - 38082
+2024-10-22 14:20:44,554 : INFO : 200 : user - {'id': 498, 'keka_id': '23148', 'clock_in_time': '2024-10-22T09:04:46', 'clock_out_time': '2024-10-22T14:15:25'}
+2024-10-22 14:20:45,290 : INFO : 200 : user - {'id': 499, 'keka_id': '37201', 'clock_in_time': '2024-10-22T08:50:05', 'clock_out_time': '2024-10-22T13:41:07'}
+2024-10-22 14:20:46,046 : INFO : 200 : user - {'id': 500, 'keka_id': '38395', 'clock_in_time': '2024-10-22T10:02:48', 'clock_out_time': '2024-10-22T13:21:18'}
+2024-10-22 14:20:46,769 : INFO : 200 : user - {'id': 501, 'keka_id': '38476', 'clock_in_time': '2024-10-22T10:50:07', 'clock_out_time': '2024-10-22T13:47:08'}
+2024-10-22 14:20:47,583 : INFO : 200 : user - {'id': 502, 'keka_id': '38524', 'clock_in_time': '2024-10-22T10:08:12', 'clock_out_time': '2024-10-22T14:12:01'}
+2024-10-22 14:20:48,350 : ERROR : User activities not found : user - 37382
+2024-10-22 14:20:49,052 : ERROR : User activities not found : user - 37884
+2024-10-22 14:20:49,834 : ERROR : User activities not found : user - 37727
+2024-10-22 14:20:50,595 : INFO : 200 : user - {'id': 503, 'keka_id': '38049', 'clock_in_time': '2024-10-22T10:32:10', 'clock_out_time': '2024-10-22T14:20:19'}
+2024-10-22 14:20:50,990 : INFO : 200 : user - {'id': 504, 'keka_id': '38339', 'clock_in_time': '2024-10-22T09:14:43', 'clock_out_time': '2024-10-22T14:16:28'}
+2024-10-22 14:20:51,733 : INFO : 200 : user - {'id': 505, 'keka_id': '37902', 'clock_in_time': '2024-10-22T10:20:21', 'clock_out_time': '2024-10-22T14:18:58'}
+2024-10-22 14:20:52,539 : INFO : 200 : user - {'id': 506, 'keka_id': '38428', 'clock_in_time': '2024-10-22T09:41:59', 'clock_out_time': '2024-10-22T14:07:45'}
+2024-10-22 14:20:53,270 : INFO : 200 : user - {'id': 507, 'keka_id': '37912', 'clock_in_time': '2024-10-22T11:42:04', 'clock_out_time': '2024-10-22T13:48:09'}
+2024-10-22 14:20:53,996 : INFO : 200 : user - {'id': 508, 'keka_id': '37699', 'clock_in_time': '2024-10-22T10:11:03', 'clock_out_time': '2024-10-22T14:13:31'}
+2024-10-22 14:20:54,814 : INFO : 200 : user - {'id': 509, 'keka_id': '38574', 'clock_in_time': '2024-10-22T07:25:49', 'clock_out_time': '2024-10-22T14:17:14'}
+2024-10-22 14:20:55,538 : INFO : 200 : user - {'id': 510, 'keka_id': '38491', 'clock_in_time': '2024-10-22T10:41:52', 'clock_out_time': '2024-10-22T14:20:25'}
+2024-10-22 14:20:56,266 : INFO : 200 : user - {'id': 511, 'keka_id': '37769', 'clock_in_time': '2024-10-22T07:32:03', 'clock_out_time': '2024-10-22T13:39:48'}
+2024-10-22 14:20:57,018 : INFO : 200 : user - {'id': 512, 'keka_id': '23161', 'clock_in_time': '2024-10-22T10:39:08', 'clock_out_time': '2024-10-22T14:14:49'}
+2024-10-22 14:20:57,432 : INFO : 200 : user - {'id': 513, 'keka_id': '37855', 'clock_in_time': '2024-10-22T09:45:32', 'clock_out_time': '2024-10-22T13:57:37'}
+2024-10-22 14:20:58,179 : INFO : 200 : user - {'id': 514, 'keka_id': '37499', 'clock_in_time': '2024-10-22T10:12:09', 'clock_out_time': '2024-10-22T13:30:28'}
+2024-10-22 14:20:58,954 : INFO : 200 : user - {'id': 515, 'keka_id': '37680', 'clock_in_time': '2024-10-22T09:52:57', 'clock_out_time': '2024-10-22T12:43:07'}
+2024-10-22 14:20:59,673 : INFO : 200 : user - {'id': 516, 'keka_id': '37359', 'clock_in_time': '2024-10-22T08:53:36', 'clock_out_time': '2024-10-22T13:44:41'}
+2024-10-22 14:21:00,442 : INFO : 200 : user - {'id': 517, 'keka_id': '23152', 'clock_in_time': '2024-10-22T08:59:48', 'clock_out_time': '2024-10-22T14:02:02'}
+2024-10-22 14:21:01,143 : ERROR : User activities not found : user - 38033
+2024-10-22 14:21:01,896 : ERROR : User activities not found : user - 37849
+2024-10-22 14:21:02,628 : INFO : 200 : user - {'id': 518, 'keka_id': '37724', 'clock_in_time': '2024-10-22T10:08:47', 'clock_out_time': '2024-10-22T14:00:45'}
+2024-10-22 14:21:03,424 : INFO : 200 : user - {'id': 519, 'keka_id': '38461', 'clock_in_time': '2024-10-22T11:03:19', 'clock_out_time': '2024-10-22T14:12:40'}
+2024-10-22 14:21:03,750 : INFO : 200 : user - {'id': 520, 'keka_id': '37740', 'clock_in_time': '2024-10-22T09:45:15', 'clock_out_time': '2024-10-22T14:20:07'}
+2024-10-22 14:21:04,473 : INFO : 200 : user - {'id': 521, 'keka_id': '37812', 'clock_in_time': '2024-10-22T10:02:22', 'clock_out_time': '2024-10-22T14:20:26'}
+2024-10-22 14:21:05,198 : INFO : 200 : user - {'id': 522, 'keka_id': '23131', 'clock_in_time': '2024-10-22T10:39:58', 'clock_out_time': '2024-10-22T14:16:02'}
+2024-10-22 14:21:05,917 : INFO : 200 : user - {'id': 523, 'keka_id': '27174', 'clock_in_time': '2024-10-22T10:15:12', 'clock_out_time': '2024-10-22T13:53:52'}
+2024-10-22 14:21:06,234 : ERROR : User activities not found : user - 23142
+2024-10-22 14:21:06,932 : ERROR : User activities not found : user - 37988
+2024-10-22 14:21:07,283 : INFO : 200 : user - {'id': 524, 'keka_id': '37883', 'clock_in_time': '2024-10-22T10:51:30', 'clock_out_time': '2024-10-22T14:06:50'}
+2024-10-22 14:21:08,066 : INFO : 200 : user - {'id': 525, 'keka_id': '37619', 'clock_in_time': '2024-10-22T09:25:29', 'clock_out_time': '2024-10-22T13:38:31'}
+2024-10-22 14:21:08,388 : INFO : 200 : user - {'id': 526, 'keka_id': '37836', 'clock_in_time': '2024-10-22T09:29:12', 'clock_out_time': '2024-10-22T13:39:20'}
+2024-10-22 14:21:09,130 : ERROR : User activities not found : user - 38506
+2024-10-22 14:21:09,861 : INFO : 200 : user - {'id': 527, 'keka_id': '38160', 'clock_in_time': '2024-10-22T08:53:03', 'clock_out_time': '2024-10-22T13:31:21'}
+2024-10-22 14:21:10,597 : ERROR : User activities not found : user - 38526
+2024-10-22 14:21:11,344 : INFO : 200 : user - {'id': 528, 'keka_id': '23124', 'clock_in_time': '2024-10-22T10:35:51', 'clock_out_time': '2024-10-22T14:14:31'}
+2024-10-22 14:21:12,129 : INFO : 200 : user - {'id': 529, 'keka_id': '37875', 'clock_in_time': '2024-10-22T09:42:21', 'clock_out_time': '2024-10-22T14:13:26'}
+2024-10-22 14:21:12,846 : INFO : 200 : user - {'id': 530, 'keka_id': '37878', 'clock_in_time': '2024-10-22T09:49:19', 'clock_out_time': '2024-10-22T14:16:45'}
+2024-10-22 14:21:13,568 : INFO : 200 : user - {'id': 531, 'keka_id': '37896', 'clock_in_time': '2024-10-22T09:30:18', 'clock_out_time': '2024-10-22T13:12:29'}
+2024-10-22 14:21:14,306 : INFO : 200 : user - {'id': 532, 'keka_id': '38235', 'clock_in_time': '2024-10-22T07:30:53', 'clock_out_time': '2024-10-22T13:40:34'}
+2024-10-22 14:21:15,043 : INFO : 200 : user - {'id': 533, 'keka_id': '37721', 'clock_in_time': '2024-10-22T10:32:30', 'clock_out_time': '2024-10-22T14:17:36'}
+2024-10-22 14:21:15,770 : INFO : 200 : user - {'id': 534, 'keka_id': '37887', 'clock_in_time': '2024-10-22T08:45:26', 'clock_out_time': '2024-10-22T14:16:58'}
+2024-10-22 14:21:16,493 : INFO : 200 : user - {'id': 535, 'keka_id': '37922', 'clock_in_time': '2024-10-22T10:07:20', 'clock_out_time': '2024-10-22T14:04:48'}
+2024-10-22 14:21:17,255 : INFO : 200 : user - {'id': 536, 'keka_id': '37924', 'clock_in_time': '2024-10-22T08:48:37', 'clock_out_time': '2024-10-22T14:14:44'}
+2024-10-22 14:21:17,966 : ERROR : User activities not found : user - 38216
+2024-10-22 14:21:18,694 : INFO : 200 : user - {'id': 537, 'keka_id': '37531', 'clock_in_time': '2024-10-22T09:12:46', 'clock_out_time': '2024-10-22T13:27:17'}
+2024-10-22 14:21:19,394 : ERROR : User activities not found : user - 38061
+2024-10-22 14:21:20,126 : INFO : 200 : user - {'id': 538, 'keka_id': '38236', 'clock_in_time': '2024-10-22T10:39:17', 'clock_out_time': '2024-10-22T14:08:29'}
+2024-10-22 14:21:20,866 : ERROR : User activities not found : user - 37545
+2024-10-22 14:21:21,625 : INFO : 200 : user - {'id': 539, 'keka_id': '38421', 'clock_in_time': '2024-10-22T09:33:04', 'clock_out_time': '2024-10-22T14:17:51'}
+2024-10-22 14:21:22,350 : ERROR : User activities not found : user - 37931
+2024-10-22 14:21:23,062 : INFO : 200 : user - {'id': 540, 'keka_id': '38430', 'clock_in_time': '2024-10-22T10:38:47', 'clock_out_time': '2024-10-22T14:20:13'}
+2024-10-22 14:21:23,429 : INFO : 200 : user - {'id': 541, 'keka_id': '11010', 'clock_in_time': '2024-10-22T08:32:55', 'clock_out_time': '2024-10-22T14:12:27'}
+2024-10-22 14:21:24,124 : INFO : 200 : user - {'id': 542, 'keka_id': '38023', 'clock_in_time': '2024-10-22T09:09:09', 'clock_out_time': '2024-10-22T10:53:29'}
+2024-10-22 14:21:24,486 : INFO : 200 : user - {'id': 543, 'keka_id': '38323', 'clock_in_time': '2024-10-22T11:57:38', 'clock_out_time': '2024-10-22T12:51:41'}
+2024-10-22 14:21:25,214 : INFO : 200 : user - {'id': 544, 'keka_id': '37985', 'clock_in_time': '2024-10-22T10:39:09', 'clock_out_time': '2024-10-22T14:20:02'}
+2024-10-22 14:21:25,929 : ERROR : User activities not found : user - 38042
+2024-10-22 14:21:26,646 : INFO : 200 : user - {'id': 545, 'keka_id': '37660', 'clock_in_time': '2024-10-22T11:02:46', 'clock_out_time': '2024-10-22T14:20:33'}
+2024-10-22 14:21:27,394 : INFO : 200 : user - {'id': 546, 'keka_id': '38342', 'clock_in_time': '2024-10-22T11:20:33', 'clock_out_time': '2024-10-22T14:14:02'}
+2024-10-22 14:21:28,130 : INFO : 200 : user - {'id': 547, 'keka_id': '37975', 'clock_in_time': '2024-10-22T09:14:34', 'clock_out_time': '2024-10-22T13:45:50'}
+2024-10-22 14:21:28,843 : INFO : 200 : user - {'id': 548, 'keka_id': '37253', 'clock_in_time': '2024-10-22T09:01:33', 'clock_out_time': '2024-10-22T14:15:31'}
+2024-10-22 14:21:29,549 : INFO : 200 : user - {'id': 549, 'keka_id': '14056', 'clock_in_time': '2024-10-22T10:23:00', 'clock_out_time': '2024-10-22T14:15:03'}
+2024-10-22 14:21:30,327 : INFO : 200 : user - {'id': 550, 'keka_id': '37867', 'clock_in_time': '2024-10-22T07:24:20', 'clock_out_time': '2024-10-22T14:11:59'}
+2024-10-22 14:21:31,044 : INFO : 200 : user - {'id': 551, 'keka_id': '37397', 'clock_in_time': '2024-10-22T12:00:45', 'clock_out_time': '2024-10-22T14:20:32'}
+2024-10-22 14:21:31,374 : INFO : 200 : user - {'id': 552, 'keka_id': '37614', 'clock_in_time': '2024-10-22T09:52:36', 'clock_out_time': '2024-10-22T14:20:43'}
+2024-10-22 14:21:32,165 : INFO : 200 : user - {'id': 553, 'keka_id': '37327', 'clock_in_time': '2024-10-22T08:30:54', 'clock_out_time': '2024-10-22T14:20:50'}
+2024-10-22 14:21:32,908 : INFO : 200 : user - {'id': 554, 'keka_id': '37256', 'clock_in_time': '2024-10-22T10:19:31', 'clock_out_time': '2024-10-22T14:21:08'}
+2024-10-22 14:21:33,623 : INFO : 200 : user - {'id': 555, 'keka_id': '38509', 'clock_in_time': '2024-10-22T07:19:47', 'clock_out_time': '2024-10-22T11:54:21'}
+2024-10-22 14:21:34,407 : INFO : 200 : user - {'id': 556, 'keka_id': '14061', 'clock_in_time': '2024-10-22T07:34:48', 'clock_out_time': '2024-10-22T14:18:38'}
+2024-10-22 14:21:35,116 : INFO : 200 : user - {'id': 557, 'keka_id': '37993', 'clock_in_time': '2024-10-22T09:14:53', 'clock_out_time': '2024-10-22T14:04:36'}
+2024-10-22 14:21:35,859 : INFO : 200 : user - {'id': 558, 'keka_id': '38113', 'clock_in_time': '2024-10-22T09:56:09', 'clock_out_time': '2024-10-22T14:18:43'}
+2024-10-22 14:21:36,259 : INFO : 200 : user - {'id': 559, 'keka_id': '38420', 'clock_in_time': '2024-10-22T10:05:56', 'clock_out_time': '2024-10-22T14:13:12'}
+2024-10-22 14:21:37,989 : INFO : 200 : user - {'id': 560, 'keka_id': '38209', 'clock_in_time': '2024-10-22T10:28:32', 'clock_out_time': '2024-10-22T14:08:58'}
+2024-10-22 14:21:38,751 : INFO : 200 : user - {'id': 561, 'keka_id': '38234', 'clock_in_time': '2024-10-22T10:56:32', 'clock_out_time': '2024-10-22T13:22:42'}
+2024-10-22 14:21:39,086 : ERROR : User activities not found : user - 38264
+2024-10-22 14:21:39,456 : INFO : 200 : user - {'id': 562, 'keka_id': '38285', 'clock_in_time': '2024-10-22T07:01:11', 'clock_out_time': '2024-10-22T14:14:16'}
+2024-10-22 14:21:40,164 : INFO : 200 : user - {'id': 563, 'keka_id': '38362', 'clock_in_time': '2024-10-22T10:26:48', 'clock_out_time': '2024-10-22T14:14:35'}
+2024-10-22 14:21:40,868 : INFO : 200 : user - {'id': 564, 'keka_id': '38431', 'clock_in_time': '2024-10-22T10:30:14', 'clock_out_time': '2024-10-22T14:17:02'}
+2024-10-22 14:21:41,571 : ERROR : User activities not found : user - 38565
+2024-10-22 14:21:42,292 : ERROR : User activities not found : user - 38597
+2024-10-22 14:21:43,041 : INFO : 200 : user - {'id': 565, 'keka_id': '38639', 'clock_in_time': '2024-10-22T06:56:28', 'clock_out_time': '2024-10-22T14:17:40'}
+2024-10-22 14:21:43,752 : INFO : 200 : user - {'id': 566, 'keka_id': '38687', 'clock_in_time': '2024-10-22T11:45:27', 'clock_out_time': '2024-10-22T14:14:19'}
+2024-10-22 14:21:44,483 : ERROR : User activities not found : user - 38689
+2024-10-22 14:21:45,167 : ERROR : User activities not found : user - 38764
+2024-10-22 14:21:45,869 : ERROR : User activities not found : user - 38763
+2024-10-22 14:21:46,597 : INFO : 200 : user - {'id': 567, 'keka_id': '37443', 'clock_in_time': '2024-10-22T09:00:27', 'clock_out_time': '2024-10-22T14:15:36'}
+2024-10-22 14:21:47,299 : INFO : 200 : user - {'id': 568, 'keka_id': '38479', 'clock_in_time': '2024-10-22T12:15:30', 'clock_out_time': '2024-10-22T14:17:47'}
+2024-10-22 14:23:31,705 : INFO : 200 : user - {'id': 569, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T14:21:10'}
+2024-10-22 14:23:32,574 : INFO : 200 : user - {'id': 570, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T14:15:02'}
+2024-10-22 14:23:33,281 : ERROR : User activities not found : user - 38090
+2024-10-22 14:23:34,006 : INFO : 200 : user - {'id': 571, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T14:04:32'}
+2024-10-22 14:23:34,820 : INFO : 200 : user - {'id': 572, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T14:22:31'}
+2024-10-22 14:23:35,588 : INFO : 200 : user - {'id': 573, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T13:29:23'}
+2024-10-22 14:23:36,371 : INFO : 200 : user - {'id': 574, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T13:31:42'}
+2024-10-22 14:23:37,196 : INFO : 200 : user - {'id': 575, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T14:05:07'}
+2024-10-22 14:23:37,936 : ERROR : User activities not found : user - 37663
+2024-10-22 14:23:38,281 : INFO : 200 : user - {'id': 576, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T14:10:34'}
+2024-10-22 14:23:39,052 : ERROR : User activities not found : user - 37349
+2024-10-22 14:23:39,760 : INFO : 200 : user - {'id': 577, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T14:20:53'}
+2024-10-22 14:23:40,484 : INFO : 200 : user - {'id': 578, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T14:21:48'}
+2024-10-22 14:23:41,258 : INFO : 200 : user - {'id': 579, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T14:16:01'}
+2024-10-22 14:23:41,985 : INFO : 200 : user - {'id': 580, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T14:17:49'}
+2024-10-22 14:23:42,722 : INFO : 200 : user - {'id': 581, 'keka_id': '37814', 'clock_in_time': '2024-10-22T11:01:46', 'clock_out_time': '2024-10-22T14:14:02'}
+2024-10-22 14:23:43,447 : INFO : 200 : user - {'id': 582, 'keka_id': '37246', 'clock_in_time': '2024-10-22T11:19:45', 'clock_out_time': '2024-10-22T14:00:32'}
+2024-10-22 14:23:44,174 : INFO : 200 : user - {'id': 583, 'keka_id': '38131', 'clock_in_time': '2024-10-22T10:16:07', 'clock_out_time': '2024-10-22T14:19:33'}
+2024-10-22 14:23:44,914 : INFO : 200 : user - {'id': 584, 'keka_id': '37428', 'clock_in_time': '2024-10-22T08:04:38', 'clock_out_time': '2024-10-22T14:12:39'}
+2024-10-22 14:23:45,650 : INFO : 200 : user - {'id': 585, 'keka_id': '37630', 'clock_in_time': '2024-10-22T09:05:11', 'clock_out_time': '2024-10-22T14:18:20'}
+2024-10-22 14:23:46,353 : INFO : 200 : user - {'id': 586, 'keka_id': '37384', 'clock_in_time': '2024-10-22T10:21:36', 'clock_out_time': '2024-10-22T14:20:17'}
+2024-10-22 14:23:47,066 : INFO : 200 : user - {'id': 587, 'keka_id': '37458', 'clock_in_time': '2024-10-22T10:47:07', 'clock_out_time': '2024-10-22T12:48:03'}
+2024-10-22 14:23:47,831 : INFO : 200 : user - {'id': 588, 'keka_id': '37578', 'clock_in_time': '2024-10-22T09:06:34', 'clock_out_time': '2024-10-22T14:18:56'}
+2024-10-22 14:23:48,566 : ERROR : User activities not found : user - 38082
+2024-10-22 14:23:49,285 : INFO : 200 : user - {'id': 589, 'keka_id': '23148', 'clock_in_time': '2024-10-22T09:04:46', 'clock_out_time': '2024-10-22T14:15:25'}
+2024-10-22 14:23:50,015 : INFO : 200 : user - {'id': 590, 'keka_id': '37201', 'clock_in_time': '2024-10-22T08:50:05', 'clock_out_time': '2024-10-22T13:41:07'}
+2024-10-22 14:23:50,814 : INFO : 200 : user - {'id': 591, 'keka_id': '38395', 'clock_in_time': '2024-10-22T10:02:48', 'clock_out_time': '2024-10-22T13:21:18'}
+2024-10-22 14:23:51,542 : INFO : 200 : user - {'id': 592, 'keka_id': '38476', 'clock_in_time': '2024-10-22T10:50:07', 'clock_out_time': '2024-10-22T13:47:08'}
+2024-10-22 14:23:52,349 : INFO : 200 : user - {'id': 593, 'keka_id': '38524', 'clock_in_time': '2024-10-22T10:08:12', 'clock_out_time': '2024-10-22T14:12:01'}
+2024-10-22 14:23:52,655 : ERROR : User activities not found : user - 37382
+2024-10-22 14:23:53,353 : ERROR : User activities not found : user - 37884
+2024-10-22 14:23:53,661 : ERROR : User activities not found : user - 37727
+2024-10-22 14:23:54,012 : INFO : 200 : user - {'id': 594, 'keka_id': '38049', 'clock_in_time': '2024-10-22T10:32:10', 'clock_out_time': '2024-10-22T14:20:19'}
+2024-10-22 14:23:54,357 : INFO : 200 : user - {'id': 595, 'keka_id': '38339', 'clock_in_time': '2024-10-22T09:14:43', 'clock_out_time': '2024-10-22T14:16:28'}
+2024-10-22 14:23:55,104 : INFO : 200 : user - {'id': 596, 'keka_id': '37902', 'clock_in_time': '2024-10-22T10:20:21', 'clock_out_time': '2024-10-22T14:18:58'}
+2024-10-22 14:23:55,433 : INFO : 200 : user - {'id': 597, 'keka_id': '38428', 'clock_in_time': '2024-10-22T09:41:59', 'clock_out_time': '2024-10-22T14:07:45'}
+2024-10-22 14:23:56,203 : INFO : 200 : user - {'id': 598, 'keka_id': '37912', 'clock_in_time': '2024-10-22T11:42:04', 'clock_out_time': '2024-10-22T13:48:09'}
+2024-10-22 14:23:56,920 : INFO : 200 : user - {'id': 599, 'keka_id': '37699', 'clock_in_time': '2024-10-22T10:11:03', 'clock_out_time': '2024-10-22T14:22:40'}
+2024-10-22 14:23:57,634 : INFO : 200 : user - {'id': 600, 'keka_id': '38574', 'clock_in_time': '2024-10-22T07:25:49', 'clock_out_time': '2024-10-22T14:17:14'}
+2024-10-22 14:23:58,348 : INFO : 200 : user - {'id': 601, 'keka_id': '38491', 'clock_in_time': '2024-10-22T10:41:52', 'clock_out_time': '2024-10-22T14:20:25'}
+2024-10-22 14:23:59,167 : INFO : 200 : user - {'id': 602, 'keka_id': '37769', 'clock_in_time': '2024-10-22T07:32:03', 'clock_out_time': '2024-10-22T13:39:48'}
+2024-10-22 14:23:59,901 : INFO : 200 : user - {'id': 603, 'keka_id': '23161', 'clock_in_time': '2024-10-22T10:39:08', 'clock_out_time': '2024-10-22T14:14:49'}
+2024-10-22 14:24:00,629 : INFO : 200 : user - {'id': 604, 'keka_id': '37855', 'clock_in_time': '2024-10-22T09:45:32', 'clock_out_time': '2024-10-22T13:57:37'}
+2024-10-22 14:24:01,353 : INFO : 200 : user - {'id': 605, 'keka_id': '37499', 'clock_in_time': '2024-10-22T10:12:09', 'clock_out_time': '2024-10-22T13:30:28'}
+2024-10-22 14:24:02,096 : INFO : 200 : user - {'id': 606, 'keka_id': '37680', 'clock_in_time': '2024-10-22T09:52:57', 'clock_out_time': '2024-10-22T12:43:07'}
+2024-10-22 14:24:02,918 : INFO : 200 : user - {'id': 607, 'keka_id': '37359', 'clock_in_time': '2024-10-22T08:53:36', 'clock_out_time': '2024-10-22T13:44:41'}
+2024-10-22 14:24:03,829 : INFO : 200 : user - {'id': 608, 'keka_id': '23152', 'clock_in_time': '2024-10-22T08:59:48', 'clock_out_time': '2024-10-22T14:02:02'}
+2024-10-22 14:24:04,634 : ERROR : User activities not found : user - 38033
+2024-10-22 14:24:05,467 : ERROR : User activities not found : user - 37849
+2024-10-22 14:24:06,293 : INFO : 200 : user - {'id': 609, 'keka_id': '37724', 'clock_in_time': '2024-10-22T10:08:47', 'clock_out_time': '2024-10-22T14:00:45'}
+2024-10-22 14:24:07,319 : INFO : 200 : user - {'id': 610, 'keka_id': '38461', 'clock_in_time': '2024-10-22T11:03:19', 'clock_out_time': '2024-10-22T14:12:40'}
+2024-10-22 14:24:08,165 : INFO : 200 : user - {'id': 611, 'keka_id': '37740', 'clock_in_time': '2024-10-22T09:45:15', 'clock_out_time': '2024-10-22T14:20:07'}
+2024-10-22 14:24:08,540 : INFO : 200 : user - {'id': 612, 'keka_id': '37812', 'clock_in_time': '2024-10-22T10:02:22', 'clock_out_time': '2024-10-22T14:20:26'}
+2024-10-22 14:24:09,356 : INFO : 200 : user - {'id': 613, 'keka_id': '23131', 'clock_in_time': '2024-10-22T10:39:58', 'clock_out_time': '2024-10-22T14:16:02'}
+2024-10-22 14:24:10,090 : INFO : 200 : user - {'id': 614, 'keka_id': '27174', 'clock_in_time': '2024-10-22T10:15:12', 'clock_out_time': '2024-10-22T13:53:52'}
+2024-10-22 14:24:10,916 : ERROR : User activities not found : user - 23142
+2024-10-22 14:24:11,305 : ERROR : User activities not found : user - 37988
+2024-10-22 14:24:12,098 : INFO : 200 : user - {'id': 615, 'keka_id': '37883', 'clock_in_time': '2024-10-22T10:51:30', 'clock_out_time': '2024-10-22T14:06:50'}
+2024-10-22 14:24:12,859 : INFO : 200 : user - {'id': 616, 'keka_id': '37619', 'clock_in_time': '2024-10-22T09:25:29', 'clock_out_time': '2024-10-22T13:38:31'}
+2024-10-22 14:24:13,354 : INFO : 200 : user - {'id': 617, 'keka_id': '37836', 'clock_in_time': '2024-10-22T09:29:12', 'clock_out_time': '2024-10-22T13:39:20'}
+2024-10-22 14:24:14,192 : ERROR : User activities not found : user - 38506
+2024-10-22 14:24:14,903 : INFO : 200 : user - {'id': 618, 'keka_id': '38160', 'clock_in_time': '2024-10-22T08:53:03', 'clock_out_time': '2024-10-22T13:31:21'}
+2024-10-22 14:24:15,797 : ERROR : User activities not found : user - 38526
+2024-10-22 14:24:16,552 : INFO : 200 : user - {'id': 619, 'keka_id': '23124', 'clock_in_time': '2024-10-22T10:35:51', 'clock_out_time': '2024-10-22T14:14:31'}
+2024-10-22 14:24:17,467 : INFO : 200 : user - {'id': 620, 'keka_id': '37875', 'clock_in_time': '2024-10-22T09:42:21', 'clock_out_time': '2024-10-22T14:23:28'}
+2024-10-22 14:24:18,391 : INFO : 200 : user - {'id': 621, 'keka_id': '37878', 'clock_in_time': '2024-10-22T09:49:19', 'clock_out_time': '2024-10-22T14:16:45'}
+2024-10-22 14:24:19,311 : INFO : 200 : user - {'id': 622, 'keka_id': '37896', 'clock_in_time': '2024-10-22T09:30:18', 'clock_out_time': '2024-10-22T13:12:29'}
+2024-10-22 14:24:20,103 : INFO : 200 : user - {'id': 623, 'keka_id': '38235', 'clock_in_time': '2024-10-22T07:30:53', 'clock_out_time': '2024-10-22T13:40:34'}
+2024-10-22 14:24:20,533 : INFO : 200 : user - {'id': 624, 'keka_id': '37721', 'clock_in_time': '2024-10-22T10:32:30', 'clock_out_time': '2024-10-22T14:17:36'}
+2024-10-22 14:24:21,471 : INFO : 200 : user - {'id': 625, 'keka_id': '37887', 'clock_in_time': '2024-10-22T08:45:26', 'clock_out_time': '2024-10-22T14:16:58'}
+2024-10-22 14:24:22,285 : INFO : 200 : user - {'id': 626, 'keka_id': '37922', 'clock_in_time': '2024-10-22T10:07:20', 'clock_out_time': '2024-10-22T14:04:48'}
+2024-10-22 14:24:23,086 : INFO : 200 : user - {'id': 627, 'keka_id': '37924', 'clock_in_time': '2024-10-22T08:48:37', 'clock_out_time': '2024-10-22T14:23:27'}
+2024-10-22 14:24:24,020 : ERROR : User activities not found : user - 38216
+2024-10-22 14:24:24,785 : INFO : 200 : user - {'id': 628, 'keka_id': '37531', 'clock_in_time': '2024-10-22T09:12:46', 'clock_out_time': '2024-10-22T13:27:17'}
+2024-10-22 14:24:25,219 : ERROR : User activities not found : user - 38061
+2024-10-22 14:24:25,956 : INFO : 200 : user - {'id': 629, 'keka_id': '38236', 'clock_in_time': '2024-10-22T10:39:17', 'clock_out_time': '2024-10-22T14:21:54'}
+2024-10-22 14:24:26,794 : ERROR : User activities not found : user - 37545
+2024-10-22 14:24:27,560 : INFO : 200 : user - {'id': 630, 'keka_id': '38421', 'clock_in_time': '2024-10-22T09:33:04', 'clock_out_time': '2024-10-22T14:17:51'}
+2024-10-22 14:24:28,302 : ERROR : User activities not found : user - 37931
+2024-10-22 14:24:29,069 : INFO : 200 : user - {'id': 631, 'keka_id': '38430', 'clock_in_time': '2024-10-22T10:38:47', 'clock_out_time': '2024-10-22T14:20:13'}
+2024-10-22 14:24:29,870 : INFO : 200 : user - {'id': 632, 'keka_id': '11010', 'clock_in_time': '2024-10-22T08:32:55', 'clock_out_time': '2024-10-22T14:22:31'}
+2024-10-22 14:24:30,656 : INFO : 200 : user - {'id': 633, 'keka_id': '38023', 'clock_in_time': '2024-10-22T09:09:09', 'clock_out_time': '2024-10-22T10:53:29'}
+2024-10-22 14:24:31,380 : INFO : 200 : user - {'id': 634, 'keka_id': '38323', 'clock_in_time': '2024-10-22T11:57:38', 'clock_out_time': '2024-10-22T12:51:41'}
+2024-10-22 14:24:32,197 : INFO : 200 : user - {'id': 635, 'keka_id': '37985', 'clock_in_time': '2024-10-22T10:39:09', 'clock_out_time': '2024-10-22T14:20:02'}
+2024-10-22 14:24:33,013 : ERROR : User activities not found : user - 38042
+2024-10-22 14:24:33,751 : INFO : 200 : user - {'id': 636, 'keka_id': '37660', 'clock_in_time': '2024-10-22T11:02:46', 'clock_out_time': '2024-10-22T14:20:33'}
+2024-10-22 14:24:34,577 : INFO : 200 : user - {'id': 637, 'keka_id': '38342', 'clock_in_time': '2024-10-22T11:20:33', 'clock_out_time': '2024-10-22T14:24:19'}
+2024-10-22 14:24:35,471 : INFO : 200 : user - {'id': 638, 'keka_id': '37975', 'clock_in_time': '2024-10-22T09:14:34', 'clock_out_time': '2024-10-22T13:45:50'}
+2024-10-22 14:24:36,228 : INFO : 200 : user - {'id': 639, 'keka_id': '37253', 'clock_in_time': '2024-10-22T09:01:33', 'clock_out_time': '2024-10-22T14:15:31'}
+2024-10-22 14:24:37,002 : INFO : 200 : user - {'id': 640, 'keka_id': '14056', 'clock_in_time': '2024-10-22T10:23:00', 'clock_out_time': '2024-10-22T14:15:03'}
+2024-10-22 14:24:37,829 : INFO : 200 : user - {'id': 641, 'keka_id': '37867', 'clock_in_time': '2024-10-22T07:24:20', 'clock_out_time': '2024-10-22T14:11:59'}
+2024-10-22 14:24:38,562 : INFO : 200 : user - {'id': 642, 'keka_id': '37397', 'clock_in_time': '2024-10-22T12:00:45', 'clock_out_time': '2024-10-22T14:20:32'}
+2024-10-22 14:24:38,957 : INFO : 200 : user - {'id': 643, 'keka_id': '37614', 'clock_in_time': '2024-10-22T09:52:36', 'clock_out_time': '2024-10-22T14:20:43'}
+2024-10-22 14:24:39,295 : INFO : 200 : user - {'id': 644, 'keka_id': '37327', 'clock_in_time': '2024-10-22T08:30:54', 'clock_out_time': '2024-10-22T14:20:50'}
+2024-10-22 14:24:40,025 : INFO : 200 : user - {'id': 645, 'keka_id': '37256', 'clock_in_time': '2024-10-22T10:19:31', 'clock_out_time': '2024-10-22T14:21:08'}
+2024-10-22 14:24:40,737 : INFO : 200 : user - {'id': 646, 'keka_id': '38509', 'clock_in_time': '2024-10-22T07:19:47', 'clock_out_time': '2024-10-22T11:54:21'}
+2024-10-22 14:24:41,462 : INFO : 200 : user - {'id': 647, 'keka_id': '14061', 'clock_in_time': '2024-10-22T07:34:48', 'clock_out_time': '2024-10-22T14:18:38'}
+2024-10-22 14:24:42,201 : INFO : 200 : user - {'id': 648, 'keka_id': '37993', 'clock_in_time': '2024-10-22T09:14:53', 'clock_out_time': '2024-10-22T14:04:36'}
+2024-10-22 14:24:42,960 : INFO : 200 : user - {'id': 649, 'keka_id': '38113', 'clock_in_time': '2024-10-22T09:56:09', 'clock_out_time': '2024-10-22T14:18:43'}
+2024-10-22 14:24:43,729 : INFO : 200 : user - {'id': 650, 'keka_id': '38420', 'clock_in_time': '2024-10-22T10:05:56', 'clock_out_time': '2024-10-22T14:23:08'}
+2024-10-22 14:24:44,468 : INFO : 200 : user - {'id': 651, 'keka_id': '38209', 'clock_in_time': '2024-10-22T10:28:32', 'clock_out_time': '2024-10-22T14:08:58'}
+2024-10-22 14:24:45,219 : INFO : 200 : user - {'id': 652, 'keka_id': '38234', 'clock_in_time': '2024-10-22T10:56:32', 'clock_out_time': '2024-10-22T14:23:23'}
+2024-10-22 14:24:45,926 : ERROR : User activities not found : user - 38264
+2024-10-22 14:24:46,657 : INFO : 200 : user - {'id': 653, 'keka_id': '38285', 'clock_in_time': '2024-10-22T07:01:11', 'clock_out_time': '2024-10-22T14:14:16'}
+2024-10-22 14:24:47,419 : INFO : 200 : user - {'id': 654, 'keka_id': '38362', 'clock_in_time': '2024-10-22T10:26:48', 'clock_out_time': '2024-10-22T14:24:19'}
+2024-10-22 14:24:48,132 : INFO : 200 : user - {'id': 655, 'keka_id': '38431', 'clock_in_time': '2024-10-22T10:30:14', 'clock_out_time': '2024-10-22T14:17:02'}
+2024-10-22 14:24:48,480 : ERROR : User activities not found : user - 38565
+2024-10-22 14:24:48,794 : ERROR : User activities not found : user - 38597
+2024-10-22 14:24:49,545 : INFO : 200 : user - {'id': 656, 'keka_id': '38639', 'clock_in_time': '2024-10-22T06:56:28', 'clock_out_time': '2024-10-22T14:17:40'}
+2024-10-22 14:24:50,248 : INFO : 200 : user - {'id': 657, 'keka_id': '38687', 'clock_in_time': '2024-10-22T11:45:27', 'clock_out_time': '2024-10-22T14:24:20'}
+2024-10-22 14:24:50,959 : ERROR : User activities not found : user - 38689
+2024-10-22 14:24:51,666 : ERROR : User activities not found : user - 38764
+2024-10-22 14:24:51,974 : ERROR : User activities not found : user - 38763
+2024-10-22 14:24:52,684 : INFO : 200 : user - {'id': 658, 'keka_id': '37443', 'clock_in_time': '2024-10-22T09:00:27', 'clock_out_time': '2024-10-22T14:15:36'}
+2024-10-22 14:24:53,413 : INFO : 200 : user - {'id': 659, 'keka_id': '38479', 'clock_in_time': '2024-10-22T12:15:30', 'clock_out_time': '2024-10-22T14:17:47'}
+2024-10-22 14:27:09,767 : INFO : 200 : user - {'id': 660, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T14:21:10'}
+2024-10-22 14:27:10,496 : INFO : 200 : user - {'id': 661, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T14:25:03'}
+2024-10-22 14:27:11,213 : ERROR : User activities not found : user - 38090
+2024-10-22 14:27:11,956 : INFO : 200 : user - {'id': 662, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T14:04:32'}
+2024-10-22 14:27:12,691 : INFO : 200 : user - {'id': 663, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T14:22:31'}
+2024-10-22 14:27:13,397 : INFO : 200 : user - {'id': 664, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T13:29:23'}
+2024-10-22 14:27:14,166 : INFO : 200 : user - {'id': 665, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T14:24:15'}
+2024-10-22 14:27:14,928 : INFO : 200 : user - {'id': 666, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T14:05:07'}
+2024-10-22 14:27:15,644 : ERROR : User activities not found : user - 37663
+2024-10-22 14:27:16,378 : INFO : 200 : user - {'id': 667, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T14:24:44'}
+2024-10-22 14:27:17,079 : ERROR : User activities not found : user - 37349
+2024-10-22 14:27:17,822 : INFO : 200 : user - {'id': 668, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T14:20:53'}
+2024-10-22 14:27:18,569 : INFO : 200 : user - {'id': 669, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T14:21:48'}
+2024-10-22 14:27:19,338 : INFO : 200 : user - {'id': 670, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T14:26:02'}
+2024-10-22 14:27:20,046 : INFO : 200 : user - {'id': 671, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T14:17:49'}
+2024-10-22 14:27:20,751 : INFO : 200 : user - {'id': 672, 'keka_id': '37814', 'clock_in_time': '2024-10-22T11:01:46', 'clock_out_time': '2024-10-22T14:24:01'}
+2024-10-22 14:27:21,480 : INFO : 200 : user - {'id': 673, 'keka_id': '37246', 'clock_in_time': '2024-10-22T11:19:45', 'clock_out_time': '2024-10-22T14:00:32'}
+2024-10-22 14:27:21,805 : INFO : 200 : user - {'id': 674, 'keka_id': '38131', 'clock_in_time': '2024-10-22T10:16:07', 'clock_out_time': '2024-10-22T14:19:33'}
+2024-10-22 14:27:22,512 : INFO : 200 : user - {'id': 675, 'keka_id': '37428', 'clock_in_time': '2024-10-22T08:04:38', 'clock_out_time': '2024-10-22T14:26:32'}
+2024-10-22 14:27:23,268 : INFO : 200 : user - {'id': 676, 'keka_id': '37630', 'clock_in_time': '2024-10-22T09:05:11', 'clock_out_time': '2024-10-22T14:18:20'}
+2024-10-22 14:27:23,973 : INFO : 200 : user - {'id': 677, 'keka_id': '37384', 'clock_in_time': '2024-10-22T10:21:36', 'clock_out_time': '2024-10-22T14:20:17'}
+2024-10-22 14:27:24,689 : INFO : 200 : user - {'id': 678, 'keka_id': '37458', 'clock_in_time': '2024-10-22T10:47:07', 'clock_out_time': '2024-10-22T12:48:03'}
+2024-10-22 14:27:25,394 : INFO : 200 : user - {'id': 679, 'keka_id': '37578', 'clock_in_time': '2024-10-22T09:06:34', 'clock_out_time': '2024-10-22T14:18:56'}
+2024-10-22 14:27:26,278 : ERROR : User activities not found : user - 38082
+2024-10-22 14:27:27,218 : INFO : 200 : user - {'id': 680, 'keka_id': '23148', 'clock_in_time': '2024-10-22T09:04:46', 'clock_out_time': '2024-10-22T14:25:25'}
+2024-10-22 14:27:27,985 : INFO : 200 : user - {'id': 681, 'keka_id': '37201', 'clock_in_time': '2024-10-22T08:50:05', 'clock_out_time': '2024-10-22T13:41:07'}
+2024-10-22 14:27:28,918 : INFO : 200 : user - {'id': 682, 'keka_id': '38395', 'clock_in_time': '2024-10-22T10:02:48', 'clock_out_time': '2024-10-22T13:21:18'}
+2024-10-22 14:27:29,250 : INFO : 200 : user - {'id': 683, 'keka_id': '38476', 'clock_in_time': '2024-10-22T10:50:07', 'clock_out_time': '2024-10-22T13:47:08'}
+2024-10-22 14:27:29,985 : INFO : 200 : user - {'id': 684, 'keka_id': '38524', 'clock_in_time': '2024-10-22T10:08:12', 'clock_out_time': '2024-10-22T14:25:17'}
+2024-10-22 14:27:30,892 : ERROR : User activities not found : user - 37382
+2024-10-22 14:27:31,640 : ERROR : User activities not found : user - 37884
+2024-10-22 14:27:32,360 : ERROR : User activities not found : user - 37727
+2024-10-22 14:27:33,128 : INFO : 200 : user - {'id': 685, 'keka_id': '38049', 'clock_in_time': '2024-10-22T10:32:10', 'clock_out_time': '2024-10-22T14:25:25'}
+2024-10-22 14:27:33,574 : INFO : 200 : user - {'id': 686, 'keka_id': '38339', 'clock_in_time': '2024-10-22T09:14:43', 'clock_out_time': '2024-10-22T14:26:33'}
+2024-10-22 14:27:34,360 : INFO : 200 : user - {'id': 687, 'keka_id': '37902', 'clock_in_time': '2024-10-22T10:20:21', 'clock_out_time': '2024-10-22T14:18:58'}
+2024-10-22 14:27:35,116 : INFO : 200 : user - {'id': 688, 'keka_id': '38428', 'clock_in_time': '2024-10-22T09:41:59', 'clock_out_time': '2024-10-22T14:07:45'}
+2024-10-22 14:27:35,837 : INFO : 200 : user - {'id': 689, 'keka_id': '37912', 'clock_in_time': '2024-10-22T11:42:04', 'clock_out_time': '2024-10-22T13:48:09'}
+2024-10-22 14:27:36,751 : INFO : 200 : user - {'id': 690, 'keka_id': '37699', 'clock_in_time': '2024-10-22T10:11:03', 'clock_out_time': '2024-10-22T14:22:40'}
+2024-10-22 14:27:37,645 : INFO : 200 : user - {'id': 691, 'keka_id': '38574', 'clock_in_time': '2024-10-22T07:25:49', 'clock_out_time': '2024-10-22T14:27:14'}
+2024-10-22 14:27:37,979 : INFO : 200 : user - {'id': 692, 'keka_id': '38491', 'clock_in_time': '2024-10-22T10:41:52', 'clock_out_time': '2024-10-22T14:20:25'}
+2024-10-22 14:27:38,375 : INFO : 200 : user - {'id': 693, 'keka_id': '37769', 'clock_in_time': '2024-10-22T07:32:03', 'clock_out_time': '2024-10-22T14:25:35'}
+2024-10-22 14:27:39,049 : INFO : 200 : user - {'id': 694, 'keka_id': '23161', 'clock_in_time': '2024-10-22T10:39:08', 'clock_out_time': '2024-10-22T14:24:50'}
+2024-10-22 14:27:39,381 : INFO : 200 : user - {'id': 695, 'keka_id': '37855', 'clock_in_time': '2024-10-22T09:45:32', 'clock_out_time': '2024-10-22T13:57:37'}
+2024-10-22 14:27:40,118 : INFO : 200 : user - {'id': 696, 'keka_id': '37499', 'clock_in_time': '2024-10-22T10:12:09', 'clock_out_time': '2024-10-22T13:30:28'}
+2024-10-22 14:27:40,849 : INFO : 200 : user - {'id': 697, 'keka_id': '37680', 'clock_in_time': '2024-10-22T09:52:57', 'clock_out_time': '2024-10-22T14:26:20'}
+2024-10-22 14:27:41,625 : INFO : 200 : user - {'id': 698, 'keka_id': '37359', 'clock_in_time': '2024-10-22T08:53:36', 'clock_out_time': '2024-10-22T13:44:41'}
+2024-10-22 14:27:42,365 : INFO : 200 : user - {'id': 699, 'keka_id': '23152', 'clock_in_time': '2024-10-22T08:59:48', 'clock_out_time': '2024-10-22T14:02:02'}
+2024-10-22 14:27:43,060 : ERROR : User activities not found : user - 38033
+2024-10-22 14:27:43,803 : ERROR : User activities not found : user - 37849
+2024-10-22 14:27:44,643 : INFO : 200 : user - {'id': 700, 'keka_id': '37724', 'clock_in_time': '2024-10-22T10:08:47', 'clock_out_time': '2024-10-22T14:00:45'}
+2024-10-22 14:27:45,366 : INFO : 200 : user - {'id': 701, 'keka_id': '38461', 'clock_in_time': '2024-10-22T11:03:19', 'clock_out_time': '2024-10-22T14:12:40'}
+2024-10-22 14:27:45,762 : INFO : 200 : user - {'id': 702, 'keka_id': '37740', 'clock_in_time': '2024-10-22T09:45:15', 'clock_out_time': '2024-10-22T14:20:07'}
+2024-10-22 14:27:46,494 : INFO : 200 : user - {'id': 703, 'keka_id': '37812', 'clock_in_time': '2024-10-22T10:02:22', 'clock_out_time': '2024-10-22T14:20:26'}
+2024-10-22 14:27:47,252 : INFO : 200 : user - {'id': 704, 'keka_id': '23131', 'clock_in_time': '2024-10-22T10:39:58', 'clock_out_time': '2024-10-22T14:26:02'}
+2024-10-22 14:27:47,589 : INFO : 200 : user - {'id': 705, 'keka_id': '27174', 'clock_in_time': '2024-10-22T10:15:12', 'clock_out_time': '2024-10-22T13:53:52'}
+2024-10-22 14:27:48,310 : ERROR : User activities not found : user - 23142
+2024-10-22 14:27:48,622 : ERROR : User activities not found : user - 37988
+2024-10-22 14:27:49,329 : INFO : 200 : user - {'id': 706, 'keka_id': '37883', 'clock_in_time': '2024-10-22T10:51:30', 'clock_out_time': '2024-10-22T14:06:50'}
+2024-10-22 14:27:50,118 : INFO : 200 : user - {'id': 707, 'keka_id': '37619', 'clock_in_time': '2024-10-22T09:25:29', 'clock_out_time': '2024-10-22T13:38:31'}
+2024-10-22 14:27:50,871 : INFO : 200 : user - {'id': 708, 'keka_id': '37836', 'clock_in_time': '2024-10-22T09:29:12', 'clock_out_time': '2024-10-22T13:39:20'}
+2024-10-22 14:27:51,646 : ERROR : User activities not found : user - 38506
+2024-10-22 14:27:52,408 : INFO : 200 : user - {'id': 709, 'keka_id': '38160', 'clock_in_time': '2024-10-22T08:53:03', 'clock_out_time': '2024-10-22T13:31:21'}
+2024-10-22 14:27:53,168 : ERROR : User activities not found : user - 38526
+2024-10-22 14:27:53,872 : INFO : 200 : user - {'id': 710, 'keka_id': '23124', 'clock_in_time': '2024-10-22T10:35:51', 'clock_out_time': '2024-10-22T14:24:31'}
+2024-10-22 14:27:54,599 : INFO : 200 : user - {'id': 711, 'keka_id': '37875', 'clock_in_time': '2024-10-22T09:42:21', 'clock_out_time': '2024-10-22T14:23:28'}
+2024-10-22 14:27:55,337 : INFO : 200 : user - {'id': 712, 'keka_id': '37878', 'clock_in_time': '2024-10-22T09:49:19', 'clock_out_time': '2024-10-22T14:26:41'}
+2024-10-22 14:27:56,090 : INFO : 200 : user - {'id': 713, 'keka_id': '37896', 'clock_in_time': '2024-10-22T09:30:18', 'clock_out_time': '2024-10-22T13:12:29'}
+2024-10-22 14:27:56,825 : INFO : 200 : user - {'id': 714, 'keka_id': '38235', 'clock_in_time': '2024-10-22T07:30:53', 'clock_out_time': '2024-10-22T13:40:34'}
+2024-10-22 14:27:57,646 : INFO : 200 : user - {'id': 715, 'keka_id': '37721', 'clock_in_time': '2024-10-22T10:32:30', 'clock_out_time': '2024-10-22T14:25:31'}
+2024-10-22 14:27:58,433 : INFO : 200 : user - {'id': 716, 'keka_id': '37887', 'clock_in_time': '2024-10-22T08:45:26', 'clock_out_time': '2024-10-22T14:26:55'}
+2024-10-22 14:27:59,150 : INFO : 200 : user - {'id': 717, 'keka_id': '37922', 'clock_in_time': '2024-10-22T10:07:20', 'clock_out_time': '2024-10-22T14:24:52'}
+2024-10-22 14:27:59,912 : INFO : 200 : user - {'id': 718, 'keka_id': '37924', 'clock_in_time': '2024-10-22T08:48:37', 'clock_out_time': '2024-10-22T14:23:27'}
+2024-10-22 14:28:00,691 : ERROR : User activities not found : user - 38216
+2024-10-22 14:28:01,474 : INFO : 200 : user - {'id': 719, 'keka_id': '37531', 'clock_in_time': '2024-10-22T09:12:46', 'clock_out_time': '2024-10-22T13:27:17'}
+2024-10-22 14:28:01,801 : INFO : 200 : user - {'id': 720, 'keka_id': '38061', 'clock_in_time': '2024-10-22T14:13:30', 'clock_out_time': '2024-10-22T14:25:58'}
+2024-10-22 14:28:02,233 : INFO : 200 : user - {'id': 721, 'keka_id': '38236', 'clock_in_time': '2024-10-22T10:39:17', 'clock_out_time': '2024-10-22T14:21:54'}
+2024-10-22 14:28:02,729 : ERROR : User activities not found : user - 37545
+2024-10-22 14:28:03,495 : INFO : 200 : user - {'id': 722, 'keka_id': '38421', 'clock_in_time': '2024-10-22T09:33:04', 'clock_out_time': '2024-10-22T14:27:59'}
+2024-10-22 14:28:04,215 : ERROR : User activities not found : user - 37931
+2024-10-22 14:28:05,047 : INFO : 200 : user - {'id': 723, 'keka_id': '38430', 'clock_in_time': '2024-10-22T10:38:47', 'clock_out_time': '2024-10-22T14:20:13'}
+2024-10-22 14:28:05,852 : INFO : 200 : user - {'id': 724, 'keka_id': '11010', 'clock_in_time': '2024-10-22T08:32:55', 'clock_out_time': '2024-10-22T14:22:31'}
+2024-10-22 14:28:06,213 : INFO : 200 : user - {'id': 725, 'keka_id': '38023', 'clock_in_time': '2024-10-22T09:09:09', 'clock_out_time': '2024-10-22T10:53:29'}
+2024-10-22 14:28:06,934 : INFO : 200 : user - {'id': 726, 'keka_id': '38323', 'clock_in_time': '2024-10-22T11:57:38', 'clock_out_time': '2024-10-22T12:51:41'}
+2024-10-22 14:28:07,701 : INFO : 200 : user - {'id': 727, 'keka_id': '37985', 'clock_in_time': '2024-10-22T10:39:09', 'clock_out_time': '2024-10-22T14:20:02'}
+2024-10-22 14:28:08,571 : ERROR : User activities not found : user - 38042
+2024-10-22 14:28:09,398 : INFO : 200 : user - {'id': 728, 'keka_id': '37660', 'clock_in_time': '2024-10-22T11:02:46', 'clock_out_time': '2024-10-22T14:20:33'}
+2024-10-22 14:28:09,926 : INFO : 200 : user - {'id': 729, 'keka_id': '38342', 'clock_in_time': '2024-10-22T11:20:33', 'clock_out_time': '2024-10-22T14:24:19'}
+2024-10-22 14:28:10,931 : INFO : 200 : user - {'id': 730, 'keka_id': '37975', 'clock_in_time': '2024-10-22T09:14:34', 'clock_out_time': '2024-10-22T14:26:00'}
+2024-10-22 14:28:11,771 : INFO : 200 : user - {'id': 731, 'keka_id': '37253', 'clock_in_time': '2024-10-22T09:01:33', 'clock_out_time': '2024-10-22T14:25:32'}
+2024-10-22 14:28:12,675 : INFO : 200 : user - {'id': 732, 'keka_id': '14056', 'clock_in_time': '2024-10-22T10:23:00', 'clock_out_time': '2024-10-22T14:25:02'}
+2024-10-22 14:28:13,495 : INFO : 200 : user - {'id': 733, 'keka_id': '37867', 'clock_in_time': '2024-10-22T07:24:20', 'clock_out_time': '2024-10-22T14:24:56'}
+2024-10-22 14:28:14,320 : INFO : 200 : user - {'id': 734, 'keka_id': '37397', 'clock_in_time': '2024-10-22T12:00:45', 'clock_out_time': '2024-10-22T14:20:32'}
+2024-10-22 14:28:15,125 : INFO : 200 : user - {'id': 735, 'keka_id': '37614', 'clock_in_time': '2024-10-22T09:52:36', 'clock_out_time': '2024-10-22T14:20:43'}
+2024-10-22 14:28:15,964 : INFO : 200 : user - {'id': 736, 'keka_id': '37327', 'clock_in_time': '2024-10-22T08:30:54', 'clock_out_time': '2024-10-22T14:20:50'}
+2024-10-22 14:28:16,800 : INFO : 200 : user - {'id': 737, 'keka_id': '37256', 'clock_in_time': '2024-10-22T10:19:31', 'clock_out_time': '2024-10-22T14:21:08'}
+2024-10-22 14:28:17,590 : INFO : 200 : user - {'id': 738, 'keka_id': '38509', 'clock_in_time': '2024-10-22T07:19:47', 'clock_out_time': '2024-10-22T14:27:26'}
+2024-10-22 14:28:18,368 : INFO : 200 : user - {'id': 739, 'keka_id': '14061', 'clock_in_time': '2024-10-22T07:34:48', 'clock_out_time': '2024-10-22T14:18:38'}
+2024-10-22 14:28:19,240 : INFO : 200 : user - {'id': 740, 'keka_id': '37993', 'clock_in_time': '2024-10-22T09:14:53', 'clock_out_time': '2024-10-22T14:04:36'}
+2024-10-22 14:28:20,078 : INFO : 200 : user - {'id': 741, 'keka_id': '38113', 'clock_in_time': '2024-10-22T09:56:09', 'clock_out_time': '2024-10-22T14:18:43'}
+2024-10-22 14:28:20,980 : INFO : 200 : user - {'id': 742, 'keka_id': '38420', 'clock_in_time': '2024-10-22T10:05:56', 'clock_out_time': '2024-10-22T14:23:08'}
+2024-10-22 14:28:21,308 : INFO : 200 : user - {'id': 743, 'keka_id': '38209', 'clock_in_time': '2024-10-22T10:28:32', 'clock_out_time': '2024-10-22T14:27:27'}
+2024-10-22 14:28:22,195 : INFO : 200 : user - {'id': 744, 'keka_id': '38234', 'clock_in_time': '2024-10-22T10:56:32', 'clock_out_time': '2024-10-22T14:23:23'}
+2024-10-22 14:28:22,926 : ERROR : User activities not found : user - 38264
+2024-10-22 14:28:23,438 : INFO : 200 : user - {'id': 745, 'keka_id': '38285', 'clock_in_time': '2024-10-22T07:01:11', 'clock_out_time': '2024-10-22T14:14:16'}
+2024-10-22 14:28:24,348 : INFO : 200 : user - {'id': 746, 'keka_id': '38362', 'clock_in_time': '2024-10-22T10:26:48', 'clock_out_time': '2024-10-22T14:24:19'}
+2024-10-22 14:28:25,180 : INFO : 200 : user - {'id': 747, 'keka_id': '38431', 'clock_in_time': '2024-10-22T10:30:14', 'clock_out_time': '2024-10-22T14:17:02'}
+2024-10-22 14:28:25,904 : ERROR : User activities not found : user - 38565
+2024-10-22 14:28:26,710 : ERROR : User activities not found : user - 38597
+2024-10-22 14:28:27,248 : INFO : 200 : user - {'id': 748, 'keka_id': '38639', 'clock_in_time': '2024-10-22T06:56:28', 'clock_out_time': '2024-10-22T14:17:40'}
+2024-10-22 14:28:28,044 : INFO : 200 : user - {'id': 749, 'keka_id': '38687', 'clock_in_time': '2024-10-22T11:45:27', 'clock_out_time': '2024-10-22T14:24:20'}
+2024-10-22 14:28:28,851 : ERROR : User activities not found : user - 38689
+2024-10-22 14:28:29,188 : ERROR : User activities not found : user - 38764
+2024-10-22 14:28:30,069 : ERROR : User activities not found : user - 38763
+2024-10-22 14:28:30,927 : INFO : 200 : user - {'id': 750, 'keka_id': '37443', 'clock_in_time': '2024-10-22T09:00:27', 'clock_out_time': '2024-10-22T14:25:34'}
+2024-10-22 14:28:31,708 : INFO : 200 : user - {'id': 751, 'keka_id': '38479', 'clock_in_time': '2024-10-22T12:15:30', 'clock_out_time': '2024-10-22T14:26:11'}
+2024-10-23 11:18:03,415 : INFO : 200 : user - {'id': 752, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T18:34:36'}
+2024-10-23 11:18:04,190 : INFO : 200 : user - {'id': 753, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T19:30:05'}
+2024-10-23 11:18:04,995 : ERROR : User activities not found : user - 38090
+2024-10-23 11:18:05,731 : INFO : 200 : user - {'id': 754, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T19:57:49'}
+2024-10-23 11:18:06,466 : INFO : 200 : user - {'id': 755, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T18:36:04'}
+2024-10-23 11:18:07,203 : INFO : 200 : user - {'id': 756, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T20:22:33'}
+2024-10-23 11:18:07,930 : INFO : 200 : user - {'id': 757, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T17:43:07'}
+2024-10-23 11:18:08,359 : INFO : 200 : user - {'id': 758, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T18:02:13'}
+2024-10-23 11:18:09,164 : INFO : 200 : user - {'id': 759, 'keka_id': '37663', 'clock_in_time': '2024-10-22T17:49:43', 'clock_out_time': '2024-10-23T04:35:25'}
+2024-10-23 11:18:09,511 : INFO : 200 : user - {'id': 760, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T19:17:45'}
+2024-10-23 11:18:09,837 : ERROR : User activities not found : user - 37349
+2024-10-23 11:18:10,270 : INFO : 200 : user - {'id': 761, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T20:13:20'}
+2024-10-23 11:18:11,067 : INFO : 200 : user - {'id': 762, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T18:25:39'}
+2024-10-23 11:18:11,832 : INFO : 200 : user - {'id': 763, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T19:37:29'}
+2024-10-23 11:18:12,636 : INFO : 200 : user - {'id': 764, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T19:59:23'}
+2024-10-23 11:19:31,346 : INFO : 200 : user - {'id': 765, 'keka_id': '37976', 'clock_in_time': '2024-10-22T09:02:05', 'clock_out_time': '2024-10-22T18:34:36'}
+2024-10-23 11:19:32,127 : INFO : 200 : user - {'id': 766, 'keka_id': '37498', 'clock_in_time': '2024-10-22T09:22:51', 'clock_out_time': '2024-10-22T19:30:05'}
+2024-10-23 11:19:32,938 : ERROR : User activities not found : user - 38090
+2024-10-23 11:19:33,671 : INFO : 200 : user - {'id': 767, 'keka_id': '37500', 'clock_in_time': '2024-10-22T10:47:35', 'clock_out_time': '2024-10-22T19:57:49'}
+2024-10-23 11:19:34,425 : INFO : 200 : user - {'id': 768, 'keka_id': '37906', 'clock_in_time': '2024-10-22T09:26:54', 'clock_out_time': '2024-10-22T18:36:04'}
+2024-10-23 11:19:35,186 : INFO : 200 : user - {'id': 769, 'keka_id': '37316', 'clock_in_time': '2024-10-22T10:33:34', 'clock_out_time': '2024-10-22T20:22:33'}
+2024-10-23 11:19:35,979 : INFO : 200 : user - {'id': 770, 'keka_id': '37842', 'clock_in_time': '2024-10-22T07:25:38', 'clock_out_time': '2024-10-22T17:43:07'}
+2024-10-23 11:19:36,747 : INFO : 200 : user - {'id': 771, 'keka_id': '38414', 'clock_in_time': '2024-10-22T07:57:07', 'clock_out_time': '2024-10-22T18:02:13'}
+2024-10-23 11:19:37,489 : INFO : 200 : user - {'id': 772, 'keka_id': '37663', 'clock_in_time': '2024-10-22T17:49:43', 'clock_out_time': '2024-10-23T04:35:25'}
+2024-10-23 11:19:38,233 : INFO : 200 : user - {'id': 773, 'keka_id': '37377', 'clock_in_time': '2024-10-22T09:35:57', 'clock_out_time': '2024-10-22T19:17:45'}
+2024-10-23 11:19:38,963 : ERROR : User activities not found : user - 37349
+2024-10-23 11:19:39,717 : INFO : 200 : user - {'id': 774, 'keka_id': '23128', 'clock_in_time': '2024-10-22T10:15:01', 'clock_out_time': '2024-10-22T20:13:20'}
+2024-10-23 11:19:40,454 : INFO : 200 : user - {'id': 775, 'keka_id': '37504', 'clock_in_time': '2024-10-22T08:37:11', 'clock_out_time': '2024-10-22T18:25:39'}
+2024-10-23 11:19:40,797 : INFO : 200 : user - {'id': 776, 'keka_id': '38021', 'clock_in_time': '2024-10-22T10:02:27', 'clock_out_time': '2024-10-22T19:37:29'}
+2024-10-23 11:19:41,634 : INFO : 200 : user - {'id': 777, 'keka_id': '37385', 'clock_in_time': '2024-10-22T08:55:37', 'clock_out_time': '2024-10-22T19:59:23'}
+2024-10-23 11:19:42,378 : INFO : 200 : user - {'id': 778, 'keka_id': '37814', 'clock_in_time': '2024-10-22T11:01:46', 'clock_out_time': '2024-10-22T20:11:37'}
+2024-10-23 11:19:43,128 : INFO : 200 : user - {'id': 779, 'keka_id': '37246', 'clock_in_time': '2024-10-22T11:19:45', 'clock_out_time': '2024-10-22T20:31:02'}
+2024-10-23 11:19:43,926 : INFO : 200 : user - {'id': 780, 'keka_id': '38131', 'clock_in_time': '2024-10-22T10:16:07', 'clock_out_time': '2024-10-22T20:54:27'}
+2024-10-23 11:19:44,655 : INFO : 200 : user - {'id': 781, 'keka_id': '37428', 'clock_in_time': '2024-10-22T08:04:38', 'clock_out_time': '2024-10-22T18:17:43'}
+2024-10-23 11:19:45,395 : INFO : 200 : user - {'id': 782, 'keka_id': '37630', 'clock_in_time': '2024-10-22T09:05:11', 'clock_out_time': '2024-10-22T19:16:26'}
+2024-10-23 11:19:46,146 : INFO : 200 : user - {'id': 783, 'keka_id': '37384', 'clock_in_time': '2024-10-22T10:21:36', 'clock_out_time': '2024-10-22T20:10:15'}
+2024-10-23 11:19:46,877 : INFO : 200 : user - {'id': 784, 'keka_id': '37458', 'clock_in_time': '2024-10-22T10:47:07', 'clock_out_time': '2024-10-22T20:25:57'}
+2024-10-23 11:19:47,620 : INFO : 200 : user - {'id': 785, 'keka_id': '37578', 'clock_in_time': '2024-10-22T09:06:34', 'clock_out_time': '2024-10-22T18:35:20'}
+2024-10-23 11:19:47,932 : ERROR : User activities not found : user - 38082
+2024-10-23 11:19:48,683 : INFO : 200 : user - {'id': 786, 'keka_id': '23148', 'clock_in_time': '2024-10-22T09:04:46', 'clock_out_time': '2024-10-22T19:57:00'}
+2024-10-23 11:19:49,453 : INFO : 200 : user - {'id': 787, 'keka_id': '37201', 'clock_in_time': '2024-10-22T08:50:05', 'clock_out_time': '2024-10-22T18:18:12'}
+2024-10-23 11:19:50,174 : INFO : 200 : user - {'id': 788, 'keka_id': '38395', 'clock_in_time': '2024-10-22T10:02:48', 'clock_out_time': '2024-10-22T20:55:22'}
+2024-10-23 11:19:50,900 : INFO : 200 : user - {'id': 789, 'keka_id': '38476', 'clock_in_time': '2024-10-22T10:50:07', 'clock_out_time': '2024-10-22T22:20:30'}
+2024-10-23 11:19:51,625 : INFO : 200 : user - {'id': 790, 'keka_id': '38524', 'clock_in_time': '2024-10-22T10:08:12', 'clock_out_time': '2024-10-22T18:45:32'}
+2024-10-23 11:19:52,333 : ERROR : User activities not found : user - 37382
+2024-10-23 11:19:53,057 : ERROR : User activities not found : user - 37884
+2024-10-23 11:19:53,368 : ERROR : User activities not found : user - 37727
+2024-10-23 11:19:53,701 : INFO : 200 : user - {'id': 791, 'keka_id': '38049', 'clock_in_time': '2024-10-22T10:32:10', 'clock_out_time': '2024-10-22T19:24:40'}
+2024-10-23 11:19:54,047 : INFO : 200 : user - {'id': 792, 'keka_id': '38339', 'clock_in_time': '2024-10-22T09:14:43', 'clock_out_time': '2024-10-22T18:32:39'}
+2024-10-23 11:19:54,867 : INFO : 200 : user - {'id': 793, 'keka_id': '37902', 'clock_in_time': '2024-10-22T10:20:21', 'clock_out_time': '2024-10-22T20:28:01'}
+2024-10-23 11:19:55,608 : INFO : 200 : user - {'id': 794, 'keka_id': '38428', 'clock_in_time': '2024-10-22T09:41:59', 'clock_out_time': '2024-10-23T00:00:00'}
+2024-10-23 11:19:55,988 : INFO : 200 : user - {'id': 795, 'keka_id': '37912', 'clock_in_time': '2024-10-22T11:42:04', 'clock_out_time': '2024-10-22T21:58:52'}
+2024-10-23 11:19:56,734 : INFO : 200 : user - {'id': 796, 'keka_id': '37699', 'clock_in_time': '2024-10-22T10:11:03', 'clock_out_time': '2024-10-22T19:32:43'}
+2024-10-23 11:19:57,488 : INFO : 200 : user - {'id': 797, 'keka_id': '38574', 'clock_in_time': '2024-10-22T07:25:49', 'clock_out_time': '2024-10-22T16:34:40'}
+2024-10-23 11:19:58,240 : INFO : 200 : user - {'id': 798, 'keka_id': '38491', 'clock_in_time': '2024-10-22T10:41:52', 'clock_out_time': '2024-10-22T22:55:30'}
+2024-10-23 11:19:58,972 : INFO : 200 : user - {'id': 799, 'keka_id': '37769', 'clock_in_time': '2024-10-22T07:32:03', 'clock_out_time': '2024-10-22T17:58:13'}
+2024-10-23 11:19:59,698 : INFO : 200 : user - {'id': 800, 'keka_id': '23161', 'clock_in_time': '2024-10-22T10:39:08', 'clock_out_time': '2024-10-22T20:04:22'}
+2024-10-23 11:20:00,057 : INFO : 200 : user - {'id': 801, 'keka_id': '37855', 'clock_in_time': '2024-10-22T09:45:32', 'clock_out_time': '2024-10-22T19:19:32'}
+2024-10-23 11:20:00,860 : INFO : 200 : user - {'id': 802, 'keka_id': '37499', 'clock_in_time': '2024-10-22T10:12:09', 'clock_out_time': '2024-10-22T19:50:57'}
+2024-10-23 11:20:01,208 : INFO : 200 : user - {'id': 803, 'keka_id': '37680', 'clock_in_time': '2024-10-22T09:52:57', 'clock_out_time': '2024-10-22T21:40:25'}
+2024-10-23 11:20:01,974 : INFO : 200 : user - {'id': 804, 'keka_id': '37359', 'clock_in_time': '2024-10-22T08:53:36', 'clock_out_time': '2024-10-22T20:27:39'}
+2024-10-23 11:20:02,743 : INFO : 200 : user - {'id': 805, 'keka_id': '23152', 'clock_in_time': '2024-10-22T08:59:48', 'clock_out_time': '2024-10-22T19:28:46'}
+2024-10-23 11:20:03,082 : ERROR : User activities not found : user - 38033
+2024-10-23 11:20:03,397 : ERROR : User activities not found : user - 37849
+2024-10-23 11:20:04,148 : INFO : 200 : user - {'id': 806, 'keka_id': '37724', 'clock_in_time': '2024-10-22T10:08:47', 'clock_out_time': '2024-10-22T19:03:11'}
+2024-10-23 11:20:04,919 : INFO : 200 : user - {'id': 807, 'keka_id': '38461', 'clock_in_time': '2024-10-22T11:03:19', 'clock_out_time': '2024-10-22T21:14:05'}
+2024-10-23 11:20:05,280 : INFO : 200 : user - {'id': 808, 'keka_id': '37740', 'clock_in_time': '2024-10-22T09:45:15', 'clock_out_time': '2024-10-22T18:51:43'}
+2024-10-23 11:20:05,640 : INFO : 200 : user - {'id': 809, 'keka_id': '37812', 'clock_in_time': '2024-10-22T10:02:22', 'clock_out_time': '2024-10-22T19:05:52'}
+2024-10-23 11:20:06,426 : INFO : 200 : user - {'id': 810, 'keka_id': '23131', 'clock_in_time': '2024-10-22T10:39:58', 'clock_out_time': '2024-10-22T20:13:48'}
+2024-10-23 11:20:07,251 : INFO : 200 : user - {'id': 811, 'keka_id': '27174', 'clock_in_time': '2024-10-22T10:15:12', 'clock_out_time': '2024-10-22T20:14:33'}
+2024-10-23 11:20:07,955 : ERROR : User activities not found : user - 23142
+2024-10-23 11:20:08,344 : INFO : 200 : user - {'id': 812, 'keka_id': '37988', 'clock_in_time': '2024-10-22T15:29:27', 'clock_out_time': '2024-10-22T20:25:29'}
+2024-10-23 11:20:09,087 : INFO : 200 : user - {'id': 813, 'keka_id': '37883', 'clock_in_time': '2024-10-22T10:51:30', 'clock_out_time': '2024-10-22T23:00:11'}
+2024-10-23 11:20:09,864 : INFO : 200 : user - {'id': 814, 'keka_id': '37619', 'clock_in_time': '2024-10-22T09:25:29', 'clock_out_time': '2024-10-22T20:31:39'}
+2024-10-23 11:20:10,231 : INFO : 200 : user - {'id': 815, 'keka_id': '37836', 'clock_in_time': '2024-10-22T09:29:12', 'clock_out_time': '2024-10-22T19:02:57'}
+2024-10-23 11:20:10,947 : ERROR : User activities not found : user - 38506
+2024-10-23 11:20:11,678 : INFO : 200 : user - {'id': 816, 'keka_id': '38160', 'clock_in_time': '2024-10-22T08:53:03', 'clock_out_time': '2024-10-22T18:17:39'}
+2024-10-23 11:20:12,370 : ERROR : User activities not found : user - 38526
+2024-10-23 11:20:12,772 : INFO : 200 : user - {'id': 817, 'keka_id': '23124', 'clock_in_time': '2024-10-22T10:35:51', 'clock_out_time': '2024-10-22T19:50:49'}
+2024-10-23 11:20:13,547 : INFO : 200 : user - {'id': 818, 'keka_id': '37875', 'clock_in_time': '2024-10-22T09:42:21', 'clock_out_time': '2024-10-22T18:13:47'}
+2024-10-23 11:20:14,265 : INFO : 200 : user - {'id': 819, 'keka_id': '37878', 'clock_in_time': '2024-10-22T09:49:19', 'clock_out_time': '2024-10-22T18:53:17'}
+2024-10-23 11:20:15,027 : INFO : 200 : user - {'id': 820, 'keka_id': '37896', 'clock_in_time': '2024-10-22T09:30:18', 'clock_out_time': '2024-10-22T22:52:39'}
+2024-10-23 11:20:15,776 : INFO : 200 : user - {'id': 821, 'keka_id': '38235', 'clock_in_time': '2024-10-22T07:30:53', 'clock_out_time': '2024-10-22T18:07:15'}
+2024-10-23 11:20:16,118 : INFO : 200 : user - {'id': 822, 'keka_id': '37721', 'clock_in_time': '2024-10-22T10:32:30', 'clock_out_time': '2024-10-22T20:14:03'}
+2024-10-23 11:20:16,505 : INFO : 200 : user - {'id': 823, 'keka_id': '37887', 'clock_in_time': '2024-10-22T08:45:26', 'clock_out_time': '2024-10-22T19:29:43'}
+2024-10-23 11:20:17,239 : INFO : 200 : user - {'id': 824, 'keka_id': '37922', 'clock_in_time': '2024-10-22T10:07:20', 'clock_out_time': '2024-10-22T19:30:29'}
+2024-10-23 11:20:17,644 : INFO : 200 : user - {'id': 825, 'keka_id': '37924', 'clock_in_time': '2024-10-22T08:48:37', 'clock_out_time': '2024-10-22T18:59:46'}
+2024-10-23 11:20:18,389 : INFO : 200 : user - {'id': 826, 'keka_id': '38216', 'clock_in_time': '2024-10-22T19:01:07', 'clock_out_time': '2024-10-23T04:29:53'}
+2024-10-23 11:20:19,198 : INFO : 200 : user - {'id': 827, 'keka_id': '37531', 'clock_in_time': '2024-10-22T09:12:46', 'clock_out_time': '2024-10-22T19:48:32'}
+2024-10-23 11:20:19,586 : INFO : 200 : user - {'id': 828, 'keka_id': '38061', 'clock_in_time': '2024-10-22T14:13:30', 'clock_out_time': '2024-10-22T23:35:30'}
+2024-10-23 11:20:20,318 : INFO : 200 : user - {'id': 829, 'keka_id': '38236', 'clock_in_time': '2024-10-22T10:39:17', 'clock_out_time': '2024-10-22T19:55:42'}
+2024-10-23 11:20:21,014 : ERROR : User activities not found : user - 37545
+2024-10-23 11:20:21,760 : INFO : 200 : user - {'id': 830, 'keka_id': '38421', 'clock_in_time': '2024-10-22T09:33:04', 'clock_out_time': '2024-10-22T18:30:57'}
+2024-10-23 11:20:22,481 : ERROR : User activities not found : user - 37931
+2024-10-23 11:20:22,845 : INFO : 200 : user - {'id': 831, 'keka_id': '38430', 'clock_in_time': '2024-10-22T10:38:47', 'clock_out_time': '2024-10-22T19:48:10'}
+2024-10-23 11:20:23,184 : INFO : 200 : user - {'id': 832, 'keka_id': '11010', 'clock_in_time': '2024-10-22T08:32:55', 'clock_out_time': '2024-10-22T17:55:54'}
+2024-10-23 11:20:23,925 : INFO : 200 : user - {'id': 833, 'keka_id': '38023', 'clock_in_time': '2024-10-22T09:09:09', 'clock_out_time': '2024-10-22T10:53:24'}
+2024-10-23 11:20:24,267 : INFO : 200 : user - {'id': 834, 'keka_id': '38323', 'clock_in_time': '2024-10-22T11:57:38', 'clock_out_time': '2024-10-22T20:57:01'}
+2024-10-23 11:20:25,011 : INFO : 200 : user - {'id': 835, 'keka_id': '37985', 'clock_in_time': '2024-10-22T10:39:09', 'clock_out_time': '2024-10-22T19:28:08'}
+2024-10-23 11:20:25,817 : ERROR : User activities not found : user - 38042
+2024-10-23 11:20:26,542 : INFO : 200 : user - {'id': 836, 'keka_id': '37660', 'clock_in_time': '2024-10-22T11:02:46', 'clock_out_time': '2024-10-22T20:30:00'}
+2024-10-23 11:20:26,884 : INFO : 200 : user - {'id': 837, 'keka_id': '38342', 'clock_in_time': '2024-10-22T11:20:33', 'clock_out_time': '2024-10-22T20:58:38'}
+2024-10-23 11:20:27,617 : INFO : 200 : user - {'id': 838, 'keka_id': '37975', 'clock_in_time': '2024-10-22T09:14:34', 'clock_out_time': '2024-10-22T19:08:05'}
+2024-10-23 11:20:28,448 : INFO : 200 : user - {'id': 839, 'keka_id': '37253', 'clock_in_time': '2024-10-22T09:01:33', 'clock_out_time': '2024-10-22T18:04:01'}
+2024-10-23 11:20:29,261 : INFO : 200 : user - {'id': 840, 'keka_id': '14056', 'clock_in_time': '2024-10-22T10:23:00', 'clock_out_time': '2024-10-22T22:00:27'}
+2024-10-23 11:20:29,622 : INFO : 200 : user - {'id': 841, 'keka_id': '37867', 'clock_in_time': '2024-10-22T07:24:20', 'clock_out_time': '2024-10-22T17:56:08'}
+2024-10-23 11:20:30,358 : INFO : 200 : user - {'id': 842, 'keka_id': '37397', 'clock_in_time': '2024-10-22T12:00:45', 'clock_out_time': '2024-10-22T23:25:09'}
+2024-10-23 11:20:30,708 : INFO : 200 : user - {'id': 843, 'keka_id': '37614', 'clock_in_time': '2024-10-22T09:52:36', 'clock_out_time': '2024-10-22T20:10:14'}
+2024-10-23 11:20:31,043 : INFO : 200 : user - {'id': 844, 'keka_id': '37327', 'clock_in_time': '2024-10-22T08:30:54', 'clock_out_time': '2024-10-22T16:34:25'}
+2024-10-23 11:20:31,391 : INFO : 200 : user - {'id': 845, 'keka_id': '37256', 'clock_in_time': '2024-10-22T10:19:31', 'clock_out_time': '2024-10-22T18:57:38'}
+2024-10-23 11:20:32,137 : INFO : 200 : user - {'id': 846, 'keka_id': '38509', 'clock_in_time': '2024-10-22T07:19:47', 'clock_out_time': '2024-10-22T16:44:06'}
+2024-10-23 11:20:32,918 : INFO : 200 : user - {'id': 847, 'keka_id': '14061', 'clock_in_time': '2024-10-22T07:34:48', 'clock_out_time': '2024-10-22T17:04:04'}
+2024-10-23 11:20:33,645 : INFO : 200 : user - {'id': 848, 'keka_id': '37993', 'clock_in_time': '2024-10-22T09:14:53', 'clock_out_time': '2024-10-22T18:11:12'}
+2024-10-23 11:20:34,415 : INFO : 200 : user - {'id': 849, 'keka_id': '38113', 'clock_in_time': '2024-10-22T09:56:09', 'clock_out_time': '2024-10-22T19:23:19'}
+2024-10-23 11:20:34,760 : INFO : 200 : user - {'id': 850, 'keka_id': '38420', 'clock_in_time': '2024-10-22T10:05:56', 'clock_out_time': '2024-10-22T18:51:51'}
+2024-10-23 11:20:35,504 : INFO : 200 : user - {'id': 851, 'keka_id': '38209', 'clock_in_time': '2024-10-22T10:28:32', 'clock_out_time': '2024-10-22T19:55:30'}
+2024-10-23 11:20:36,232 : INFO : 200 : user - {'id': 852, 'keka_id': '38234', 'clock_in_time': '2024-10-22T10:56:32', 'clock_out_time': '2024-10-22T19:37:34'}
+2024-10-23 11:20:36,935 : ERROR : User activities not found : user - 38264
+2024-10-23 11:20:37,673 : INFO : 200 : user - {'id': 853, 'keka_id': '38285', 'clock_in_time': '2024-10-22T07:01:11', 'clock_out_time': '2024-10-22T17:05:20'}
+2024-10-23 11:20:38,404 : INFO : 200 : user - {'id': 854, 'keka_id': '38362', 'clock_in_time': '2024-10-22T10:26:48', 'clock_out_time': '2024-10-22T19:18:54'}
+2024-10-23 11:20:39,186 : INFO : 200 : user - {'id': 855, 'keka_id': '38431', 'clock_in_time': '2024-10-22T10:30:14', 'clock_out_time': '2024-10-22T20:22:20'}
+2024-10-23 11:20:39,914 : INFO : 200 : user - {'id': 856, 'keka_id': '38565', 'clock_in_time': '2024-10-22T11:30:00', 'clock_out_time': '2024-10-22T21:30:00'}
+2024-10-23 11:20:40,257 : INFO : 200 : user - {'id': 857, 'keka_id': '38597', 'clock_in_time': '2024-10-22T15:14:09', 'clock_out_time': '2024-10-22T22:10:00'}
+2024-10-23 11:20:41,101 : INFO : 200 : user - {'id': 858, 'keka_id': '38639', 'clock_in_time': '2024-10-22T06:56:28', 'clock_out_time': '2024-10-22T15:41:20'}
+2024-10-23 11:20:41,830 : INFO : 200 : user - {'id': 859, 'keka_id': '38687', 'clock_in_time': '2024-10-22T11:45:27', 'clock_out_time': '2024-10-22T20:23:23'}
+2024-10-23 11:20:42,136 : ERROR : User activities not found : user - 38689
+2024-10-23 11:20:42,832 : ERROR : User activities not found : user - 38764
+2024-10-23 11:20:43,529 : ERROR : User activities not found : user - 38763
+2024-10-23 11:20:44,287 : INFO : 200 : user - {'id': 860, 'keka_id': '37443', 'clock_in_time': '2024-10-22T09:00:27', 'clock_out_time': '2024-10-22T19:31:56'}
+2024-10-23 11:20:44,627 : INFO : 200 : user - {'id': 861, 'keka_id': '38479', 'clock_in_time': '2024-10-22T12:15:30', 'clock_out_time': '2024-10-22T19:20:39'}

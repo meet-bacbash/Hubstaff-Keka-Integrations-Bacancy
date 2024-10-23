@@ -31,16 +31,16 @@ def gmt_to_ist(gmt_time_str):
     return ist_time
 
 
-def hubstaff_main(q1, logger):
+def hubstaff_main(q1,logger):
 
     todays_date = date.today()
     yesterdays_date = todays_date - timedelta(days=1)
 
-    start_date = f'{yesterdays_date}T00:00:00Z'
-    end_date = f'{yesterdays_date}T23:59:00Z'
+    # start_date = f'{yesterdays_date}T00:00:00Z'
+    # end_date = f'{yesterdays_date}T23:59:00Z'
 
-    # start_date = '2024-10-21T00:00:00Z'
-    # end_date = '2024-10-21T23:59:00Z'
+    start_date = '2024-10-21T00:00:00Z'
+    end_date = '2024-10-21T23:59:00Z'
 
     url = f'https://api.hubstaff.com/v2/organizations/{bac_org_id}/activities'
 
@@ -55,6 +55,7 @@ def hubstaff_main(q1, logger):
 
     with tqdm(total=len(user_ids), desc="Fetching Data", unit="chunk") as pbar:
         for key,value in user_ids.items():
+
             headers = {
                 'Authorization': f'Bearer {access_token}',
                 'Content-Type': 'application/json'
@@ -71,13 +72,25 @@ def hubstaff_main(q1, logger):
             if response.status_code == 200:
                 users = response.json()
                 data = users
+                # print(data)
 
-                if data['activities'] != []:
-                    created_at_times = [gmt_to_ist(activity['created_at']) for activity in data['activities']]
-                    started_at_times = [gmt_to_ist(activity['starts_at']) for activity in data['activities']]
+                if data['activities']:
+                    # created_at_times = [gmt_to_ist(activity['created_at']) for activity in data['activities'] if activity['created_at'].split("T")[0] in start_date ]
+                    started_at_times = [activity for activity in data['activities']]
+                    only_dates = [activity['starts_at'] for activity in data['activities']]
 
-                    clock_in_time = min(started_at_times)
-                    clock_out_time = max(created_at_times)
+                    clock_in_time = min(only_dates)
+                    max_date = max(only_dates)
+
+                    for entry in started_at_times:
+                        if entry['starts_at'] == max_date:
+                            date_obj = datetime.strptime(entry['starts_at'], "%Y-%m-%dT%H:%M:%Sz")
+                            clock_out_time = date_obj + timedelta(seconds=int(entry['tracked']))
+                            clock_out_time = clock_out_time.strftime("%Y-%m-%dT%H:%M:%Sz")
+
+                    clock_in_time = gmt_to_ist(clock_in_time)
+                    clock_out_time = gmt_to_ist(clock_out_time)
+
 
                     query = "SELECT count_value FROM queue_count"
                     cursor.execute(query)
@@ -158,7 +171,8 @@ def hubstaff_id_sync():
                 connection.commit()
 
             else:
-                print(f"Hubstaff account not found for {i[1]}")
+                print(f"{i[1]}")
         else:
             print(f"Error: {response.status_code}, {response.text}")
 
+hubstaff_id_sync()

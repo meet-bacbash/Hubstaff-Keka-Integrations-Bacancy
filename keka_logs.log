@@ -1885,3 +1885,20 @@
             }
         ]
         
+2024-10-23 10:04:01,275 : INFO : 200 - {"data":{"logsReceived":2,"logsAccepted":2},"succeeded":true} : payload - 
+            [
+                
+                {
+                    "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                    "EmployeeAttendanceNumber": "38479",
+                    "Timestamp": "2024-10-22T12:15:30",
+                    "Status": 0
+                }, 
+                {
+                    "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                    "EmployeeAttendanceNumber": "38479",
+                    "Timestamp": "2024-10-22T19:26:27",
+                    "Status": 1
+                }
+            ]
+            
