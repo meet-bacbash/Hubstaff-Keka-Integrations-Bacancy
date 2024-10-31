@@ -1,7 +1,7 @@
 from persistqueue import Queue
 import logging
 
-from token_validator import token_validator
+from token_validator import token_validator, get_access_token
 
 formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(message)s')
 
@@ -26,8 +26,7 @@ def setup_logger(name, log_file, level=logging.INFO):
 # logger = logging.getLogger("hubstaff_logger")
 # logger.setLevel(logging.INFO)
 
-token_validator()
-
+get_access_token()
 
 q1 = Queue("user_timings_queue", autosave=True)
 

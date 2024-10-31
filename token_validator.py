@@ -29,10 +29,9 @@ def get_access_token():
         token_response = response.json()
         new_access_token = token_response.get('access_token')
         new_refresh_token = token_response.get('refresh_token')  # If the refresh token is rotated
-        print(f"New Access Token: {new_access_token}")
-        print(f"New Refresh Token: {new_refresh_token}")
         dotenv.set_key(dotenv_file, "access_token", new_access_token)
         dotenv.set_key(dotenv_file, "refresh_token", new_refresh_token)
+        print(f"New Access Token generated")
     else:
         print(f"Error: {response.status_code}, {response.text}")
 
