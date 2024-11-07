@@ -8,7 +8,11 @@ todays_date = date.today()
 
 
 # Function to download email attachments
-def download_attachments(mail_user, mail_pass, subject_to_find):
+def download_attachments():
+    mail_user = "manthan0404soni@gmail.com"
+    mail_pass = "ydbvvkqkcmmbajlm"
+    subject_to_find = "Bacancy Technology LLP Work Sessions Report"
+
     # Connect to the Gmail IMAP server
     imap = imaplib.IMAP4_SSL("imap.gmail.com")
 
@@ -61,9 +65,8 @@ def download_attachments(mail_user, mail_pass, subject_to_find):
     imap.logout()
 
 
-# Use the function
-mail_user = "manthan0404soni@gmail.com"
-mail_pass = "ydbvvkqkcmmbajlm"
-subject_to_find = "Bacancy Technology LLP Work Sessions Report"
-
-download_attachments(mail_user, mail_pass, subject_to_find)
+# mail_user = "manthan0404soni@gmail.com"
+# mail_pass = "ydbvvkqkcmmbajlm"
+# subject_to_find = "Bacancy Technology LLP Work Sessions Report"
+#
+# download_attachments(mail_user, mail_pass, subject_to_find)

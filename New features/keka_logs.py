@@ -15,47 +15,48 @@ def keka_main():
         l1 = q1.get()
 
     if l1:
-        # with tqdm(total=len(l1), desc="Uploading Data to Keka", unit="chunk") as pbar:
-        for key,value in l1.items():
-            print(key)
-            emp_data = []
-            for i in value:
-                # print(i)
-                val = {
-                    "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
-                    "EmployeeAttendanceNumber": key,
-                    "Timestamp": i['clock_in'],
-                    "Status": 0
-                }
+        with tqdm(total=len(l1), desc="Uploading Data to Keka", unit="chunk") as pbar:
+            for key,value in l1.items():
+                print(key)
+                emp_data = []
+                for i in value:
+                    # print(i)
+                    val = {
+                        "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                        "EmployeeAttendanceNumber": key,
+                        "Timestamp": i['clock_in'],
+                        "Status": 0
+                    }
 
-                val2 = {
-                    "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
-                    "EmployeeAttendanceNumber": key,
-                    "Timestamp": i['clock_out'],
-                    "Status": 1
-                }
+                    val2 = {
+                        "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
+                        "EmployeeAttendanceNumber": key,
+                        "Timestamp": i['clock_out'],
+                        "Status": 1
+                    }
 
-                emp_data.append(val)
-                emp_data.append(val2)
+                    emp_data.append(val)
+                    emp_data.append(val2)
 
-            payload = f"""
-            [
-                {', '.join([f'''
-                {{
-                    "DeviceIdentifier": "{entry['DeviceIdentifier']}",
-                    "EmployeeAttendanceNumber": "{key}",
-                    "Timestamp": "{entry['Timestamp']}",
-                    "Status": {entry['Status']}
-                }}''' for entry in emp_data])}
-            ]
-            """
+                payload = f"""
+                [
+                    {', '.join([f'''
+                    {{
+                        "DeviceIdentifier": "{entry['DeviceIdentifier']}",
+                        "EmployeeAttendanceNumber": "{key}",
+                        "Timestamp": "{entry['Timestamp']}",
+                        "Status": {entry['Status']}
+                    }}''' for entry in emp_data])}
+                ]
+                """
 
-            # with open('user_data.json', 'a') as f:
-            #     json.dump(payload, f, indent=4)
+                # with open('user_data.json', 'a') as f:
+                #     json.dump(payload, f, indent=4)
 
-            print(payload)
-            print("==============================================")
-            # pbar.update(1)
+                print(payload)
+                print("==============================================")
+                pbar.update(1)
+
 
             # headers = {
             #     'Content-Type': 'application/json',
@@ -73,5 +74,3 @@ def keka_main():
             #     i['status_text'] = response.text
             #     q1.put(i)
             #     print(f"Error: {response.status_code}, {response.text}")
-
-keka_main()
