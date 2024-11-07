@@ -4,9 +4,9 @@ from persistqueue import Queue
 import json
 
 
-def keka_main():
+def keka_log(user_id):
     q1 = Queue("user_timings_queue", autosave=True)
-
+    user_id = user_id
     l1 = {}
     # url = "https://cin02.a.keka.com/v1/logs"
 
@@ -42,7 +42,7 @@ def keka_main():
                 {', '.join([f'''
                 {{
                     "DeviceIdentifier": "{entry['DeviceIdentifier']}",
-                    "EmployeeAttendanceNumber": "{key}",
+                    "EmployeeAttendanceNumber": "{user_id}",
                     "Timestamp": "{entry['Timestamp']}",
                     "Status": {entry['Status']}
                 }}''' for entry in data])}
@@ -72,5 +72,3 @@ def keka_main():
             #     i['status_text'] = response.text
             #     q1.put(i)
             #     print(f"Error: {response.status_code}, {response.text}")
-
-keka_main()
