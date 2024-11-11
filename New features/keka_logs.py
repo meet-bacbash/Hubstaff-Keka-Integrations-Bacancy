@@ -1,15 +1,9 @@
 import requests
 from tqdm import tqdm
-from persistqueue import Queue
-import json
 
-
-def keka_main():
-    q1 = Queue("user_timings_queue", autosave=True)
-
+def keka_main(logger,q1):
     l1 = {}
-    url = "https://cin02.a.keka.com/v1/logs"
-
+    # url = "https://cin02.a.keka.com/v1/logs"
 
     while not q1.empty():
         l1 = q1.get()
@@ -17,10 +11,8 @@ def keka_main():
     if l1:
         with tqdm(total=len(l1), desc="Uploading Data to Keka", unit="chunk") as pbar:
             for key,value in l1.items():
-                print(key)
                 emp_data = []
                 for i in value:
-                    # print(i)
                     val = {
                         "DeviceIdentifier": "648f6f6a-1edb-42fa-9f4a-3afaf254afdd",
                         "EmployeeAttendanceNumber": key,
@@ -50,27 +42,23 @@ def keka_main():
                 ]
                 """
 
-                # with open('user_data.json', 'a') as f:
-                #     json.dump(payload, f, indent=4)
+                headers = {
+                    'Content-Type': 'application/json',
+                    'X-API-Key': '29096d92-5808-4940-9ce0-f6ecbc305860'
+                }
 
-                print(payload)
-                print("==============================================")
+                response = requests.request("POST", url, headers=headers, data=payload)
+
+                if response.status_code == 200:
+                    print(response.text)
+                    logger.info(f"{response.status_code} - {response.text} : payload - {payload}")
+                else:
+                    logger.error(f"{response.status_code} - {response.text} : payload - {payload}")
+                    i['status_code'] = response.status_code
+                    i['status_text'] = response.text
+                    q1.put(i)
+                    print(f"Error: {response.status_code}, {response.text}")
+
+                # print(payload)
+                # print("==============================================")
                 pbar.update(1)
-
-
-            # headers = {
-            #     'Content-Type': 'application/json',
-            #     'X-API-Key': '29096d92-5808-4940-9ce0-f6ecbc305860'
-            # }
-            #
-            # response = requests.request("POST", url, headers=headers, data=payload)
-            #
-            # if response.status_code == 200:
-            #     print(response.text)
-            #     logger.info(f"{response.status_code} - {response.text} : payload - {payload}")
-            # else:
-            #     logger.error(f"{response.status_code} - {response.text} : payload - {payload}")
-            #     i['status_code'] = response.status_code
-            #     i['status_text'] = response.text
-            #     q1.put(i)
-            #     print(f"Error: {response.status_code}, {response.text}")

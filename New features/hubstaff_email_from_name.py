@@ -7,7 +7,7 @@ cursor = connection.cursor()
 
 user_dict = {}
 
-with open('Downloads/bacancy-technology-llp_time_and_activities_report_2024-10-21_to_2024-10-27.csv', mode ='r')as file:
+with open('Downloads/bacancy-technology-llp_time_and_activities_report_2024-11-01_to_2024-11-11.csv', mode ='r')as file:
     csv_reader = csv.DictReader(file)
     # Iterate over each row
     for row in csv_reader:

@@ -2,35 +2,26 @@ import imaplib
 import email
 from email.header import decode_header
 import os
-from datetime import date
 
-todays_date = date.today()
-
-
-# Function to download email attachments
 def download_attachments():
+    """
+    It will download the attachment from the mail with the help of specific subject.
+    :return: filename
+    """
     mail_user = "manthan0404soni@gmail.com"
     mail_pass = "ydbvvkqkcmmbajlm"
     subject_to_find = "Bacancy Technology LLP Work Sessions Report"
 
-    # Connect to the Gmail IMAP server
-    imap = imaplib.IMAP4_SSL("imap.gmail.com")
+    imap = imaplib.IMAP4_SSL("imap.gmail.com") # Connect to the Gmail IMAP server
+    imap.login(mail_user, mail_pass) # Login to the account
+    imap.select("inbox") # To select the mailbox
 
-    # Login to the account
-    imap.login(mail_user, mail_pass)
+    status, messages = imap.search(None, f'(SUBJECT "{subject_to_find}")') # Search for the specific email (based on subject in this example)
 
-    # Select the mailbox you want to check (inbox in this case)
-    imap.select("inbox")
-
-    # Search for the specific email (based on subject in this example)
-    status, messages = imap.search(None, f'(SUBJECT "{subject_to_find}")')
-
-    # Convert the result to a list of email IDs
-    email_ids = messages[0].split()
+    email_ids = messages[0].split() # Convert the result to a list of email IDs
 
     if email_ids:
-        # Fetch the latest email (the last email ID in the list)
-        latest_email_id = email_ids[0]
+        latest_email_id = email_ids[-1] # Fetch the latest email (the last email ID in the list)
 
         # Fetch the email by ID
         res, msg = imap.fetch(latest_email_id, "(RFC822)")
@@ -48,13 +39,16 @@ def download_attachments():
                     for part in msg.walk():
                         # If part is an attachment
                         if part.get_content_disposition() == "attachment":
-                            filename = part.get_filename()
+                            filename = part.get_filename().split('_')
+                            extension = filename[-1].split('.')
+                            extension = extension[-1]
+                            filename = f"{filename[4]}.{extension}"
                             if filename:
                                 # Download attachment to the Downloads folder
                                 filepath = os.path.join("Downloads", filename)
                                 with open(filepath, "wb") as f:
                                     f.write(part.get_payload(decode=True))
-                                print(f"Downloaded: {filename}")
+                                return filename
                 else:
                     print("No attachments found.")
     else:
@@ -63,10 +57,3 @@ def download_attachments():
     # Close the connection and logout
     imap.close()
     imap.logout()
-
-
-# mail_user = "manthan0404soni@gmail.com"
-# mail_pass = "ydbvvkqkcmmbajlm"
-# subject_to_find = "Bacancy Technology LLP Work Sessions Report"
-#
-# download_attachments(mail_user, mail_pass, subject_to_find)
