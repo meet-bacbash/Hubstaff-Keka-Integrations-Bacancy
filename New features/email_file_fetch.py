@@ -1,22 +1,28 @@
+"""
+email_file_fetch will fetch the latest file containing the hubstaff logs of employees
+and download it to downloads folder
+"""
 import imaplib
 import email
 from email.header import decode_header
 import os
+
+MAIL_USER = "manthan0404soni@gmail.com"
+MAIL_PASS = "ydbvvkqkcmmbajlm"
+SUBJECT_TO_FIND = "Bacancy Technology LLP Work Sessions Report"
 
 def download_attachments():
     """
     It will download the attachment from the mail with the help of specific subject.
     :return: filename
     """
-    mail_user = "manthan0404soni@gmail.com"
-    mail_pass = "ydbvvkqkcmmbajlm"
-    subject_to_find = "Bacancy Technology LLP Work Sessions Report"
 
     imap = imaplib.IMAP4_SSL("imap.gmail.com") # Connect to the Gmail IMAP server
-    imap.login(mail_user, mail_pass) # Login to the account
+    imap.login(MAIL_USER, MAIL_PASS) # Login to the account
     imap.select("inbox") # To select the mailbox
 
-    status, messages = imap.search(None, f'(SUBJECT "{subject_to_find}")') # Search for the specific email (based on subject in this example)
+    # Search for the specific email (based on subject in this example)
+    status, messages = imap.search(None, f'(SUBJECT "{SUBJECT_TO_FIND}")')
 
     email_ids = messages[0].split() # Convert the result to a list of email IDs
 

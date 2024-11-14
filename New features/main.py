@@ -1,5 +1,10 @@
+"""
+Program to fetch the latest employee report, fetch the details from file and add the logs to keka
+"""
+
 import logging
 from persistqueue import Queue
+from email_file_fetch import download_attachments
 
 q1 = Queue("everyday_data_queue", autosave=True)
 
@@ -22,7 +27,7 @@ def setup_logger(name, log_file, level=logging.INFO):
 
     return logger
 
-from email_file_fetch import download_attachments
+
 print("Downloading the latest file...")
 filename = download_attachments()
 print(f"Downloaded: {filename}")

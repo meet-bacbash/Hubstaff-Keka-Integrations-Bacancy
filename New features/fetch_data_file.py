@@ -1,3 +1,6 @@
+"""
+fetch_data_file will extract the employee logs from the file in downloads
+"""
 import csv
 import sqlite3
 from tqdm import tqdm
@@ -7,8 +10,16 @@ cursor = connection.cursor()
 user_dict = {}
 
 def fetch_data(logger, q1, filename):
+    """
 
-    with open(f'Downloads/{filename}', mode ='r')as file:
+    :param logger:
+    :param q1:
+    :param filename:
+    :return updated queue:
+
+    """
+
+    with open(f'Downloads/{filename}', mode ='r', encoding="utf-8")as file:
         csv_reader = csv.DictReader(file)
         with tqdm(csv_reader,desc="Fetching Data from CSV file", unit="rows") as pbar:
             for row in csv_reader:
