@@ -41,11 +41,11 @@ def fetch_data(logger, q1, filename):
                     # If the name already exists in the dictionary, append the row to the list
                     if user_keka_id[0] in user_dict:
                         user_dict[user_keka_id[0]].append(data)
-                        logger.info(f"Keka Id : {user_dict[user_keka_id[0]]} : Details - {data}")
+                        logger.info(f"Keka Id : {user_keka_id[0]} : Details - {data}")
                     else:
                         # If the name doesn't exist, create a new list with the row
                         user_dict[user_keka_id[0]] = [data]
-                        logger.info(f"Keka Id : {user_dict[user_keka_id[0]]} : Details - {data}")
+                        logger.info(f"Keka Id : {user_keka_id[0]} : Details - {data}")
                 pbar.update(1)
 
     q1.put(user_dict)
