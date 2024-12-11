@@ -7,8 +7,8 @@ import email
 from email.header import decode_header
 import os
 
-MAIL_USER = "manthan0404soni@gmail.com"
-MAIL_PASS = "ydbvvkqkcmmbajlm"
+MAIL_USER = "logs.keka@bacancy.com"
+MAIL_PASS = "stzjronxwrflqhee"
 SUBJECT_TO_FIND = "Bacancy Technology LLP Work Sessions Report"
 
 def download_attachments():
