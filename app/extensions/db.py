@@ -5,6 +5,7 @@ import os
 from flask import Flask
 import os
 from flask_sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt
 # from flask_msearch import Search
 # from flask_mail import Mail
 
@@ -27,7 +28,7 @@ print('=============================================================')
 
 app.config['SECRET_KEY'] = SECRET_KEY
 db = SQLAlchemy(app)
-
+bcrypt = Bcrypt(app)
 
 def create_db():
     ''' it will create model table if not exist.'''

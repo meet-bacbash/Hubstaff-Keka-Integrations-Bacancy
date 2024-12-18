@@ -71,8 +71,8 @@
           <ul class="menu-inner py-1">
             <!-- Layouts -->
             <li class="menu-header small text-uppercase"><span class="menu-header-text">User Details</span></li>
-            <li class="menu-item">
-              <a href="user_details" class="menu-link">
+            <li class="menu-item {% if page_name == 'home' %} active {% endif %}">
+              <a href="/" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-layout"></i>
                 <div data-i18n="Layouts">User Details</div>
               </a>
@@ -80,8 +80,8 @@
 
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Time Sheets </span></li>
 
-            <li class="menu-item">
-              <a href="user_details" class="menu-link">
+            <li class="menu-item {% if page_name == 'timesheet' %} active {% endif %}">
+              <a href="timesheets" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
                 <div data-i18n="Layouts">View Time Sheets </div>
               </a>

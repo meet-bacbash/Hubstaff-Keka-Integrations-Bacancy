@@ -14,9 +14,19 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Add User details | Keka + Hubstaff Portal</title>
+    <title>Timesheets | Keka + Hubstaff Portal</title>
 
     <meta name="description" content="" />
+        <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js" defer></script>
+
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
@@ -48,6 +58,30 @@
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="../assets/js/config.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataTable Example</title>
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <style>
+      /* Style the DataTable container */
+      .dataTables_wrapper {
+        margin:20px;
+      }
+
+      /* Hide the default search input box */
+      div.dataTables_filter {
+        display: none;
+      }
+    </style>
   </head>
 
   <body>
@@ -55,16 +89,13 @@
     <div class="layout-wrapper layout-content-navbar">
       <div class="layout-container">
         <!-- Menu -->
-
         {% include 'aside.html' %}
         <!-- / Menu -->
 
         <!-- Layout container -->
         <div class="layout-page">
           <!-- Navbar -->
-
           {% include 'navbar.html' %}
-
           <!-- / Navbar -->
 
           <!-- Content wrapper -->
@@ -72,60 +103,45 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">User Account Settings /</span> Add User</h4>
-
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="card mb-4">
-                    <h5 class="card-header">User Details</h5>
-                    <!-- Account -->
-                    <hr class="my-0" />
                     <div class="card-body">
-                      <form id="edit-details" method="POST">
-                        <div class="row">
-                          <div class="mb-3 col-md-6">
-                            <label for="name" class="form-label">Name</label>
-                            <input
-                              class="form-control"
-                              type="text"
-                              id="name"
-                              name="name"
-                              placeholder="User Name"
-                              autofocus
-                            />
-                          </div>
-                          <div class="mb-3 col-md-6">
-                            <label for="email" class="form-label">E-mail</label>
-                            <input
-                              class="form-control"
-                              type="email"
-                              id="email"
-                              name="email"
-                              placeholder="User Email ID"
-                            />
-                          </div>
-                          <div class="mb-3 col-md-6">
-                            <label for="keka_id" class="form-label">Keka ID</label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="keka_id"
-                              name="keka_id"
-                              placeholder="Keka ID"
-                            />
-                          </div>
-                        <div class="mt-2">
-                          <button type="submit" name="add-details" class="btn btn-primary me-2">Add Details</button>
-                          <a href="/" onclick="event.preventDefault(); window.location.href='/';"><button class="btn btn-outline-secondary">Cancel</button></a>
+                      <div class="row g-4">
+                        <div class="col-md-6">
+                          <h4 class="fw-bold py-3 mb-4">Timesheets</h4>
                         </div>
-                      </form>
+                      </div>
                     </div>
-                    <!-- /Account -->
-                  </div>
+
+              <!-- Basic Bootstrap Table -->
+              <div class="card">
+                <div class="table-responsive text-nowrap">
+                  <table class="table" id="example">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Download file</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                          {% for timesheet in timesheets %}
+                      <tr>
+                        <td>{{loop.index}}</td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>{{ timesheet }}</strong></td>
+                        <td>
+                            <a href="/download/{{timesheet}}.csv"><button type="submit" class="dropdown-item"><i class="bx bx-download me-1"></i>Download</button></a>
+                        </td>
+                      </tr>
+                    {% endfor %}
+                    </tbody>
+                  </table>
                 </div>
               </div>
+              <!--/ Basic Bootstrap Table -->
+
+
             </div>
             <!-- / Content -->
+
 
             <div class="content-backdrop fade"></div>
           </div>
@@ -138,6 +154,7 @@
       <div class="layout-overlay layout-menu-toggle"></div>
     </div>
     <!-- / Layout wrapper -->
+
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
@@ -155,9 +172,23 @@
     <script src="../assets/js/main.js"></script>
 
     <!-- Page JS -->
-    <script src="../assets/js/pages-account-settings-account.js"></script>
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+        $(document).ready(function() {
+            let table = new DataTable('#example',{
+              searching: true, // Disable default search box
+              paging: true,
+              ordering: true,
+              info: true,
+            });
+
+            // Attach custom search box functionality
+            $('#SearchInput').on('input', function () {
+              table.search(this.value).draw(); // Use DataTables' search API
+            });
+        });
+    </script>
   </body>
 </html>
