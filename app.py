@@ -1,3 +1,7 @@
+"""
+Main server file which will be used to run the server
+"""
+
 from app import create_app
 app = create_app()
 
