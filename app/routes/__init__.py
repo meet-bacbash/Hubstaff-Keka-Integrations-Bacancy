@@ -15,8 +15,7 @@ from app.extensions.db import db, bcrypt
 from app.token.auth_middleware import token_required,token_already_exist
 from app.hubstaff import hubstaff_id_sync
 
-
-DOWNLOADS_FOLDER = "/home/bacancy/Programming/python/hubstaff_website/Downloads"
+DOWNLOADS_FOLDER = os.getcwd()+"/employee_logs_cron/Downloads"
 
 # AUTH ROUTES
 
