@@ -3,6 +3,7 @@ All the routes used in app are inside routes folder
 """
 import os
 from datetime import datetime, timedelta
+from sqlalchemy.exc import IntegrityError
 
 import jwt
 from flask import redirect, render_template, request, g
@@ -12,6 +13,7 @@ from app.model import User, Credentials
 from app.extensions.db import app
 from app.extensions.db import db, bcrypt
 from app.token.auth_middleware import token_required,token_already_exist
+from app.hubstaff import hubstaff_id_sync
 
 
 DOWNLOADS_FOLDER = "/home/bacancy/Programming/python/hubstaff_website/Downloads"
@@ -50,7 +52,7 @@ def log_in():
             if is_valid:
                 token = jwt.encode(
                     {"username": username,
-                     'exp': datetime.now() + timedelta(minutes=30)},
+                     'exp': datetime.now() + timedelta(hours=5)},
                     app.config["SECRET_KEY"],
                     algorithm="HS256"
                 )
@@ -87,10 +89,10 @@ def register_user():
                 db.session.add(new_admin)
                 db.session.commit()
                 flash("User registered found")
+                redirect('login')
             except Exception as e:
                 db.session.rollback()  # Rollback if there's an error
-                flash("An error occurred while registering the user")
-            redirect('login')
+                flash("An error occurred while registering the user ! Please try again")
     return render_template('/auth/register.html')
 
 
@@ -117,20 +119,6 @@ def forget_password():
         Response: Renders the forgot password template.
     """
     return render_template('/auth/forgot-password.html')
-
-
-# ADMIN ROUTES
-
-@app.route('/profile', methods=['GET', 'POST'])
-def profile_page():
-    """
-    Displays the profile page for the user.
-
-    Returns:
-        Response: Renders the profile page template.
-    """
-    return render_template('profile-page.html')
-
 
 # USER DETAILS ROUTES
 
@@ -160,7 +148,7 @@ def user_details():
                     flash("User deleted successfully")
                 except Exception as e:
                     db.session.rollback()  # Rollback if there's an error
-                    flash(f"An error occurred: {e}")
+                    flash("Error occurred while deleting user! Please try again later")
             else:
                 flash("User not found")
     users = User.query.all()
@@ -185,15 +173,34 @@ def add_user():
             email = data['email']
             keka_id = data['keka_id']
             print(name, email, keka_id)
-            new_user = User(keka_id=keka_id, name=name, email=email)
-            try:
-                db.session.add(new_user)
-                db.session.commit()
-                flash("User added successfully")
-            except Exception as e:
-                db.session.rollback()  # Rollback if there's an error
-                flash(f"An error occurred: {e}")
-            return redirect('/')
+            hubstaff_id = hubstaff_id_sync(email=email)
+            if hubstaff_id:
+                new_user = User(keka_id=keka_id, name=name, email=email, status = 1, hubstaff_id = hubstaff_id)
+                try:
+                    db.session.add(new_user)
+                    db.session.commit()
+                    flash("User added successfully")
+                    return redirect('/')
+                except IntegrityError as e:
+                    flash("User already exist")
+                    return redirect('/')
+                except Exception as e:
+                    db.session.rollback()  # Rollback if there's an error
+                    flash("Error occurred while adding new user! Please try again later")
+            else:
+                new_user = User(keka_id=keka_id, name=name, email=email)
+                try:
+                    db.session.add(new_user)
+                    db.session.commit()
+                    flash("User added successfully")
+                    flash(f"Hubstaff account not found for {email}")
+                    return redirect('/')
+                except IntegrityError as e:
+                    flash("User already exist")
+                    return redirect('/')
+                except Exception as e:
+                    db.session.rollback()  # Rollback if there's an error
+                    flash("Error occurred while adding new user! Please try again later")
     return render_template('add-user.html')
 
 
@@ -229,7 +236,7 @@ def edit_user():
                     flash("User details updated successfully")
                 except Exception as e:
                     db.session.rollback()  # Rollback if there's an error
-                    flash(f"An error occurred: {e}")
+                    flash(f"Error occurred while updating user details ")
             else:
                 flash("Error in updating the details")
             return redirect('/')

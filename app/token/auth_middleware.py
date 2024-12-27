@@ -26,7 +26,7 @@ def token_required(f):
             data = jwt.decode(
                 token, app.config['SECRET_KEY'], algorithms=["HS256"])
         except Exception as ex:
-            flash(ex)
+            print(ex)
 
         return f(*args, **kwargs)
     return decorated

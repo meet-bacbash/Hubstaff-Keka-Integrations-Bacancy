@@ -29,7 +29,7 @@
 
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/icons/logo.png"/>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -113,19 +113,18 @@
 
               <!-- Basic Bootstrap Table -->
               <div class="card">
+                {% if timesheets %}
                 <div class="table-responsive text-nowrap">
                   <table class="table" id="example">
                     <thead>
                       <tr>
-                        <th>#</th>
-                        <th>Name</th>
+                        <th>Date</th>
                         <th>Download file</th>
                       </tr>
                     </thead>
                     <tbody class="table-border-bottom-0">
                           {% for timesheet in timesheets %}
                       <tr>
-                        <td>{{loop.index}}</td>
                         <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>{{ timesheet }}</strong></td>
                         <td>
                             <a href="/download/{{timesheet}}.csv"><button type="submit" class="dropdown-item"><i class="bx bx-download me-1"></i>Download</button></a>
@@ -135,6 +134,11 @@
                     </tbody>
                   </table>
                 </div>
+                {% else %}
+                <div class="card-body">
+                <h4 class="mb-2">No timesheets found!</h4>
+                </div>
+                {%endif%}
               </div>
               <!--/ Basic Bootstrap Table -->
 
@@ -182,6 +186,7 @@
               paging: true,
               ordering: true,
               info: true,
+              order: [[0, 'desc']],
             });
 
             // Attach custom search box functionality

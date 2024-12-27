@@ -28,9 +28,11 @@ app.config['SESSION_TYPE'] = "filesystem"
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 
+
 def create_db():
     """ it will create model table if not exist."""
-    from app.model import User
+    from app.model import User,Credentials
 
     with app.app_context():
         db.create_all()
+
