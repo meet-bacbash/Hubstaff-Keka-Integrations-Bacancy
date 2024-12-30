@@ -46,19 +46,22 @@ def log_in():
             username = data['username']
             password = data['password']
             user = Credentials.query.filter(Credentials.username == username).first()
-            original_password = user.password
-            is_valid = bcrypt.check_password_hash(original_password, password)
-            if is_valid:
-                token = jwt.encode(
-                    {"username": username,
-                     'exp': datetime.now() + timedelta(hours=5)},
-                    app.config["SECRET_KEY"],
-                    algorithm="HS256"
-                )
-                response = make_response(redirect('/'))
-                response.set_cookie("Authorization", token)
-                session['username'] = username
-                return response
+            if user:
+                original_password = user.password
+                is_valid = bcrypt.check_password_hash(original_password, password)
+                if is_valid:
+                    token = jwt.encode(
+                        {"username": username,
+                         'exp': datetime.now() + timedelta(hours=5)},
+                        app.config["SECRET_KEY"],
+                        algorithm="HS256"
+                    )
+                    response = make_response(redirect('/'))
+                    response.set_cookie("Authorization", token)
+                    session['username'] = username
+                    return response
+                else:
+                    flash("Please enter valid username and password")
             else:
                 flash("Please enter valid username and password")
     return render_template('/auth/login.html')
