@@ -8,7 +8,7 @@ from flask_bcrypt import Bcrypt
 
 SECRET_KEY = os.urandom(32)
 
-BASE_DIR = '/home/bacancy/Programming/python/hubstaff_website'
+BASE_DIR = os.getcwd()
 
 app = Flask(
     __name__,
