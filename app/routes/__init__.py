@@ -80,21 +80,6 @@ def register_user():
     Returns:
         Response: Redirects to the login page or renders the registration page.
     """
-    if request.method == 'POST':
-        if 'register' in request.form:
-            data = request.form.to_dict()
-            username = data['username']
-            password = data['password']
-            hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
-            new_admin = Credentials(username = username, password = hashed_password)
-            try:
-                db.session.add(new_admin)
-                db.session.commit()
-                flash("User registered found")
-                redirect('login')
-            except Exception as e:
-                db.session.rollback()  # Rollback if there's an error
-                flash("An error occurred while registering the user ! Please try again")
     return render_template('/auth/register.html')
 
 
